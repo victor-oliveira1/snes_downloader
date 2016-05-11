@@ -1,53 +1,22 @@
 # snes_downloader
 Baixe roms de Super Nintendo diretamente do terminal!
 
-![snes_downloader]()
+![snes_downloader](http://s32.postimg.org/5o7earzj9/Captura_de_tela_de_2016_05_11_12_09_15.png)
 
-**Coolrom_downloader** é um bash script que realiza download de roms do site: **"http://coolrom.com"** diretamente do terminal, sem necessidade de nenhum navegador.
-
-##Consoles suportados:
-É possível baixar roms de:
-* Atari 2600
-* Atari 5200
-* Atari 7800
-* Atari Jaguar
-* Atari Lynx
-* Commodore 64
-* Capcom CPS1
-* Capcom CPS2
-* MAME Arcade
-* Namco System 22
-* Neo Geo
-* Neo Geo CD
-* Neo Geo Pocket
-* Sega CD
-* Sega Dreamcast
-* Sega Game Gear
-* Sega Genesis
-* Sega Master System
-* Sega Model 2
-* Sega Saturn
-* Sony Playstation
-* Sony Playstation 2
-* Sony PSP
+**Snes_downloader** é um bash script que realiza o download de roms de Super Nintendo do site: **"http://emuparadise.me"** diretamente do terminal para seu computador, sem necessidade de nenhum navegador ou programas semelhantes.
 
 ##Utilização:
 **1**- Dê permissões de execução ao script com o comando:
->	*chmod +x ./coolrom_downloader*
+>	*chmod +x ./snes_downloader*
 
 **2**- Execute com o comando:
->	*./coolrom_downloader*
+>	*./snes_downloader*
 
-**3**- Selecione a plataforma desejada digitando o numero correspondente;
+**3**- Insira o nome ou parte do nome do jogo;
 
-**4**- Digite a primeira letra do nome da rom desejada, observe que serão mostradas as URL's das roms;
+**4**- Digite o número correspondente ao nome do jogo desejado;
 
-**5**- Digite o número corresdente à URL da rom desejada;
-
-**6**- O download será iniciado!
-
-##NOTA:
-Para funcionar será necessário possuir o programa **'lynx'** instalado. Basta utilizar o gerenciador de pacotes da sua distribuição para instalá-lo.
+**5**- O download será iniciado!
 
 ##Observações:
 Este script está em constante atualização. Funcionalidades podem ser adicionadas ou removidas a qualquer momento sem aviso.
