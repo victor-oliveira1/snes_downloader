@@ -3708,11 +3708,14 @@ echo ''
 
 # Solicita busca
 echo '*** Sistema de busca ***'
-echo 'Digite o nome do jogo ou parte do nome:'
+echo 'Digite o nome do jogo ou parte do nome (Ou pressione . para sair):'
 read -p '>>> ' FN
 if [ "$FN" == "" ]; then
 	echo "Nenhum texto inserido. Recomeçando..."; sleep 2
 	exec bash "$0"
+fi
+if [ "$FN" == "." ]; then
+	exit
 fi
 
 # Retorna arquivos disponíveis
