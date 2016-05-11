@@ -1,0 +1,3757 @@
+#!/bin/bash
+# Lista de jogos disponíveis
+LISTA="'96 Zenkoku Koukou Soccer Senshuken (Japan)\n
+2020 Super Baseball (Japan)\n
+2020 Super Baseball (USA)\n
+3 Jigen Kakutou Ballz (Japan)\n
+3 Ninjas Kick Back (USA)\n
+3x3 Eyes - Juuma Houkan (Japan)\n
+3x3 Eyes - Seima Kourinden (Japan)\n
+4 Nin Shougi (Japan)\n
+46 Okunen Monogatari - Harukanaru Eden e (Japan)\n
+7th Saga, The (USA)\n
+7th Saga, The (USA) [Hack by James Skarzinskas v1.0] (Elnard's Balance Restauration)\n
+7th Saga, The (USA) [Hack by Nati v1.0] (~7th Saga Redux)\n
+90 Minutes - European Prime Goal (Europe)\n
+90 Minutes - European Prime Goal (Europe) (Beta)\n
+AAAHH!!! Real Monsters (Europe)\n
+AAAHH!!! Real Monsters (USA)\n
+ABC Monday Night Football (Japan)\n
+ABC Monday Night Football (USA)\n
+Accele Brid (Japan)\n
+Accele Brid (Japan) [En by Aeon Genesis v1.0]\n
+Ace o Nerae! (Japan)\n
+Ace o Nerae! (Japan) [En by RPGOne v1.2] (~Aim for the Ace! - Ace Tennis)\n
+ACME Animation Factory (Europe)\n
+ACME Animation Factory (USA)\n
+Acrobat Mission (Japan)\n
+Action Pachio (Japan)\n
+ActRaiser (Europe)\n
+ActRaiser (France)\n
+ActRaiser (Germany)\n
+ActRaiser (Japan)\n
+ActRaiser (Japan) [En by Aeon Genesis v1.0]\n
+ActRaiser (USA)\n
+ActRaiser 2 - Chinmoku e no Seisen (Japan)\n
+ActRaiser 2 (Europe) (En,Fr,De)\n
+ActRaiser 2 (USA)\n
+Addams Family Values (Europe) (En,Fr,De)\n
+Addams Family Values (USA) (En,Fr,De)\n
+Addams Family, The - Pugsley's Scavenger Hunt (Europe)\n
+Addams Family, The - Pugsley's Scavenger Hunt (USA)\n
+Addams Family, The - Pugsley's Scavenger Hunt (USA) (Beta)\n
+Addams Family, The (Europe) (En,Fr,De)\n
+Addams Family, The (Japan)\n
+Addams Family, The (USA)\n
+Adventures of Batman & Robin, The (Europe)\n
+Adventures of Batman & Robin, The (USA)\n
+Adventures of Dr. Franken, The (Europe) (En,Fr,De,Es,It,Nl,Sv)\n
+Adventures of Dr. Franken, The (USA)\n
+Adventures of Kid Kleets, The (USA) (En,Fr,Es)\n
+Adventures of Rocky and Bullwinkle and Friends, The (USA)\n
+Adventures of Tintin, The - Prisoners of the Sun (Europe) (En,Fr,De,Es)\n
+Adventures of Yogi Bear (USA)\n
+Aero Fighters (USA)\n
+Aero the Acro-Bat (Europe)\n
+Aero the Acro-Bat (USA)\n
+Aero the Acro-Bat 2 (Europe)\n
+Aero the Acro-Bat 2 (USA)\n
+Aerobiz (USA)\n
+Aerobiz Supersonic (USA)\n
+Aging Cassette (Japan)\n
+Aguri Suzuki F-1 Super Driving (Europe)\n
+AIII S.V. - A Ressha de Ikou 3 Super Version (Japan)\n
+Air Cavalry (Europe)\n
+Air Cavalry (USA)\n
+Air Management - Oozora ni Kakeru (Japan)\n
+Air Management - Oozora ni Kakeru (Japan) (Rev A)\n
+Air Management II - Koukuu Ou o Mezase (Japan)\n
+Air Strike Patrol (USA)\n
+Akazukin Chacha (Japan)\n
+Akumajou Dracula (Japan)\n
+Akumajou Dracula XX (Japan)\n
+Al Unser Jr.'s Road to the Top (Europe)\n
+Al Unser Jr.'s Road to the Top (USA)\n
+Aladdin (Europe)\n
+Aladdin (France)\n
+Aladdin (Germany)\n
+Aladdin (Japan)\n
+Aladdin (Spain)\n
+Aladdin (USA)\n
+Aladdin (USA) (Beta)\n
+Albert Odyssey (Japan)\n
+Albert Odyssey 2 - Jashin no Taidou (Japan)\n
+Alcahest (Japan)\n
+Alcahest (Japan) [En by FH v1.0Beta]\n
+Alfred Chicken (Europe)\n
+Alice no Paint Adventure (Japan)\n
+Alien 3 (Europe)\n
+Alien 3 (Japan)\n
+Alien 3 (USA)\n
+Alien 3 (USA) (Beta)\n
+Alien vs. Predator (Europe)\n
+Alien vs. Predator (USA)\n
+Aliens vs. Predator (Japan)\n
+All-American Championship Football (Europe)\n
+Amazing Spider-Man, The - Lethal Foes (Japan)\n
+America Oudan Ultra Quiz (Japan)\n
+American Battle Dome (Japan)\n
+American Gladiators (USA)\n
+American Tail, An - Fievel Goes West (Europe)\n
+American Tail, An - Fievel Goes West (USA)\n
+Andre Agassi Tennis (Japan)\n
+Andre Agassi Tennis (USA)\n
+Angelique - Premium Box (Japan)\n
+Angelique - Voice Fantasy (Japan)\n
+Angelique (Japan)\n
+Animal Buranden - Brutal (Japan)\n
+Animaniacs (Europe)\n
+Animaniacs (Japan)\n
+Animaniacs (USA)\n
+Another World (Europe)\n
+Aoki Densetsu Shoot! (Japan)\n
+Apocalypse II (Europe) (Proto)\n
+Appleseed - Prometheus no Shintaku (Japan)\n
+Aqutallion (Japan)\n
+Arabian Nights - Sabaku no Seirei Ou (Japan)\n
+Araiguma Rascal (Japan)\n
+Arcade's Greatest Hits - The Atari Collection 1 (Europe)\n
+Arcade's Greatest Hits - The Atari Collection 1 (USA)\n
+Arcana (USA)\n
+Arcus Odyssey (USA) (Proto)\n
+Arcus Spirits (Japan)\n
+Ardy Lightfoot (Europe)\n
+Ardy Lightfoot (Japan)\n
+Ardy Lightfoot (Japan) (Beta)\n
+Ardy Lightfoot (USA)\n
+Area 88 (Japan)\n
+Aretha (Japan)\n
+Aretha II - Ariel no Fushigi na Tabi (Japan)\n
+Aretha II - Ariel no Fushigi na Tabi (Japan) (Beta1)\n
+Aretha II - Ariel no Fushigi na Tabi (Japan) (Beta2)\n
+Arkanoid - Doh It Again (Europe)\n
+Arkanoid - Doh It Again (Japan)\n
+Arkanoid - Doh It Again (USA)\n
+Art of Fighting (Europe)\n
+Art of Fighting (USA)\n
+Aryol (Japan)\n
+Asahi Shinbun Rensai - Katou Hifumi Kudan Shougi - Shingiryuu (Japan)\n
+Asameshimae Nyanko (Japan)\n
+Ashita no Joe (Japan)\n
+Ashita no Joe (Japan) [En by Vice v0.99] (~Tomorrow's Joe)\n
+Assault Suits Valken (Japan)\n
+Assault Suits Valken (Japan) [En by Aeon Genesis v1.0]\n
+Asterix (Europe) (En,Fr,De,Es)\n
+Asterix & Obelix (Europe) (En,Fr,De,Es)\n
+Atlas, The - Renaissance Voyager (Japan)\n
+Axelay (Europe)\n
+Axelay (Japan)\n
+Axelay (USA)\n
+Axelay (USA) (Sample)\n
+B.O.B. (Europe)\n
+B.O.B. (USA)\n
+Bahamut Lagoon (Japan)\n
+Bahamut Lagoon (Japan) [En by DeJap+Neill Corlett+Tomato v1.3] (Emulator Edition)\n
+Bahamut Lagoon (Japan) [En by DeJap+Neill Corlett+Tomato v1.3] (Real Hardware Edition)\n
+Baken Renkinjutsu (Japan)\n
+Bakukyuu Renpatsu!! Super B-Daman (Japan)\n
+Bakumatsu Kourinden Oni (Japan)\n
+Bakutou Dochers - Bumps-jima wa Oosawagi (Japan)\n
+Ball Bullet Gun (Japan)\n
+Ball Bullet Gun (Japan) [En by Aeon Genesis v1.0]\n
+Ballz 3D (USA)\n
+Barbarossa (Japan)\n
+Barbie Super Model (USA)\n
+Barbie Vacation Adventure (USA) (Proto)\n
+Barkley no Power Dunk (Japan)\n
+Barkley Shut Up and Jam! (Europe)\n
+Barkley Shut Up and Jam! (USA)\n
+BASS Masters Classic - Pro Edition (Europe)\n
+BASS Masters Classic - Pro Edition (USA)\n
+BASS Masters Classic (Japan)\n
+BASS Masters Classic (USA)\n
+Bassin's Black Bass (USA)\n
+Bastard!! - Ankoku no Hakaishin (Japan)\n
+Bastard!! - Ankoku no Hakaishin (Japan) [En by DeJap v1.0] (~Bastard!! - Dark God of Destruction)\n
+Batman - Revenge of the Joker (USA) (Proto)\n
+Batman (USA) (Proto)\n
+Batman Forever (Europe)\n
+Batman Forever (Japan)\n
+Batman Forever (USA)\n
+Batman Returns (Europe)\n
+Batman Returns (Japan)\n
+Batman Returns (Japan) (Sample)\n
+Batman Returns (USA)\n
+Battle Blaze (Japan)\n
+Battle Blaze (USA)\n
+Battle Blaze (USA) (Beta)\n
+Battle Cars (USA)\n
+Battle Clash (Europe)\n
+Battle Clash (USA)\n
+Battle Commander - Hachibushuu, Shura no Heihou (Japan)\n
+Battle Cross (Japan)\n
+Battle Dodge Ball - Toukyuu Daigekitotsu! (Japan)\n
+Battle Dodge Ball II (Japan)\n
+Battle Grand Prix (Japan)\n
+Battle Grand Prix (USA)\n
+Battle Jockey (Japan)\n
+Battle Master - Kyuukyoku no Senshi-tachi (Japan)\n
+Battle Pinball (Japan)\n
+Battle Racers (Japan)\n
+Battle Robot Retsuden (Japan)\n
+Battle Soccer - Field no Hasha (Japan)\n
+Battle Soccer - Field no Hasha (Japan) [En by Hurkey v1.0]\n
+Battle Soccer 2 (Japan)\n
+Battle Submarine (Japan)\n
+Battle Tycoon - Flash Hiders SFX (Japan)\n
+Battle Tycoon - Flash Hiders SFX (Japan) (Rev A)\n
+Battle Zeque Den (Japan)\n
+Battletech (Japan)\n
+Battletech 3050 (Japan)\n
+Battletoads & Double Dragon - The Ultimate Team (Europe)\n
+Battletoads & Double Dragon - The Ultimate Team (USA)\n
+Battletoads in Battlemaniacs (Europe)\n
+Battletoads in Battlemaniacs (Japan)\n
+Battletoads in Battlemaniacs (USA)\n
+Battletoads in Battlemaniacs (USA) (Beta)\n
+Bazoe! Mahou Sekai (Japan)\n
+Bazooka Blitzkrieg (USA)\n
+Beauty and the Beast (Europe)\n
+Beauty and the Beast (Europe) (Beta)\n
+Beauty and the Beast (USA)\n
+Beavis and Butt-Head (Europe)\n
+Beavis and Butt-Head (USA)\n
+Bebe's Kids (USA)\n
+Beethoven's 2nd - The Ultimate Canine Caper! (Europe)\n
+Beethoven's 2nd - The Ultimate Canine Caper! (USA)\n
+Benkei Gaiden - Suna no Shou (Japan)\n
+Best of the Best - Championship Karate (Europe)\n
+Best of the Best - Championship Karate (Europe) (Beta)\n
+Best of the Best - Championship Karate (USA)\n
+Best Shot Pro Golf (Japan)\n
+Big Ichigeki! Pachi-Slot Daikouryaku (Japan)\n
+Big Ichigeki! Pachi-Slot Daikouryaku 2 - Universal Collection (Japan)\n
+Big Run - The Supreme 4WD Challenge (Japan)\n
+Big Sky Trooper (Europe)\n
+Big Sky Trooper (USA)\n
+Big Sky Trooper (USA) (Beta)\n
+Bijo to Yajuu (Japan)\n
+Bike Daisuki! Hashiriya Damashii - Rider's Spirits (Japan)\n
+Biker Mice from Mars (Europe)\n
+Biker Mice from Mars (USA)\n
+Bill Laimbeer's Combat Basketball (USA)\n
+Bill Walsh College Football (USA)\n
+Bing Bing! Bingo (Japan)\n
+Bio Metal (Europe)\n
+Bio Metal (Japan)\n
+Bio Metal (USA)\n
+Bishin Densetsu Zoku (Japan)\n
+Bishoujo Janshi Suchie-Pie (Japan)\n
+Bishoujo Janshi Suchie-Pie (Japan) (Rev A)\n
+Bishoujo Senshi Sailormoon - Another Story (Japan)\n
+Bishoujo Senshi Sailormoon - Another Story (Japan) [En by FuSoYa v1.0] (~Pretty Soldier Sailor Moon - Another Story)\n
+Bishoujo Senshi Sailormoon (Japan)\n
+Bishoujo Senshi Sailormoon R (Japan)\n
+Bishoujo Senshi Sailormoon R (Japan) [En by FuSoYa v1.0] (~Pretty Soldier Sailor Moon R)\n
+Bishoujo Senshi Sailormoon S - Jougai Rantou! Shuyaku Soudatsusen (Japan)\n
+Bishoujo Senshi Sailormoon S - Kondo wa Puzzle de Oshioki yo! (Japan)\n
+Bishoujo Senshi Sailormoon S - Kurukkurin (Japan)\n
+Bishoujo Senshi Sailormoon Sailor Stars - Fuwa Fuwa Panic 2 (Japan) (ST)\n
+Bishoujo Senshi Sailormoon Super S - Fuwa Fuwa Panic (Japan)\n
+Bishoujo Senshi Sailormoon Super S - Zenin Sanka!! Shuyaku Soudatsusen (Japan)\n
+Bishoujo Wrestler Retsuden - Blizzard Yuki Rannyuu!! (Japan)\n
+Blackhawk (Europe) (En,Fr,De)\n
+Blackthorne - Fukushuu no Kuroki Kyoku (Japan)\n
+Blackthorne (USA)\n
+Blackthorne (USA) (Beta)\n
+Blackthorne (USA) (Sample)\n
+BlaZeon - The Bio-Cyborg Challenge (USA)\n
+BlaZeon (Japan)\n
+Blazing Skies (Europe)\n
+Block Kuzushi (Japan)\n
+Blue Crystal Rod, The (Japan)\n
+Blues Brothers, The (Europe)\n
+Blues Brothers, The (Europe) (Beta)\n
+Blues Brothers, The (Japan)\n
+Blues Brothers, The (USA)\n
+Bobby's World (USA) (Proto)\n
+Bokujou Monogatari (Japan)\n
+Bokujou Monogatari (Japan) (Rev A)\n
+Bomberman B-Daman (Japan)\n
+Bombuzal (Japan)\n
+Bonkers - Hollywood Daisakusen! (Japan)\n
+Bonkers (USA)\n
+Boogerman - A Pick and Flick Adventure (Europe)\n
+Boogerman - A Pick and Flick Adventure (USA)\n
+Bounty Sword (Japan)\n
+Boxing Legends of the Ring (Europe)\n
+Boxing Legends of the Ring (USA)\n
+Brain Lord (Japan)\n
+Brain Lord (USA)\n
+Brainies, The (Europe)\n
+Brainies, The (USA)\n
+Bram Stoker's Dracula (Europe)\n
+Bram Stoker's Dracula (USA)\n
+Bram Stoker's Dracula (USA) (Beta)\n
+Brandish (Japan)\n
+Brandish (USA)\n
+Brandish 2 - Expert (Japan)\n
+Brandish 2 - The Planet Buster (Japan)\n
+Brawl Brothers - Rival Turf! 2 (Europe)\n
+Brawl Brothers (USA)\n
+BreakThru! (USA)\n
+Breath of Fire - Ryuu no Senshi (Japan)\n
+Breath of Fire (USA)\n
+Breath of Fire II - Shimei no Ko (Japan)\n
+Breath of Fire II - Shimei no Ko (Japan) (Rev A) (NP)\n
+Breath of Fire II (Europe)\n
+Breath of Fire II (USA)\n
+Breath of Fire II (USA) (Beta)\n
+Breath of Fire II (USA) [En+Hack by d4s+Watercrown v1.2b]\n
+Breath of Fire II (USA) [En+Hack by d4s+Watercrown v1.2b] (Original Title Screen Music)\n
+Breath of Fire II (USA) [Text Hack by Beaux v0.66] (Translation Fix)\n
+Brett Hull Hockey '95 (USA)\n
+Brett Hull Hockey (Europe)\n
+Brett Hull Hockey (USA)\n
+Bronkie the Bronchiasaurus (USA) (En,Es)\n
+Brunswick World Tournament of Champions (USA)\n
+Brutal - Paws of Fury (Europe) (En,Fr,De)\n
+Brutal - Paws of Fury (USA)\n
+Brutal - Paws of Fury (USA) (Beta)\n
+BS 3-ji no Wide Shou - 98-06 Gatsugou (Japan)\n
+BS Albert Odyssey (Japan)\n
+BS Arkanoid - Doh It Again (Japan)\n
+BS B-Dash - 2 Gatsugou (Japan)\n
+BS B-Dash - 3 Gatsugou (Japan)\n
+BS Cheap de Gorgeous Vol. 1 (Japan)\n
+BS Chrono Trigger - Character Zukan (Japan)\n
+BS Chrono Trigger - Jet Bike Special (Japan)\n
+BS Chrono Trigger - Music Library (Japan)\n
+BS Columbus no Tamagoyaki - Dai-1-kai (Japan)\n
+BS Columbus no Tamagoyaki - Dai-2-kai (Japan)\n
+BS Columbus no Tamagoyaki - Dai-3-kai (Japan)\n
+BS Cu-On-Pa SFC (Japan)\n
+BS Daibakushou Jinsei Gekijou (Japan)\n
+BS Dandan Belt Conveyor - Gyuunyuu no Maki (Japan)\n
+BS Dandan Belt Conveyor - Ukulele no Maki (Japan) [b]\n
+BS Digital Magazine - Busters BS 4-12 (Japan)\n
+BS Digital Magazine - Busters BS 5-10 (Japan)\n
+BS Digital Magazine - Busters BS 5-24 (Japan)\n
+BS Digital Magazine - Busters BS 8-23 (Japan)\n
+BS Do-Re-Mi de Fu 2! - 5-10 Gou (Japan)\n
+BS Do-Re-Mi de Fu 2! - 5-25 Gou (Japan)\n
+BS Dokapon Gaiden - Honoo no Audition (Japan)\n
+BS Dr. Mario (Japan)\n
+BS Dragon Quest (Japan)\n
+BS Dragon Slayer - Eiyuu Densetsu (Japan)\n
+BS Dynami Tracer (Japan)\n
+BS Excitebike - Bunbun Mario Battle Stadium 1 (Japan)\n
+BS Excitebike - Bunbun Mario Battle Stadium 2 (Japan)\n
+BS Excitebike - Bunbun Mario Battle Stadium 3 (Japan) [7CD2]\n
+BS Excitebike - Bunbun Mario Battle Stadium 3 (Japan) [936C]\n
+BS Excitebike - Bunbun Mario Battle Stadium 4 (Japan)\n
+BS F-Zero (Japan)\n
+BS F-Zero Grand Prix - Ace League - Dai-4-shuu (Japan)\n
+BS F-Zero Grand Prix - King League - Dai-3-shuu (Japan)\n
+BS F-Zero Grand Prix - Knight League - Dai-1-shuu (Japan)\n
+BS F-Zero Grand Prix - Queen League - Dai-2-shuu (Japan)\n
+BS F-Zero Grand Prix 2 - Dai-1-shuu (Japan)\n
+BS Fenek - 6 Getsu (Japan)\n
+BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan)\n
+BS Fire Emblem - Akaneia Senki Hen - Dai-2-wa - Akai Ryuukishi (Japan)\n
+BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan)\n
+BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan)\n
+BS Freud no Chousenjou - 1 Gou (Japan)\n
+BS Freud no Chousenjou - 2 Gou (Japan)\n
+BS Freud no Chousenjou - 3 Gou (Japan)\n
+BS Freud no Chousenjou - 4 Gou (Japan)\n
+BS Freud no Chousenjou - 5 Gou (Japan)\n
+BS Freud no Chousenjou - 6 Gou (Japan)\n
+BS Fuurai no Shiren - Surara o Sukue - Dai-2-wa (Japan)\n
+BS Game Tora no Taikoban 5-17 (Japan)\n
+BS Game Tora no Taikoban 5-31 (Japan)\n
+BS Gekkan Coin Toss - Deck 1 (Japan)\n
+BS Golf Daisuki! O.B. Club (Japan)\n
+BS Goods Press - 3 Gatsugou (Japan)\n
+BS Goods Press - 6 Gatsugou (Japan)\n
+BS Goods Press - 7 Gatsugou (Japan)\n
+BS Heisei Gunjin Shougi (Japan)\n
+BS Ikari no Yousai (Japan)\n
+BS Kaizou Chounin Shubibin Man Zero (Japan)\n
+BS Kirby no Omochabako - Baseball (Japan)\n
+BS Kirby no Omochabako - Guruguru Ball (Japan)\n
+BS Kirby no Omochabako - Hoshi Kuzushi (Japan)\n
+BS Kodomo Chousadan Mighty Pockets Chousa 1 - Junk-ya Black no Ie (Japan)\n
+BS Kodomo Chousadan Mighty Pockets Chousa 2 - Hanzai Toshi Big Apple (Japan)\n
+BS Kodomo Chousadan Mighty Pockets Chousa 3 - Kyakusen Queen Patra no Nazo (Japan)\n
+BS Koi wa Balance - Tatoeba K-kun no Tabou na Ichijitsu Hen (Japan)\n
+BS Konae-chan no Dokidoki Pengin Kazoku (Japan)\n
+BS Koubo Kenshou Magazine (Japan)\n
+BS Let's Pachinko Nante Gindama 1 (Japan)\n
+BS Let's Pachinko Nante Gindama 2 (Japan)\n
+BS Let's Pachinko Nante Gindama 3 (Japan)\n
+BS Let's Pachinko Nante Gindama 4 (Japan)\n
+BS Lord Monarch (Japan)\n
+BS Mario Paint - BS Ban (Japan)\n
+BS Mario Paint - Yuushou Naizou Ban (Japan)\n
+BS Marvelous Camp Arnold Course - Dai-1-shuu (Japan)\n
+BS Marvelous Camp Arnold Course - Dai-2-shuu (Japan)\n
+BS Marvelous Camp Arnold Course - Dai-3-shuu (Japan)\n
+BS Marvelous Camp Arnold Course - Dai-4-shuu (Japan)\n
+BS Marvelous Time Athletic Course - Dai-1-shuu (Japan)\n
+BS Marvelous Time Athletic Course - Dai-2-shuu (Japan)\n
+BS Marvelous Time Athletic Course - Dai-3-shuu (Japan)\n
+BS Marvelous Time Athletic Course - Dai-4-shuu (Japan)\n
+BS Nichibutsu Mahjong - Renshuu Mahjong - Ichimantou (Japan)\n
+BS Nichibutsu Mahjong - Renshuu Mahjong - Nimantou (Japan)\n
+BS Nichibutsu Mahjong (Japan)\n
+BS Nintama Rantarou 2 (Japan)\n
+BS Nintendo HP - 5-17 Gou (Japan)\n
+BS Nintendo HP - 5-31 Gou (Japan)\n
+BS Nintendo Power Magazine 107 (Japan)\n
+BS Panel de Pon - Event '98 (Japan)\n
+BS Parlor! Parlor! - Dai-2-shuu (Japan)\n
+BS Pokekame Magazine (Japan)\n
+BS Radical Dreamers (Japan)\n
+BS Satella Walker 2 - Sate Bou o Sukuidase! (Japan)\n
+BS Shanghai - Banri no Choujou (Japan)\n
+BS Shin Onigashima - Dai-1-wa - Kataribe no Koya (Japan)\n
+BS Shin Onigashima - Dai-2-wa - Kataribe no Koya (Japan)\n
+BS Shin Onigashima - Dai-3-wa - Kataribe no Koya (Japan)\n
+BS Shin Onigashima - Dai-4-wa - Kataribe no Koya (Japan)\n
+BS Sousa Sentai Wappers - Mission 1 - Sousa Sentai Wappers Kenzan (Japan)\n
+BS Sousa Sentai Wappers - Mission 2 - Kikiippatsu Kou Wapper no Maki (Japan)\n
+BS Sousa Sentai Wappers - Soushuu Hen (Japan)\n
+BS Special Tee Shot (Japan)\n
+BS Spriggan Powered - BS Version (Japan)\n
+BS St. Giga PG - 10 Gatsugou (Japan)\n
+BS Super Earth Defense Force (Japan)\n
+BS Super Famicom Wars - BS Ban (Japan)\n
+BS Super Mahjong Taikai (Japan)\n
+BS Super Mario Collection - Dai-3-shuu (Japan)\n
+BS Super Mario USA - Dai-1-kai (Japan)\n
+BS Super Mario USA - Dai-2-kai (Japan)\n
+BS Super Mario USA - Dai-3-kai (Japan)\n
+BS Super Mario USA - Dai-4-kai (Japan)\n
+BS Super Mario USA - Power Challenge - Dai-1-kai (Japan) (BS) [En by KingMike v1.0]\n
+BS Super Mario USA - Power Challenge - Dai-2-kai (Japan) (BS) [En by KingMike v1.0]\n
+BS Super Mario USA - Power Challenge - Dai-3-kai (Japan) (BS) [En by KingMike v1.0]\n
+BS Super Mario USA - Power Challenge - Dai-4-kai (Japan) (BS) [En by KingMike v1.0]\n
+BS Super Ninja-kun (Japan)\n
+BS Super Tsume Shougi 1000 (Japan)\n
+BS Super Volley II (Japan)\n
+BS Sutte Hakkun - '98 Event Version (Japan)\n
+BS Sutte Hakkun - BS Version 2 10-8 (Japan)\n
+BS Sutte Hakkun - BS Version 2 6-3 (Japan)\n
+BS Sutte Hakkun - Event Version (Japan)\n
+BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan)\n
+BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan)\n
+BS Tantei Club - Yuki ni Kieta Kako - Zenhen (Japan)\n
+BS Treasure Conflix (Japan)\n
+BS Waiwai Check 3-7 (Japan)\n
+BS Wario no Mori - Futatabi (Japan)\n
+BS Wizardry V - Saika no Chuushin (Japan)\n
+BS Yoshi no Panepon - BS Ban (Japan) (En,Ja)\n
+BS Yung Hakase no Shinsatsu Shitsu - Dai-1-gou (Japan)\n
+BS Yung Hakase no Shinsatsu Shitsu - Dai-2-gou (Japan)\n
+BS Zelda no Densetsu - Dai-3-wa (Japan)\n
+BS Zelda no Densetsu - Kamigami no Triforce (Japan)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-1-wa (Japan)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-1-wa (Japan) (BS) [En+Fix by BSZHP v20090614] (~BS The Legend of Zelda - Ancient Stone Tablets - Week 1)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-1-wa (Japan) (BS) [En+Hack by BSZHP v20090614] (~BS The Legend of Zelda - Ancient Stone Tablets - Master Quest 1)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-2-wa (Japan)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-2-wa (Japan) (BS) [En+Fix by BSZHP v20090613] (~BS The Legend of Zelda - Ancient Stone Tablets - Week 2)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-2-wa (Japan) (BS) [En+Hack by BSZHP v20090613] (~BS The Legend of Zelda - Ancient Stone Tablets - Master Quest 2)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-3-wa (Japan)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-3-wa (Japan) (BS) [En+Fix by BSZHP v20090613] (~BS The Legend of Zelda - Ancient Stone Tablets - Week 3)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-3-wa (Japan) (BS) [En+Hack by BSZHP v20090613] (~BS The Legend of Zelda - Ancient Stone Tablets - Master Quest 3)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-4-wa (Japan)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-4-wa (Japan) (BS) [En+Fix by BSZHP v20090629] (~BS The Legend of Zelda - Ancient Stone Tablets - Week 4)\n
+BS Zelda no Densetsu - Kodai no Sekiban - Dai-4-wa (Japan) (BS) [En+Hack by BSZHP v20090629] (~BS The Legend of Zelda - Ancient Stone Tablets - Master Quest 4)\n
+BS Zelda no Densetsu (Japan) (BS) [En+Fix by BSZHP v20090629] (~BS The Legend of Zelda) (Timer+Limit)\n
+BS Zelda no Densetsu (Japan) (BS) [En+Hack by BSZHP v20081211] (~BS The Legend of Zelda) (Real Hardware Edition) (Timer+No Limit)\n
+BS Zelda no Densetsu (Japan) (BS) [En+Hack by BSZHP v20090124] (~BS The Legend of Zelda) (Link Version) (Timer+No Limit)\n
+BS Zelda no Densetsu (Japan) (BS) [En+Hack by BSZHP v20090126] (~Legend of Zelda, The - Third Quest) (No Timer)\n
+BS Zelda no Densetsu Map 2 - Dai-4-wa (Japan) [b]\n
+BS Zelda no Densetsu Map 2 (Japan) (BS) [En+Fix by BSZHP v20090629] (~BS The Legend of Zelda Map 2) (Timer+Limit)\n
+BS Zelda no Densetsu Map 2 (Japan) (BS) [En+Hack by BSZHP v20090124] (~BS The Legend of Zelda Map 2) (Link Version) (Timer+No Limit)\n
+BS Zelda no Densetsu Map 2 (Japan) (BS) [En+Hack by BSZHP v20090126] (~Legend of Zelda, The - Fourth Quest) (No Timer)\n
+BS Zelda no Densetsu Map 2 (Japan) (BS) [En+Hack by BSZHP v20090322] (~BS The Legend of Zelda Map 2) (Real Hardware Edition) (Timer+No Limit)\n
+BS Zootto Mahjong - Event Version (Japan)\n
+BS Zootto Mahjong - Preview Ban (Japan)\n
+Bugs Bunny - Hachamecha Daibouken (Japan)\n
+Bugs Bunny in Rabbit Rampage (Europe)\n
+Bugs Bunny in Rabbit Rampage (USA)\n
+Bulls vs Blazers and the NBA Playoffs (Europe)\n
+Bulls vs Blazers and the NBA Playoffs (Europe) (Rev A)\n
+Bulls vs Blazers and the NBA Playoffs (USA)\n
+Bulls vs Blazers and the NBA Playoffs (USA) (Rev A)\n
+Burai - Hachigyoku no Yuushi Densetsu (Japan)\n
+Bushi Seiryuuden - Futari no Yuusha (Japan)\n
+Bust-A-Move (USA)\n
+Bust-A-Move (USA) [Hack by Dragon Eye Studios v0.50] (~Bust-M-Up)\n
+Cacoma Knight (Japan)\n
+Cacoma Knight in Bizyland (USA)\n
+Cal Ripken Jr. Baseball (Europe)\n
+Cal Ripken Jr. Baseball (USA)\n
+Cal Ripken Jr. Baseball (USA) (Beta)\n
+California Games II (Europe) (En,Fr,De)\n
+California Games II (Japan) (En,Ja)\n
+California Games II (USA)\n
+Cameltry (Japan)\n
+Cannon Fodder (Europe)\n
+Cannondale Cup (USA)\n
+Capcom's MVP Football (USA)\n
+Capcom's Soccer Shootout (USA)\n
+Capcom's Soccer Shootout (USA) (Beta)\n
+Captain America and the Avengers (Europe)\n
+Captain America and the Avengers (USA)\n
+Captain Commando (Europe)\n
+Captain Commando (Japan)\n
+Captain Commando (USA)\n
+Captain Novolin (USA) (En,Fr,Es)\n
+Captain Tsubasa III - Koutei no Chousen (Japan)\n
+Captain Tsubasa IV - Pro no Rival-tachi (Japan)\n
+Captain Tsubasa J - The Way to World Youth (Japan)\n
+Captain Tsubasa V - Hasha no Shougou Campione (Japan)\n
+Caravan Shooting Collection (Japan)\n
+Card Master - Rimusaria no Fuuin (Japan)\n
+Carrier Aces (Europe)\n
+Carrier Aces (Japan)\n
+Carrier Aces (USA)\n
+Casper (Europe)\n
+Casper (Japan)\n
+Casper (USA)\n
+Castlevania - Dracula X (USA)\n
+Castlevania - Vampire's Kiss (Europe)\n
+CB Chara Wars - Ushinawareta Gag (Japan)\n
+Champions World Class Soccer (Europe) (En,Fr,De,Es)\n
+Champions World Class Soccer (Japan)\n
+Champions World Class Soccer (USA) (En,Fr,De,Es)\n
+Championship Pool (Europe)\n
+Championship Pool (USA)\n
+Championship Soccer '94 (USA) (En,Fr,De,It)\n
+Chaos Engine, The (Europe)\n
+Chaos Seed - Fuusui Kairouki (Japan)\n
+Chavez (USA)\n
+Chavez (USA) (Beta)\n
+Chavez II (USA)\n
+Chessmaster, The (Europe)\n
+Chessmaster, The (Japan)\n
+Chessmaster, The (USA)\n
+Chester Cheetah - Too Cool to Fool (USA)\n
+Chester Cheetah - Wild Wild Quest (USA)\n
+Chester Cheetah - Wild Wild Quest (USA) (Beta)\n
+Chibi Maruko-chan - Harikiri 365 Nichi no Maki (Japan)\n
+Chibi Maruko-chan - Mezase! Minami no Island!! (Japan)\n
+Chinhai (Japan)\n
+Choplifter III - Rescue Survive (Europe)\n
+Choplifter III - Rescue Survive (Japan)\n
+Choplifter III - Rescue Survive (USA)\n
+Choplifter III - Rescue Survive (USA) (Beta)\n
+Chou Aniki - Bakuretsu Rantou Hen (Japan)\n
+Chou Mahou Tairiku Wozz (Japan)\n
+Chou Mahou Tairiku Wozz (Japan) [En by TransCorp v1.0] (~Magical Land of Wozz, The)\n
+Chou Makai Taisen! Dorabot-chan (Japan)\n
+Chou Makaimura (Japan)\n
+Choujikuu Yousai Macross - Scrambled Valkyrie (Japan)\n
+Choukou Goukami Xardion (Japan)\n
+Chrono Trigger - Crimson Echoes (Fan Made Game)\n
+Chrono Trigger - Music Library (Japan) (BS) [En by Terminus v1.00e]\n
+Chrono Trigger (Japan)\n
+Chrono Trigger (Japan) (Sample)\n
+Chrono Trigger (USA)\n
+Chrono Trigger (USA) [En by Chrono Compendium v1.01]\n
+Chrono Trigger (USA) [En by Doctor L v1.01]\n
+Chrono Trigger (USA) [Hack by Kajar Laboratories Demo 2] (~Chrono Trigger - Crimson Echos)\n
+Chrono Trigger (USA) [Hack by Kajar Laboratories v1.0] (~Chrono Trigger - Prophet's Guile)\n
+Chrono Trigger (USA) [Hack by Kajar Laboratories v2.1] (~Chrono Trigger Coliseum)\n
+Chuck Rock (Europe)\n
+Chuck Rock (USA)\n
+Chuck Rock (USA) (Beta)\n
+Circuit USA (Japan)\n
+Civilization - Sekai Shichi Daibunmei (Japan)\n
+Civilization (USA)\n
+Civilization (USA) (Beta)\n
+Classic Road (Japan)\n
+Classic Road II (Japan)\n
+Clay Fighter - Tournament Edition (USA)\n
+Clay Fighter (Europe)\n
+Clay Fighter (USA)\n
+Clay Fighter 2 - Judgment Clay (Europe)\n
+Clay Fighter 2 - Judgment Clay (USA)\n
+Claymates (Europe)\n
+Claymates (USA)\n
+Claymates (USA) (Sample)\n
+Cliffhanger (Europe)\n
+Cliffhanger (USA)\n
+Clock Tower (Japan)\n
+Clock Tower (Japan) [En by Aeon Genesis v1.01]\n
+Clockwerx (Japan)\n
+Clue (USA)\n
+College Football USA '97 - The Road to New Orleans (USA)\n
+College Slam (USA)\n
+Columns (Japan) (NP)\n
+Combatribes, The (Japan)\n
+Combatribes, The (USA)\n
+Computer Nouryoku Kaiseki - Ultra Baken (Japan)\n
+Congo the Movie - The Secret of Zinj (USA) (Proto)\n
+Congo's Caper (Europe)\n
+Congo's Caper (USA)\n
+Contra III - The Alien Wars (USA)\n
+Contra Spirits (Japan)\n
+Conveni Wars Barcode Battler Senki - Super Senshi Shutsugeki seyo! (Japan)\n
+Cool Spot (Europe)\n
+Cool Spot (Japan)\n
+Cool Spot (USA)\n
+Cool Spot (USA) (Beta)\n
+Cool World (Europe)\n
+Cool World (USA)\n
+Coron Land (Japan)\n
+Cosmo Gang - The Puzzle (Japan)\n
+Cosmo Gang - The Video (Japan)\n
+Cosmo Police Galivan II - Arrow of Justice (Japan)\n
+Crayon Shin-chan - Arashi o Yobu Enji (Japan)\n
+Crayon Shin-chan - Nagagutsu Dobon!! (Japan) (ST)\n
+Crayon Shin-chan 2 - Daimaou no Gyakushuu (Japan)\n
+Crystal Beans From Dungeon Explorer (Japan)\n
+Cu-On-Pa SFC (Japan)\n
+Cu-On-Pa SFC (Japan) [En by Aeon Genesis v1.0]\n
+CutThroat Island (Europe)\n
+CutThroat Island (USA)\n
+Cyber Knight (Japan)\n
+Cyber Knight (Japan) [En by Aeon Genesis v1.01]\n
+Cyber Knight II - Chikyuu Teikoku no Yabou (Japan)\n
+Cyber Knight II - Chikyuu Teikoku no Yabou (Japan) [En by Aeon Genesis v1.0] (~Cyber Knight II - Ambitions of the Terran Empire)\n
+Cyber Spin (USA)\n
+Cybernator (Europe)\n
+Cybernator (USA)\n
+Cybernator (USA) (With Sound Test)\n
+Cyborg 009 (Japan)\n
+Cyborg 009 (Japan) (Beta)\n
+Cyborg 009 (Japan) [En by Aeon Genesis v1.0]\n
+D-Force (USA)\n
+Daffy Duck - The Marvin Missions (Europe)\n
+Daffy Duck - The Marvin Missions (USA)\n
+Dai-3-ji Super Robot Taisen (Japan)\n
+Dai-3-ji Super Robot Taisen (Japan) (Rev B)\n
+Dai-3-ji Super Robot Taisen (Japan) [En by Aeon Genesis v1.0] (~Super Robot Wars 3)\n
+Dai-4-ji Super Robot Taisen (Japan)\n
+Dai-4-ji Super Robot Taisen (Japan) (Rev A)\n
+Daibakushou Jinsei Gekijou - Dokidoki Seishun Hen (Japan)\n
+Daibakushou Jinsei Gekijou - Ooedo Nikki (Japan)\n
+Daibakushou Jinsei Gekijou - Zukkoke Salary Man Hen (Japan)\n
+Daibakushou Jinsei Gekijou (Japan)\n
+Daikaijuu Monogatari (Japan)\n
+Daikaijuu Monogatari (Japan) (Rev A)\n
+Daikaijuu Monogatari II (Japan)\n
+Daikoukai Jidai II (Japan)\n
+Daisenryaku Expert (Japan)\n
+Daisenryaku Expert WWII - War in Europe (Japan)\n
+Darius Force (Japan)\n
+Darius Twin (Europe)\n
+Darius Twin (Japan)\n
+Darius Twin (USA)\n
+Dark Half (Japan)\n
+Dark Kingdom (Japan)\n
+Dark Law - Meaning of Death (Japan)\n
+Dark Law - Meaning of Death (Japan) [En by Aeon Genesis v1.0]\n
+Date Kimiko no Virtual Tennis (Japan)\n
+David Crane's Amazing Tennis (Europe)\n
+David Crane's Amazing Tennis (Japan)\n
+David Crane's Amazing Tennis (USA)\n
+Daze Before Christmas (Europe)\n
+Dead Dance (Japan)\n
+Deae Tonosama - Appare Ichiban (Japan)\n
+Dear Boys (Japan)\n
+Death and Return of Superman, The (Europe)\n
+Death and Return of Superman, The (USA)\n
+Death Brade (Japan)\n
+Dekitate High School (Japan)\n
+Demolition Man (Europe)\n
+Demolition Man (USA)\n
+Demon's Blazon - Makaimura Monshou Hen (Japan)\n
+Demon's Crest (Europe)\n
+Demon's Crest (USA)\n
+Dennis (Europe)\n
+Dennis the Menace (USA)\n
+Densetsu no Ogre Battle - The March of the Black Queen (Japan)\n
+Densetsu no Ogre Battle - The March of the Black Queen (Japan) (NP)\n
+Derby Jockey - Kishu Ou e no Michi (Japan)\n
+Derby Jockey - Kishu Ou e no Michi (Japan) (Rev A)\n
+Derby Jockey 2 (Japan)\n
+Derby Stallion '96 (Japan)\n
+Derby Stallion '98 (Japan) (NP)\n
+Derby Stallion II (Japan)\n
+Derby Stallion III (Japan)\n
+Derby Stallion III (Japan) (Rev B)\n
+Derby Stallion III (Japan) (Rev D)\n
+Desert Fighter - Suna no Arashi Sakusen (Japan)\n
+Desert Fighter (Europe)\n
+Desert Fighter (Europe) (Beta)\n
+Desert Strike - Return to the Gulf (Europe)\n
+Desert Strike - Return to the Gulf (USA)\n
+Desert Strike - Wangan Sakusen (Japan)\n
+Destructive (Japan)\n
+Devil's Course (Japan)\n
+Devil's Course (Japan) (Sample)\n
+Dharma Doujou (Japan)\n
+Dig & Spike Volleyball (USA)\n
+Dimension-Force (Japan)\n
+Dino City (Europe)\n
+Dino City (USA)\n
+Dino Dini's Soccer! (Europe) (En,Fr,De)\n
+Dinowars - Kyouryuu Oukoku e no Daibouken (Japan)\n
+Dirt Racer (Europe) (En,Fr,De)\n
+Dirt Trax FX (Europe)\n
+Dirt Trax FX (USA)\n
+Do-Re-Mi Fantasy - Milon no Dokidoki Daibouken (Japan)\n
+Do-Re-Mi Fantasy - Milon no Dokidoki Daibouken (Japan) [En by Gaijin+RPGOne v1.0] (~Do-Re-Mi Fantasy - Milon's Quest)\n
+Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan)\n
+Dokapon Gaiden - Honoo no Audition (Japan)\n
+Dokuritsu Sensou - Liberty or Death (Japan)\n
+Dolucky no A.League Soccer (Japan)\n
+Dolucky no Kusayakiu (Japan)\n
+Dolucky no Puzzle Tour '94 (Japan)\n
+Donald Duck no Mahou no Boushi (Japan)\n
+Donald Duck no Maui Mallard (Japan)\n
+Donald in Maui Mallard (Europe)\n
+Donkey Kong Country (Europe) (En,Fr,De)\n
+Donkey Kong Country (Europe) (En,Fr,De) (Rev A)\n
+Donkey Kong Country (USA)\n
+Donkey Kong Country (USA) (Competition Edition)\n
+Donkey Kong Country (USA) (Rev A)\n
+Donkey Kong Country (USA) (Rev B)\n
+Donkey Kong Country 2 - Diddy's Kong Quest (Europe) (En,Fr) (Rev A)\n
+Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De)\n
+Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De) (Rev A)\n
+Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr)\n
+Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev A)\n
+Donkey Kong Country 3 - Dixie Kong's Double Trouble! (Europe) (En,Fr,De)\n
+Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr)\n
+Doom (Europe)\n
+Doom (Japan)\n
+Doom (USA)\n
+Doom Troopers (USA)\n
+Doomsday Warrior (USA)\n
+Doraemon - Nobita to Yousei no Kuni (Japan)\n
+Doraemon 2 - Nobita no Toys Land Daibouken (Japan)\n
+Doraemon 3 - Nobita to Toki no Hougyoku (Japan)\n
+Doraemon 4 - Nobita to Tsuki no Oukoku (Japan)\n
+Doraemon 4 - Nobita to Tsuki no Oukoku (Japan) [En by Sgt. Bow v0.94b] (~Doraemon 4 - In the Moon Kingdom)\n
+Dossun! Ganseki Battle (Japan)\n
+Dossun! Ganseki Battle (Japan) [En by Aeon Genesis v1.0] (~Dossun! Stone Battle)\n
+Double Dragon V - The Shadow Falls (Europe)\n
+Double Dragon V - The Shadow Falls (USA)\n
+Doukyuusei 2 (Japan) (NP)\n
+Down the World - Mervil's Ambition (Japan)\n
+Downtown Nekketsu Baseball Monogatari - Yakyuu de Shoubu da! Kunio-kun (Japan)\n
+Dr. Mario (Japan) (NP)\n
+Dragon - The Bruce Lee Story (Europe)\n
+Dragon - The Bruce Lee Story (USA)\n
+Dragon Ball Z - Chomutujeon (Korea)\n
+Dragon Ball Z - Chou Gokuuden - Kakusei Hen (Japan)\n
+Dragon Ball Z - Chou Gokuuden - Totsugeki Hen (Japan)\n
+Dragon Ball Z - Hyper Dimension (France)\n
+Dragon Ball Z - Hyper Dimension (Japan)\n
+Dragon Ball Z - Hyper Dimension (Japan) [En by Unknown v1.0]\n
+Dragon Ball Z - La Legende Saien (France)\n
+Dragon Ball Z - La Legende Saien (France) [En by Ginew v20010305] (~Dragon Ball Z - Super Butouden 2) (Incomplete)\n
+Dragon Ball Z - Super Butouden (France)\n
+Dragon Ball Z - Super Butouden (France) [En by Aeon Genesis v0.98] (~Dragon Ball Z - Super Butouden 1) (Incomplete)\n
+Dragon Ball Z - Super Butouden (Japan)\n
+Dragon Ball Z - Super Butouden (Japan) (Sample)\n
+Dragon Ball Z - Super Butouden 2 (Japan)\n
+Dragon Ball Z - Super Butouden 2 (Japan) (Rev A)\n
+Dragon Ball Z - Super Butouden 3 (Japan)\n
+Dragon Ball Z - Super Gokuu Den - Kakusei Hen (Japan) [En by Ginew v20010405] (~Dragon Ball Z - The Legend of Goku 2) (Incomplete)\n
+Dragon Ball Z - Super Gokuu Den - Totsugeki Hen (Japan) [En by Kakkoii v0.313] (~Dragon Ball Z - The Legend of Goku 1) (Incomplete)\n
+Dragon Ball Z - Super Saiya Densetsu (Japan)\n
+Dragon Ball Z - Super Saiya Densetsu (Japan) (Rev 1) [En by Klepto v0.96] (~Dragon Ball Z - Legend of the Saiyans) (Incomplete)\n
+Dragon Ball Z - Super Saiya Densetsu (Japan) (Rev 1) [En by Saiya v0.99Final] (~Dragon Ball Z - Legend of the Saiyans)\n
+Dragon Ball Z - Super Saiya Densetsu (Japan) (Rev A)\n
+Dragon Ball Z - Ultime Menace (France)\n
+Dragon Ball Z - Ultime Menace (France) [En by Aeon Genesis v1.0] (~Dragon Ball Z - Super Butouden 3) (Incomplete)\n
+Dragon Ball Z - Ultime Menace (France) [En by Saiya+Vice v1.1] (~Dragon Ball Z - Super Butouden 3) (Incomplete)\n
+Dragon Knight 4 (Japan)\n
+Dragon Quest I & II (Japan)\n
+Dragon Quest I & II (Japan) [En by RPGOne v2.0] (Dragon Quest Version)\n
+Dragon Quest I & II (Japan) [En by RPGOne v2.0] (Dragon Warrior Version)\n
+Dragon Quest III - Soshite Densetsu e... (Japan) [En by DaMarsMan v1.0] (~Dragon Quest III - Into the Legend)\n
+Dragon Quest III - Soshite Densetsu he... (Japan)\n
+Dragon Quest V - Tenkuu no Hanayome (Japan)\n
+Dragon Quest V - Tenkuu no Hanayome (Japan) [En by Byuu+spSpiff v0.91] (~Dragon Quest V - Bride of Heaven)\n
+Dragon Quest V - Tenkuu no Hanayome (Japan) [En by DeJap+Partial v2.01Final] (~Dragon Quest V - Bride of Heaven)\n
+Dragon Quest VI - Maboroshi no Daichi (Japan)\n
+Dragon Quest VI - Maboroshi no Daichi (Japan) [En by NoPrgress v0.90Beta2] (~Dragon Quest VI - Land of Illusion)\n
+Dragon Slayer - Eiyuu Densetsu (Japan)\n
+Dragon Slayer - Eiyuu Densetsu (Japan) (Rev A) (NP)\n
+Dragon Slayer - Eiyuu Densetsu II (Japan)\n
+Dragon View (USA)\n
+Dragon's Earth (Japan)\n
+Dragon's Lair (Europe) (Beta)\n
+Dragon's Lair (Europe) (En,Fr,De,Es,It,Nl,Sv)\n
+Dragon's Lair (USA)\n
+Dragon's Magic (Japan)\n
+Drakkhen (Europe)\n
+Drakkhen (Germany)\n
+Drakkhen (Japan)\n
+Drakkhen (USA)\n
+Dream Basketball - Dunk & Hoop (Japan)\n
+Dream Maze - Kigurumi Daibouken (Japan) [En by KingMike v1.0b] (~Dream Maze - The Kigurumi Adventure)\n
+Dream TV (USA)\n
+Dream TV (USA) (Beta1)\n
+Dream TV (USA) (Beta2)\n
+Drift King Shutokou Battle '94 - Tsuchiya Keiichi & Bandou Masaaki (Japan)\n
+Drift King Shutokou Battle 2 - Tsuchiya Keiichi & Bandou Masaaki (Japan)\n
+Dual Orb - Seirei Tama Densetsu (Japan)\n
+Dual Orb II (Japan)\n
+Dual Orb II (Japan) [En by TransCorp v1.5]\n
+Duel, The - Test Drive II (Europe)\n
+Duel, The - Test Drive II (USA)\n
+Dun Quest - Majin Fuuin no Densetsu (Japan)\n
+Dungeon Master (Europe)\n
+Dungeon Master (Japan)\n
+Dungeon Master (Japan) (Rev A)\n
+Dungeon Master (USA)\n
+Dynamaite the Las Vegas (Japan)\n
+Dynamic Stadium (Japan)\n
+E.V.O. - Search for Eden (USA)\n
+Earth Light - Luna Strike (Japan)\n
+Earth Light (Japan)\n
+EarthBound (USA)\n
+EarthBound (USA) [Hack by Blue Antoid v2.0] (~JonBound - Dark Future)\n
+EarthBound (USA) [Hack by EBGirl v2.5] (~Mother 2.5 - The Giftman Chronicles)\n
+EarthBound (USA) [Hack by Michael Cayer+Tomato v2.0] (New Game Plus Plus)\n
+EarthBound (USA) [Hack by Mr. Accident v1.1] (~EarthBound - 10th Anniversary Celebration)\n
+EarthBound (USA) [Hack by Mr. Tenda v0.908] (~Mr. Saturn in Hat Quest)\n
+EarthBound (USA) [Hack by Radiation v1.02] (~Arn's Winter Quest - Gway Edition)\n
+EarthBound (USA) [Hack by Rofish v0.50] (~EarthBound Battler) (Battle Mode)\n
+Earthworm Jim (Europe)\n
+Earthworm Jim (Japan)\n
+Earthworm Jim (USA)\n
+Earthworm Jim (USA) (GamesMaster Special Edition)\n
+Earthworm Jim 2 (Europe)\n
+Earthworm Jim 2 (USA)\n
+Earthworm Jim 2 (USA) (Beta)\n
+Edono Kiba (Japan)\n
+Eek! The Cat (Europe)\n
+Eek! The Cat (USA)\n
+Eien no Filerna (Japan)\n
+Eien no Filerna (Japan) [En by Satsu v0.98] (~Eternal Filena)\n
+Elfaria - The Isle of the Blest (Japan)\n
+Elfaria II - The Quest of the Meld (Japan)\n
+Elite Soccer (USA)\n
+Elnard (Japan)\n
+Emerald Dragon (Japan)\n
+Emerald Dragon (Japan) [En by TransCorp v1.1]\n
+Emit Vol. 1 - Toki no Maigo (Japan)\n
+Emit Vol. 2 - Inochigake no Tabi (Japan)\n
+Emit Vol. 3 - Watashi ni Sayonara o (Japan)\n
+Emmitt Smith Football (USA)\n
+Energy Breaker (Japan)\n
+Equinox (Europe)\n
+Equinox (USA)\n
+Equinox (USA) (Beta)\n
+Eric Cantona Football Challenge (Europe) (En,Fr,De,Es,It,Nl,Sv)\n
+Esparks - Ijikuu Kara no Raihousha (Japan)\n
+ESPN Baseball Tonight (Europe)\n
+ESPN Baseball Tonight (USA)\n
+ESPN Baseball Tonight (USA) (Beta)\n
+ESPN National Hockey Night (USA)\n
+ESPN Speedworld (USA)\n
+ESPN Speedworld (USA) (Beta)\n
+ESPN Sunday Night NFL (USA)\n
+Estpolis Denki (Japan)\n
+Estpolis Denki II (Japan)\n
+Eurit (USA) (Proto)\n
+Euro Football Champ (Europe)\n
+Europe Sensen (Japan)\n
+Exertainment Life Fitness Mega Cart (Europe) (Proto)\n
+Exhaust Heat (Europe)\n
+Exhaust Heat (Japan)\n
+Exhaust Heat II - F1 Driver e no Kiseki (Japan)\n
+Extra Innings (USA)\n
+Eye of the Beholder (Japan)\n
+Eye of the Beholder (USA)\n
+F-1 Grand Prix - Part II (Japan)\n
+F-1 Grand Prix - Part III (Japan)\n
+F-1 Grand Prix (Japan)\n
+F-15 Super Strike Eagle (Japan)\n
+F-Zero (Europe)\n
+F-Zero (Japan) (Rev 0A)\n
+F-Zero (USA)\n
+F-Zero (USA) [Hack by Smkdan v1.0] (All Track Practice)\n
+F1 Pole Position (Europe)\n
+F1 Pole Position (USA)\n
+F1 Pole Position (USA) (Beta)\n
+F1 Pole Position 2 (Europe)\n
+F1 ROC - Race of Champions (USA)\n
+F1 ROC II - Race of Champions (USA)\n
+F1 World Championship Edition (Europe)\n
+Faceball 2000 (USA)\n
+Famicom Bunko - Hajimari no Mori (Japan) (NP)\n
+Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo (Japan) (NP)\n
+Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo (Japan) (NP) [En by Demiforce+Tomato v1.0] (~Famicom Detective Club Part II)\n
+Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo (Japan) (Rev A) (NP)\n
+Family Dog (Europe)\n
+Family Dog (USA)\n
+Family Feud (USA)\n
+Family Feud (USA) (Rev A)\n
+Farland Story (Japan)\n
+Farland Story 2 (Japan)\n
+Fatal Fury (Europe)\n
+Fatal Fury (USA)\n
+Fatal Fury 2 (Europe)\n
+Fatal Fury 2 (USA)\n
+Fatal Fury Special (Europe)\n
+Fatal Fury Special (Europe) (Beta)\n
+Fatal Fury Special (USA)\n
+Feda - The Emblem of Justice (Japan)\n
+Feda - The Emblem of Justice (Japan) (Beta)\n
+Feda - The Emblem of Justice (Japan) [En by Magic Destiny+Stealth v1.01]\n
+Fever Pitch Soccer (Europe) (Beta)\n
+Fever Pitch Soccer (Europe) (En,Fr,De,Es,It)\n
+FIFA '97 - Gold Edition (Europe) (En,Fr,De,Es,It,Sv)\n
+FIFA '97 - Gold Edition (USA) (En,Fr,De,Es,It,Sv)\n
+FIFA '98 - Road to World Cup (Europe) (En,Fr,De,Es,It,Sv)\n
+FIFA International Soccer (Europe)\n
+FIFA International Soccer (Japan)\n
+FIFA International Soccer (USA)\n
+FIFA Soccer '96 (Europe) (En,Fr,De,Es,It,Sv)\n
+FIFA Soccer '96 (USA) (En,Fr,De,Es,It,Sv)\n
+Fighter's History - Mizoguchi Kikiippatsu!! (Japan)\n
+Fighter's History (Japan)\n
+Fighter's History (USA) (Beta)\n
+Fighter's History (USA) (Rev A)\n
+Fighting Baseball (Japan)\n
+Final Fantasy - Mystic Quest (USA)\n
+Final Fantasy - Mystic Quest (USA) (Rev A)\n
+Final Fantasy II (USA)\n
+Final Fantasy II (USA) (Rev 1) [Bug Fix by Deathlike2 v1.0a] (Yang's HP Fix)\n
+Final Fantasy II (USA) (Rev 1) [Hack by Dragonsbrethren v1.0] (~Final Fantasy II is Easy Type)\n
+Final Fantasy II (USA) (Rev 1) [Hack by JCE3000GT v1.2] (Hard Type)\n
+Final Fantasy II (USA) (Rev A)\n
+Final Fantasy II (USA) [Bug Fix by Deathlike2 v1.0a] (Yang's HP Fix)\n
+Final Fantasy II (USA) [Hack by JCE3000GT v1.2] (Hard Type)\n
+Final Fantasy III (USA)\n
+Final Fantasy III (USA) (Rev 1) [Hack by JCE3000GT v1.2] (Hard Type)\n
+Final Fantasy III (USA) (Rev 1) [Hack by SageAcrin v1.06] (Evil Type)\n
+Final Fantasy III (USA) (Rev 1) [Hack by Zeemis v1.0] (~Final Fantasy - Revelations)\n
+Final Fantasy III (USA) (Rev A)\n
+Final Fantasy III (USA) [Hack by JCE3000GT v1.2] (Hard Type)\n
+Final Fantasy III (USA) [Hack by MakouEyes v9.08] (~Final Fantasy VI - The Eternal Crystals)\n
+Final Fantasy III (USA) [Hack by SageAcrin v1.06] (Evil Type)\n
+Final Fantasy III (USA) [Hack by Tzepish v1.2] (~Final Fantasy IV - Enhanced Editon)\n
+Final Fantasy III (USA) [Hack by Zeemis v1.0] (~Final Fantasy - Revelations)\n
+Final Fantasy IV - Easy Type (Japan)\n
+Final Fantasy IV (Japan)\n
+Final Fantasy IV (Japan) (Rev 1) [En by J2e v3.21]\n
+Final Fantasy IV (Japan) (Rev 1) [En by J2e v3.21] [Bug Fix by Deathlike2 v1.0a] (Yang's HP Fix)\n
+Final Fantasy IV (Japan) (Rev A)\n
+Final Fantasy USA - Mystic Quest (Japan)\n
+Final Fantasy V (Japan)\n
+Final Fantasy V (Japan) [En by RPGe v1.1]\n
+Final Fantasy V (Japan) [En by RPGe v1.1] [Hack by JCE3000GT v0.947] (Expert Mode)\n
+Final Fantasy V (Japan) [En by RPGe v1.1] [Hack by JCE3000GT v1.0] (Easy Type)\n
+Final Fantasy V (Japan) [En by RPGe v1.1] [Hack by Jorgur v0.50] (~Final Fantasy V Plus)\n
+Final Fantasy V (Japan) [En by RPGe v1.1] [Text Hack by Tzepish v1.01] (~Final Fantasy V Spoof)\n
+Final Fantasy VI (Japan)\n
+Final Fantasy VI (Japan) [En by RPGOne v1.2b]\n
+Final Fantasy VI (Japan) [En by RPGOne v1.2b] [All Bug Fixes]\n
+Final Fight (Europe)\n
+Final Fight (Japan)\n
+Final Fight (USA)\n
+Final Fight 2 (Europe)\n
+Final Fight 2 (Japan)\n
+Final Fight 2 (USA)\n
+Final Fight 3 (Europe)\n
+Final Fight 3 (USA)\n
+Final Fight 3 (USA) (Beta)\n
+Final Fight Guy (Japan)\n
+Final Fight Guy (USA)\n
+Final Fight Tough (Japan)\n
+Final Knockout (Japan)\n
+Final Stretch (Japan)\n
+Finalset (Japan)\n
+Fire Emblem - Monshou no Nazo (Japan)\n
+Fire Emblem - Monshou no Nazo (Japan) (Rev A)\n
+Fire Emblem - Monshou no Nazo (Japan) [En by RPGuy96 v0.98] (~Fire Emblem - Mystery of the Emblem)\n
+Fire Emblem - Seisen no Keifu (Japan)\n
+Fire Emblem - Seisen no Keifu (Japan) [En by Dark Twilkitri Net v0.87d] (~Fire Emblem - Genealogy of the Holy War)\n
+Fire Emblem - Thracia 776 (Japan)\n
+Fire Emblem - Thracia 776 (Japan) (NP)\n
+Fire Emblem - Thracia 776 (Japan) (Rev A) (NP)\n
+Fire Emblem - Thracia 776 (Japan) [En by Shaya v0.05] (Incomplete)\n
+Fire Fighting (Japan)\n
+Fire Pro Joshi All Star Dream Slam (Japan)\n
+Fire Striker (USA)\n
+Fire Striker (USA) (Beta)\n
+Firemen, The (Europe) (En,Fr,De)\n
+Firemen, The (Japan)\n
+Firemen, The (USA) (Proto)\n
+Firepower 2000 (USA)\n
+Fireteam Rogue (USA) (Proto)\n
+First Queen - Ornic Senki (Japan)\n
+First Samurai (Europe)\n
+First Samurai (Europe) (Beta)\n
+First Samurai (Japan)\n
+First Samurai (USA)\n
+Fishing Koushien (Japan)\n
+Flashback - The Quest for Identity (USA) (En,Fr,De)\n
+Flashback (Europe) (En,Fr,De)\n
+Flashback (Europe) (En,Fr)\n
+Flashback (Japan)\n
+Flintstones, The - The Treasure of Sierra Madrock (Europe)\n
+Flintstones, The - The Treasure of Sierra Madrock (Japan)\n
+Flintstones, The - The Treasure of Sierra Madrock (USA)\n
+Flintstones, The (Europe) (En,Fr,De,Es,It)\n
+Flintstones, The (Europe) (En,Fr,De,Es,It) (Beta)\n
+Flintstones, The (USA) (Beta)\n
+Flintstones, The (USA) (En,Fr,De,Es,It)\n
+Flying Hero - Bugyuru no Daibouken (Japan)\n
+Football Fury (USA)\n
+Foreman For Real (Europe)\n
+Foreman For Real (Japan)\n
+Foreman For Real (USA)\n
+Fortune Quest - Dice o Korogase (Japan)\n
+Frank Thomas Big Hurt Baseball (Europe)\n
+Frank Thomas Big Hurt Baseball (Japan)\n
+Frank Thomas Big Hurt Baseball (USA)\n
+Frantic Flea (Europe)\n
+Frantic Flea (Europe) (Beta)\n
+Frantic Flea (USA)\n
+Frogger (USA)\n
+From TV Animation Slam Dunk - Dream Team - Shueisha Limited (Japan)\n
+From TV Animation Slam Dunk - SD Heat Up!! (Japan)\n
+From TV Animation Slam Dunk - Shikyou Gekitotsu!! (Japan)\n
+From TV Animation Slam Dunk 2 - IH Yosen Kanzen Ban!! (Japan)\n
+Front Mission (Japan)\n
+Front Mission (Japan) (Rev A)\n
+Front Mission (Japan) [En by FH v1.0b]\n
+Front Mission Series - Gun Hazard (Japan)\n
+Front Mission Series - Gun Hazard (Japan) [En by Aeon Genesis v1.01]\n
+Full Power (Japan)\n
+Full Throttle Racing (Europe)\n
+Full Throttle Racing (USA)\n
+Full Throttle Racing (USA) (Beta)\n
+Fun 'n Games (Europe)\n
+Fun 'n Games (USA)\n
+Funaki Masakatsu Hybrid Wrestler - Tougi Denshou (Japan)\n
+Funaki Masakatsu Hybrid Wrestler - Tougi Denshou (Japan) [En by Phil v1.0]\n
+Fune Tarou (Japan)\n
+Furuta Atsuya no Simulation Pro Yakyuu 2 (Japan)\n
+Fushigi no Dungeon 2 - Fuurai no Shiren (Japan)\n
+Fushigi no Dungeon 2 - Fuurai no Shiren (Japan) (Rev A) (NP)\n
+Fushigi no Dungeon 2 - Fuurai no Shiren (Japan) [En by Aeon Genesis v1.0] (~Mysterious Dungeon 2 ~ Shiren the Wanderer)\n
+G.O.D - Mezame yo to Yobu Koe ga Kikoe (Japan)\n
+Gaia Gensouki (Japan)\n
+Gaia Saver - Hero Saidai no Sakusen (Japan)\n
+Gakkou de Atta Kowai Hanashi (Japan)\n
+Galaxy Robo (Japan)\n
+Galaxy Wars (Japan)\n
+Gambler Jikochuushinha - Mahjong Kouisen (Japan)\n
+Gambler Jikochuushinha 2 - Dorapon Quest (Japan)\n
+Gambling Hourouki (Japan)\n
+Game Genie BIOS (USA) (Unl)\n
+Game Genie BIOS (USA) (Unl) [a]\n
+Game Genie BIOS (USA) (v2.0) (Unl)\n
+Game no Tatsujin (Japan)\n
+Game no Tetsujin - The Shanghai (Japan)\n
+Game Saver (Europe) (v1.7) (Unl)\n
+Gamera - Gyaos Gekimetsu Sakusen (Japan)\n
+Ganbare Goemon - Yuki Hime Kyuushutsu Emaki (Japan)\n
+Ganbare Goemon - Yuki Hime Kyuushutsu Emaki (Japan) (Rev B)\n
+Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (Japan)\n
+Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame (Japan)\n
+Ganbare Goemon Kirakira Douchuu - Boku ga Dancer ni Natta Riyuu (Japan)\n
+Ganbare Goemon Kirakira Douchuu - Boku ga Dancer ni Natta Riyuu (Japan) (Rev B) (NP)\n
+Ganbare! Daiku no Gen-san (Japan)\n
+Gangan Gan-chan (Japan)\n
+Ganpuru - Gunman's Proof (Japan)\n
+Ganpuru - Gunman's Proof (Japan) [En by Aeon Genesis v1.03]\n
+Ganso Pachi-Slot Nihonichi (Japan)\n
+Ganso Pachinko Ou (Japan)\n
+Garou Densetsu - Shukumei no Tatakai (Japan)\n
+Garou Densetsu - Shukumei no Tatakai (Japan) (Rev A)\n
+Garou Densetsu 2 - Aratanaru Tatakai (Japan)\n
+Garou Densetsu 2 - Aratanaru Tatakai (Japan) (Rev A)\n
+Garou Densetsu Special (Japan)\n
+Gdleen (Japan)\n
+Gdleen (Japan) (Rev A)\n
+Gegege no Kitarou - Fukkatsu! Tenma Daiou (Japan)\n
+Gegege no Kitarou - Youkai Donjara (Japan) (ST)\n
+Gekisou Sentai Car Ranger - Zenkai! Racer Senshi (Japan) (ST)\n
+Gekitotsu Dangan Jidousha Kessen - Battle Mobile (Japan)\n
+Gekitou Burning Pro Wrestling (Japan)\n
+Gekitou Burning Pro Wrestling (Japan) [En by Phil v1.0]\n
+Gemfire (USA)\n
+Genghis Khan II - Clan of the Gray Wolf (USA)\n
+Genjuu Ryodan (Japan) (NP)\n
+Genocide 2 (Japan)\n
+Genocide 2 (Japan) (Beta)\n
+George Foreman's KO Boxing (Europe)\n
+George Foreman's KO Boxing (USA)\n
+George Foreman's KO Boxing (USA) (Doritos Promo)\n
+George Foreman's KO Boxing (USA) (Rev A)\n
+Get in the Hole (Japan)\n
+Getsumen no Anubis (Japan)\n
+Ghost Chaser Densei (Japan)\n
+Ghost Sweeper Mikami - Joreishi wa Nice Body (Japan)\n
+Ghoul Patrol (Europe)\n
+Ghoul Patrol (Japan)\n
+Ghoul Patrol (USA)\n
+Gindama Oyakata no Pachinko Hisshouhou (Japan)\n
+Ginga Eiyuu Densetsu (Japan)\n
+Ginga Sengoku Gunyuuden Rai (Japan)\n
+Gionbana (Japan)\n
+Go Go Ackman (Japan)\n
+Go Go Ackman (Japan) [En by Ackman v1.0]\n
+Go Go Ackman 2 (Japan)\n
+Go Go Ackman 3 (Japan)\n
+Go! Go! Dodge League (Japan)\n
+Go! Go! Dodge League (Japan) (Rev A)\n
+Goal! (USA)\n
+Gods (Europe)\n
+Gods (USA)\n
+Godzilla - Kaijuu Daikessen (Japan)\n
+Gokinjo Boukentai (Japan)\n
+Gokujou Parodius (Japan)\n
+Gokujou Parodius (Japan) (Beta)\n
+Gon (Japan)\n
+Goof Troop (Europe)\n
+Goof Troop (France)\n
+Goof Troop (Germany)\n
+Goof Troop (USA)\n
+Goofy to Max - Kaizoku Shima no Daibouken (Japan)\n
+Gouketsuji Ichizoku (Japan)\n
+Gourmet Sentai - Bara Yarou (Japan)\n
+Gourmet Sentai Barayarou (Japan) [En by Aeon Genesis v0.80] (~Gourmet Squadron Barayarou) (Incomplete)\n
+Gousou Jinrai Densetsu - Musya (Japan)\n
+GP-1 - Part II (USA)\n
+GP-1 - Rapid Stream (Japan)\n
+GP-1 (Europe)\n
+GP-1 (Japan)\n
+GP-1 (USA)\n
+Gradius III (Japan)\n
+Gradius III (USA)\n
+Granhistoria - Genshi Sekaiki (Japan)\n
+Great Battle Gaiden 2, The - Matsuri da Wasshoi (Japan)\n
+Great Battle II, The - Last Fighter Twin (Japan)\n
+Great Battle III, The (Japan)\n
+Great Battle IV, The (Japan)\n
+Great Battle IV, The (Japan) (Sample)\n
+Great Battle V, The (Japan)\n
+Great Circus Mystery Starring Mickey & Minnie, The (Europe)\n
+Great Circus Mystery Starring Mickey & Minnie, The (USA)\n
+Great Waldo Search, The (USA)\n
+GT Racing (Japan)\n
+Gunforce - Battle Fire Engulfed Terror Island (Europe)\n
+Gunforce - Battle Fire Engulfed Terror Island (Japan)\n
+Gunforce - Battle Fire Engulfed Terror Island (USA)\n
+Habu Meijin no Omoshiro Shougi (Japan)\n
+Hagane - The Final Conflict (Europe)\n
+Hagane - The Final Conflict (USA)\n
+Hagane (Japan)\n
+Hagane (Japan) (Beta)\n
+Hai Toride (Japan)\n
+Haisei Mahjong - Ryouga (Japan)\n
+Hakunetsu Pro Yakyuu - Ganba League (Japan)\n
+Hakunetsu Pro Yakyuu - Ganba League (Japan) (Rev A)\n
+Hakunetsu Pro Yakyuu '93 - Ganba League (Japan)\n
+Hakunetsu Pro Yakyuu '93 - Ganba League (Japan) (Beta)\n
+Hakunetsu Pro Yakyuu '94 - Ganba League 3 (Japan)\n
+HAL's Hole in One Golf (Europe)\n
+HAL's Hole in One Golf (USA)\n
+Hamelin no Violin Hiki (Japan)\n
+Hameln no Violin Hiki (Japan) [En by J2e v1.0] (~Violinist of Hameln, The)\n
+Hammerlock Wrestling (USA)\n
+Hana no Keiji - Kumo no Kanata ni (Japan)\n
+Hanafuda Ou (Japan)\n
+Hanguk Pro Yagu (Korea)\n
+Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan)\n
+Hansei Zaru Jirou-kun no Daibouken (Japan)\n
+Haou Taikei Ryuu Knight - Lord of Paladin (Japan)\n
+Haou Taikei Ryuu Knight - Lord of Paladin (Japan) (Rev A)\n
+Harapeko Bakka (Japan)\n
+HardBall III (USA)\n
+Harley's Humongous Adventure (Europe)\n
+Harley's Humongous Adventure (USA)\n
+Harley's Humongous Adventure (USA) (Beta)\n
+Harukanaru Augusta (Japan)\n
+Harukanaru Augusta (Japan) (Rev B)\n
+Harukanaru Augusta 2 - Masters (Japan)\n
+Harukanaru Augusta 3 - Masters New (Japan)\n
+Harukanaru Augusta 3 - Masters New (Japan) (Rev A)\n
+Harvest Moon (Europe)\n
+Harvest Moon (Germany)\n
+Harvest Moon (USA)\n
+Hashire Hebereke (Japan)\n
+Hat Trick Hero (Japan)\n
+Hat Trick Hero 2 (Japan)\n
+Hatayama Hatch no Pro Yakyuu News! - Jitsumei Ban (Japan)\n
+Hayazashi Nidan Morita Shougi (Japan)\n
+Hayazashi Nidan Morita Shougi 2 (Japan)\n
+Head-On Soccer (USA)\n
+Hebereke no Oishii Puzzle wa Irimasenka (Japan)\n
+Hebereke no Popoon (Japan)\n
+Hebereke's Popoitto (Europe)\n
+Hebereke's Popoon (Europe)\n
+Heian Fuuunden (Japan)\n
+Heisei Gunjin Shougi (Japan)\n
+Heisei Inu Monogatari Bow - Pop'n Smash!! (Japan)\n
+Heisei Shin Onigashima - Kouhen (Japan)\n
+Heisei Shin Onigashima - Zenhen (Japan)\n
+Heiwa Pachinko World (Japan)\n
+Heiwa Pachinko World 2 (Japan)\n
+Heiwa Pachinko World 3 (Japan)\n
+Heiwa Parlor! Mini 8 - Pachinko Jikki Simulation Game (Japan)\n
+Hello! Pac-Man (Japan)\n
+Herakles no Eikou III - Kamigami no Chinmoku (Japan)\n
+Herakles no Eikou III - Kamigami no Chinmoku (Japan) [En by Kojiro v0.95Beta1] (~Glory of Heracles III, The - Silence of the Gods)\n
+Herakles no Eikou IV - Kamigami Kara no Okurimono (Japan)\n
+Hero Senki - Project Olympus (Japan)\n
+Hi no Ouji Yamato Takeru (Japan)\n
+Higashio Osamu Kanshuu - Super Pro Yakyuu Stadium (Japan)\n
+Hiouden - Mamono-tachi Tono Chikai (Japan)\n
+Hiouden - Mamono-tachi Tono Chikai (Japan) [En by Aeon Genesis v1.0] (~Hiouden - Legend of the Scarlet King - The Demonic Oath)\n
+Hiryuu no Ken S - Golden Fighter (Japan)\n
+Hiryuu no Ken S - Hyper Version (Japan)\n
+Hissatsu Pachinko Collection (Japan)\n
+Hissatsu Pachinko Collection 2 (Japan)\n
+Hissatsu Pachinko Collection 3 (Japan)\n
+Hissatsu Pachinko Collection 4 (Japan)\n
+Hisshou 777 Fighter - Pachi-Slot Ryuuguu Densetsu (Japan)\n
+Hisshou 777 Fighter II - Pachi-Slot Maruhi Jouhou (Japan)\n
+Hisshou 777 Fighter III - Kokuryuu Ou no Fukkatsu (Japan)\n
+Hisshou Pachi-Slot Fun (Japan)\n
+Hit the Ice (USA)\n
+Hokuto no Ken 5 - Tenma Ryuuseiden Ai Zetsu Shou (Japan)\n
+Hokuto no Ken 6 - Gekitou Denshou Ken Haou e no Michi (Japan)\n
+Hokuto no Ken 7 - Seiken Retsuden Denshousha e no Michi (Japan)\n
+Holy Striker (Japan)\n
+Holy Umbrella - Dondera no Mubou!! (Japan)\n
+Home Alone (Europe)\n
+Home Alone (Japan)\n
+Home Alone (USA)\n
+Home Alone 2 - Lost in New York (Europe)\n
+Home Alone 2 - Lost in New York (USA)\n
+Home Improvement (USA)\n
+Hong Kong 97 (Hong Kong)\n
+Honkaku Mahjong - Tetsuman (Japan)\n
+Honkaku Mahjong - Tetsuman II (Japan)\n
+Honkaku Shougi - Fuuunji Ryuuou (Japan)\n
+Honkakuha Igo Gosei (Japan)\n
+Honke Hanafuda (Japan)\n
+Honke Sankyo Fever - Jikki Simulation (Japan)\n
+Honke Sankyo Fever 2 - Jikki Simulation (Japan)\n
+Honke Sankyo Fever 3 - Jikki Simulation (Japan)\n
+Honoo no Doukyuuji - Dodge Danpei (Japan)\n
+Hook (Europe)\n
+Hook (Japan)\n
+Hook (USA)\n
+Hook (USA) (Beta)\n
+Hoshi no Kirby - Super Deluxe (Japan)\n
+Hoshi no Kirby - Super Deluxe (Japan) (Rev B)\n
+Hoshi no Kirby 3 (Japan)\n
+Houkago in Beppin Jogakuin (Japan)\n
+Hourai Gakuen no Bouken! - Tenkousei Scramble (Japan)\n
+Human Baseball (Japan)\n
+Human Grand Prix (Japan)\n
+Human Grand Prix II (Japan)\n
+Human Grand Prix III - F1 Triple Battle (Japan)\n
+Human Grand Prix IV - F1 Dream Battle (Japan)\n
+Humans, The (Europe)\n
+Humans, The (Germany)\n
+Hungry Dinosaurs (Europe)\n
+Hunt for Red October, The (Europe)\n
+Hunt for Red October, The (Japan)\n
+Hunt for Red October, The (USA)\n
+Hurricanes (Europe)\n
+Hurricanes (Europe) (Beta)\n
+Hurricanes (USA)\n
+Hyper Iria (Japan)\n
+Hyper V-Ball (Europe)\n
+Hyper V-Ball (USA)\n
+HyperZone (Europe)\n
+HyperZone (Japan)\n
+HyperZone (USA)\n
+Idea no Hi (Japan)\n
+Ignition Factor, The (USA)\n
+Igo Club (Japan)\n
+Ihatov Monogatari (Japan)\n
+Ikari no Yousai (Japan)\n
+Illusion of Gaia (USA)\n
+Illusion of Gaia (USA) (Beta)\n
+Illusion of Time (Europe)\n
+Illusion of Time (France)\n
+Illusion of Time (Germany)\n
+Illusion of Time (Germany) (Rev A)\n
+Illusion of Time (Spain)\n
+Illvanian no Shiro (Japan)\n
+Imperium (USA)\n
+Inazuma Serve da! Super Beach Volley (Japan)\n
+Incantation (Europe)\n
+Incantation (USA)\n
+Incredible Crash Dummies, The (Europe)\n
+Incredible Crash Dummies, The (Japan)\n
+Incredible Crash Dummies, The (USA)\n
+Incredible Crash Dummies, The (USA) (Beta)\n
+Incredible Hulk, The (Europe)\n
+Incredible Hulk, The (USA)\n
+Indiana Jones' Greatest Adventures (Europe)\n
+Indiana Jones' Greatest Adventures (Japan)\n
+Indiana Jones' Greatest Adventures (USA)\n
+Inindo - Way of the Ninja (USA)\n
+Inspector Gadget (USA)\n
+International Superstar Soccer (Europe)\n
+International Superstar Soccer (USA)\n
+International Superstar Soccer Deluxe (Europe)\n
+International Superstar Soccer Deluxe (USA)\n
+International Tennis Tour (Europe)\n
+International Tennis Tour (Japan)\n
+International Tennis Tour (USA)\n
+Ippatsu Gyakuten (Japan)\n
+Irem Major Title, The (Europe)\n
+Irem Major Title, The (Japan)\n
+Irem Skins Game, The (USA)\n
+Iron Commando - Koutetsu no Senshi (Japan)\n
+Iron Commando (Europe) (Proto)\n
+Isozuri - Ritou Hen (Japan)\n
+Itadaki Street 2 - Neon Sign wa Bara Iro ni (Japan)\n
+Itchy & Scratchy Game, The (Europe)\n
+Itchy & Scratchy Game, The (USA)\n
+Itoi Shigesato no Bass Tsuri No. 1 (Japan)\n
+Itou Hatasu Rokudan no Shougi Doujou (Japan)\n
+Itou Hatasu Rokudan no Shougi Doujou (Japan) (Rev A)\n
+Izzy's Quest for the Olympic Rings (Europe)\n
+Izzy's Quest for the Olympic Rings (USA)\n
+Izzy's Quest for the Olympic Rings (USA) (Beta)\n
+J.League '96 Dream Stadium (Japan)\n
+J.League Excite Stage '94 (Japan)\n
+J.League Excite Stage '94 (Japan) (Rev A)\n
+J.League Excite Stage '95 (Japan)\n
+J.League Excite Stage '96 (Japan)\n
+J.League Excite Stage '96 (Japan) (Rev A)\n
+J.League Soccer Prime Goal (Japan)\n
+J.League Soccer Prime Goal (Japan) (Rev A)\n
+J.League Soccer Prime Goal 2 (Japan)\n
+J.League Soccer Prime Goal 3 (Japan)\n
+J.League Super Soccer '95 - Jikkyou Stadium (Japan)\n
+J.League Super Soccer (Japan)\n
+J.R.R. Tolkien's The Lord of the Rings - Volume One (Europe)\n
+J.R.R. Tolkien's The Lord of the Rings - Volume One (Germany)\n
+J.R.R. Tolkien's The Lord of the Rings - Volume One (USA)\n
+Jack Nicklaus Golf (Europe)\n
+Jack Nicklaus Golf (France)\n
+Jack Nicklaus Golf (USA)\n
+Jaki Crush (Japan)\n
+James Bond Jr. (Europe)\n
+James Bond Jr. (USA)\n
+James Pond 3 - Operation Starfish (Europe)\n
+James Pond's Crazy Sports (Europe)\n
+Jammes (Japan)\n
+Jammit (USA)\n
+Janyuuki - Gokuu Randa (Japan)\n
+JB The Super Bass (Japan)\n
+Jelly Boy (Europe)\n
+Jelly Boy 2 (Japan) (Proto)\n
+Jelly Boy 2 (Japan) (Proto) [En by KingMike v1.0Final]\n
+Jeopardy! - Deluxe Edition (USA)\n
+Jeopardy! - Sports Edition (USA)\n
+Jeopardy! (USA)\n
+Jerry Boy (Japan)\n
+Jerry Boy (Japan) [En by Chris Covell v1.0]\n
+Jetsons, The - Invasion of the Planet Pirates (USA)\n
+Jigsaw Party (Japan)\n
+Jikkyou Oshaberi Parodius (Japan)\n
+Jikkyou Power Pro Wrestling '96 - Max Voltage (Japan)\n
+Jikkyou Power Pro Wrestling '96 - Max Voltage (Japan) [En by Phil v1.0] (Incomplete)\n
+Jikkyou Powerful Pro Yakyuu - Basic Ban '98 (Japan)\n
+Jikkyou Powerful Pro Yakyuu '94 (Japan)\n
+Jikkyou Powerful Pro Yakyuu '96 - Kaimaku Ban (Japan)\n
+Jikkyou Powerful Pro Yakyuu '96 - Kaimaku Ban (Japan) (Rev A)\n
+Jikkyou Powerful Pro Yakyuu 2 (Japan)\n
+Jikkyou Powerful Pro Yakyuu 2 (Japan) (Rev A)\n
+Jikkyou Powerful Pro Yakyuu 3 - '97 Haru (Japan)\n
+Jikkyou Powerful Pro Yakyuu 3 - '97 Haru (Japan) (Rev A)\n
+Jikkyou Powerful Pro Yakyuu 3 (Japan)\n
+Jikkyou World Soccer - Perfect Eleven (Japan)\n
+Jikkyou World Soccer - Perfect Eleven (Japan) (Rev A)\n
+Jikkyou World Soccer 2 - Fighting Eleven (Japan)\n
+Jikkyou World Soccer 2 - Fighting Eleven (Japan) (Beta)\n
+Jim Lee's WildC.A.T.S - Covert Action Teams (USA)\n
+Jim Power - The Lost Dimension in 3D (Europe)\n
+Jim Power - The Lost Dimension in 3D (USA)\n
+Jimmy Connors Pro Tennis Tour (Europe)\n
+Jimmy Connors Pro Tennis Tour (France)\n
+Jimmy Connors Pro Tennis Tour (Germany)\n
+Jimmy Connors Pro Tennis Tour (Japan)\n
+Jimmy Connors Pro Tennis Tour (USA)\n
+Jimmy Houston's Bass Tournament U.S.A. (USA)\n
+Jissen Bass Fishing Hisshouhou in USA (Japan)\n
+Jissen Kyoutei (Japan)\n
+Jissen Pachinko Hisshouhou! 2 (Japan)\n
+Jissen! Mahjong Shinan (Japan)\n
+Jissen! Pachi-Slot Hisshouhou! (Japan)\n
+Jissen! Pachi-Slot Hisshouhou! 2 (Japan)\n
+Jissen! Pachi-Slot Hisshouhou! Classic (Japan)\n
+Jissen! Pachi-Slot Hisshouhou! Twin (Japan)\n
+Jissen! Pachi-Slot Hisshouhou! Twin Vol. 2 (Japan)\n
+Jissen! Pachi-Slot Hisshouhou! Yamasa Densetsu (Japan)\n
+Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl)\n
+Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl) (Beta)\n
+Joe & Mac - Tatakae Genshijin (Japan)\n
+Joe & Mac (USA)\n
+Joe & Mac 2 - Lost in the Tropics (USA)\n
+Joe & Mac 2 - Lost in the Tropics (USA) (Beta)\n
+Joe & Mac 3 - Lost in the Tropics (Europe) (En,Fr,De)\n
+Joe & Mac 3 - Lost in the Tropics (Europe) (En,Fr,De) (Beta)\n
+John Madden Football '93 (Europe)\n
+John Madden Football '93 (USA)\n
+John Madden Football '93 (USA) (Rev A)\n
+John Madden Football (USA)\n
+JoJo no Kimyou na Bouken (Japan)\n
+Joushou Mahjong Tenpai (Japan)\n
+JRA PAT - Wide Baken Taiyou (Japan) (TJDJ)\n
+JRA PAT - Wide Baken Taiyou (Japan) (TJEJ)\n
+JRA PAT (Japan) (TJAJ)\n
+JRA PAT (Japan) (TJBJ)\n
+Judge Dredd (Europe)\n
+Judge Dredd (Japan)\n
+Judge Dredd (USA)\n
+Judge Dredd (USA) (Sample)\n
+Jumbo Ozaki no Hole in One (Japan)\n
+Jumpin' Derby (Japan)\n
+Jungle Book, The (Europe)\n
+Jungle Book, The (Japan)\n
+Jungle Book, The (USA)\n
+Jungle Book, The (USA) (Beta)\n
+Jungle no Ouja Taa-chan - Sekaimanyuu Daikakutou no Maki (Japan)\n
+Jungle Strike (Europe)\n
+Jungle Strike (Japan)\n
+Jungle Strike (USA)\n
+Jungle Wars 2 - Kodai Mahou Ateimos no Nazo (Japan)\n
+Jurassic Park (Europe)\n
+Jurassic Park (Europe) (Beta)\n
+Jurassic Park (France)\n
+Jurassic Park (Germany)\n
+Jurassic Park (Italy)\n
+Jurassic Park (Japan)\n
+Jurassic Park (Spain)\n
+Jurassic Park (USA)\n
+Jurassic Park (USA) (Rev A)\n
+Jurassic Park II - The Chaos Continues (Europe) (En,Fr,De,It)\n
+Jurassic Park II - The Chaos Continues (USA) (En,Fr,De,It)\n
+Jurassic Park II - The Chaos Continues (USA) (En,Fr,De,It) (Beta)\n
+Justice League Task Force (Europe)\n
+Justice League Task Force (Japan)\n
+Justice League Task Force (USA)\n
+Justice League Task Force (USA) (Beta)\n
+Jutei Senki (Japan)\n
+Jutei Senki (Japan) [En by Aeon Genesis v1.0]\n
+JWP Joshi Pro Wrestling - Pure Wrestle Queens (Japan)\n
+K.H. Rummenigge's Player Manager (Germany)\n
+K.H. Rummenigge's Player Manager (Germany) (Sample)\n
+Kablooey (USA)\n
+Kabuki Chou Reach Mahjong Tonpuusen (Japan)\n
+Kabuki Rocks (Japan)\n
+Kachou Shima Kousaku (Japan)\n
+Kagakusha Harley no Haran Banjou (Japan)\n
+Kaite Tsukutte Asoberu Dezaemon (Japan)\n
+Kaite Tsukutte Asoberu Dezaemon (Japan) [En by Aeon Genesis v1.0]\n
+Kakinoki Shougi for Super Famicom (Japan)\n
+Kamaitachi no Yoru (Japan)\n
+Kamen Rider (Japan)\n
+Kamen Rider SD - Shutsugeki!! Rider Machine (Japan)\n
+Karura Ou (Japan)\n
+Kashiwagi Shigetaka no Top Water Bassing (Japan)\n
+Kat's Run - Zen-Nihon K-Car Senshuken (Japan)\n
+Katou Hifumi Kudan - Shougi Club (Japan)\n
+Kawa no Nushi Tsuri 2 (Japan)\n
+Kawasaki Caribbean Challenge (USA)\n
+Kawasaki Superbike Challenge (Europe)\n
+Kawasaki Superbike Challenge (USA)\n
+Keeper (Japan)\n
+Keiba Eight Special (Japan)\n
+Keiba Eight Special (Japan) (Rev A)\n
+Keiba Eight Special 2 (Japan)\n
+Ken Griffey Jr. Presents Major League Baseball (USA)\n
+Ken Griffey Jr.'s Winning Run (USA)\n
+Kendo Rage (USA)\n
+Kentou Ou World Champion (Japan)\n
+Kenyuu Densetsu Yaiba (Japan)\n
+Kero Kero Keroppi no Bouken Nikki - Nemureru Mori no Keroriinu (Japan)\n
+Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi (Japan)\n
+Kevin Keegan's Player Manager (Europe)\n
+Kick Off (Europe)\n
+Kick Off 3 - European Challenge (Europe) (Beta)\n
+Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It)\n
+Kid Klown in Crazy Chase (Europe)\n
+Kid Klown in Crazy Chase (USA)\n
+Kid Klown no Crazy Chase (Japan)\n
+Kidou Butouden G Gundam (Japan) [En by Aeon Genesis v1.0] (~Mobile Fighter G Gundam)\n
+Kidou Butouden G-Gundam (Japan)\n
+Kidou Senshi Gundam - Cross Dimension 0079 (Japan)\n
+Kidou Senshi Gundam - Cross Dimension 0079 (Japan) [En by Aeon Genesis v1.0] (~Mobile Suit Gundam - Cross Dimension 0079)\n
+Kidou Senshi Gundam F91 - Formula Senki 0122 (Japan)\n
+Kidou Senshi V Gundam (Japan) [En by Twilight v1.0] (~Mobile Suit V Gundam)\n
+Kidou Senshi V-Gundam (Japan)\n
+Kidou Senshi Z-Gundam - Away to the Newtype (Japan)\n
+Kidou Soukou Dion (Japan)\n
+Kidoukeisatsu Patlabor (Japan)\n
+Kigurumi Daibouken - Dream Maze (Japan)\n
+Kiki Kaikai - Nazo no Kuro Manteau (Japan)\n
+Kiki Kaikai - Tsukiyo Soushi (Japan)\n
+Kikou Keisatsu Metal Jack (Japan)\n
+Kikuni Masahiko no Jantoushi Doraou (Japan)\n
+Kikuni Masahiko no Jantoushi Doraou 2 - Kigyou Senshi (Japan)\n
+Killer Instinct (Europe)\n
+Killer Instinct (USA)\n
+Killer Instinct (USA) (Beta)\n
+Killer Instinct (USA) (Rev A)\n
+Kindai Mahjong Special (Japan)\n
+King Arthur & The Knights of Justice (USA)\n
+King Arthur's World (Europe)\n
+King Arthur's World (USA)\n
+King Arthur's World (USA) (Beta)\n
+King of Dragons, The (Europe)\n
+King of Dragons, The (Japan)\n
+King of Dragons, The (USA)\n
+King of Rally, The (Japan)\n
+King of the Monsters (Europe)\n
+King of the Monsters (Japan)\n
+King of the Monsters (USA)\n
+King of the Monsters 2 - The Next Thing (Japan)\n
+King of the Monsters 2 (USA)\n
+Kingyo Chuuihou! Tobidase! Game Gakuen (Japan)\n
+Kinnikuman - Dirty Challenger (Japan)\n
+Kirby Bowl (Japan)\n
+Kirby no Kirakira Kids (Japan)\n
+Kirby Super Star (USA)\n
+Kirby's Avalanche (USA)\n
+Kirby's Dream Course (Europe)\n
+Kirby's Dream Course (USA)\n
+Kirby's Dream Land 3 (USA)\n
+Kirby's Fun Pak (Europe)\n
+Kirby's Ghost Trap (Europe)\n
+Kishin Douji Zenki - Battle Raiden (Japan)\n
+Kishin Douji Zenki - Denei Raibu (Japan)\n
+Kishin Douji Zenki - Tenchi Meidou (Japan)\n
+Kishin Kourinden Oni (Japan)\n
+Kishin Kourinden Oni (Japan) (Beta)\n
+Kiteretsu Daihyakka - Choujikuu Sugoroku (Japan)\n
+Knights of the Round (Europe)\n
+Knights of the Round (Japan)\n
+Knights of the Round (USA)\n
+Konpeki no Kantai (Japan)\n
+Kouryaku Casino Bar (Japan)\n
+Kouryuu Densetsu Villgust - Kieta Shoujo (Japan)\n
+Kouryuu Densetsu Villgust - Kieta Shoujo (Japan) [En by Magic Destiny v1.0]\n
+Kouryuu no Mimi (Japan)\n
+Kouryuu no Mimi (Japan) [En by RPGOne v1.0]\n
+Kouryuuki (Japan)\n
+Koushien 2 (Japan)\n
+Koushien 3 (Japan)\n
+Koushien 4 (Japan)\n
+Kousoku Shikou - Shougi Ou (Japan)\n
+Koutetsu no Kishi (Japan)\n
+Koutetsu no Kishi 2 - Sabaku no Rommel Gundan (Japan)\n
+Koutetsu no Kishi 3 - Gekitotsu Europe Sensen (Japan)\n
+Krusty's Super Fun House (Europe)\n
+Krusty's Super Fun House (Europe) (Rev A)\n
+Krusty's Super Fun House (USA)\n
+Krusty's Super Fun House (USA) (Rev A)\n
+Krusty's World (Japan)\n
+Kunio no Oden (Japan)\n
+Kunio-kun no Dodge Ball dayo Zenin Shuugou! - Tournament Special (Japan)\n
+Kunio-kun no Dodge Ball dayo Zenin Shuugou! (Japan)\n
+Kunio-kun no Dodge Ball dayo Zenin Shuugou! (Japan) [En by Azelistic v1.0] (~Kunio's Dodge Ball)\n
+Kuusou Kagaku Sekai Gulliver Boy (Japan)\n
+Kuusou Kagaku Sekai Gulliver Boy (Japan) [En by Stealth v0.99]\n
+Kyle Petty's No Fear Racing (USA)\n
+Kyuuyaku Megami Tensei (Japan)\n
+Lady Stalker - Kako Kara no Chousen (Japan)\n
+Lagoon (Europe)\n
+Lagoon (Germany)\n
+Lagoon (Japan)\n
+Lagoon (USA)\n
+Lamborghini - American Challenge (Europe)\n
+Lamborghini - American Challenge (USA)\n
+Langrisser, Der (Japan)\n
+Langrisser, Der (Japan) (Rev 1) [En by Byuu+D v1.02]\n
+Langrisser, Der (Japan) (Rev A)\n
+Laplace no Ma (Japan)\n
+Laplace no Ma (Japan) [En by Aeon Genesis v0.95B] (~Laplace's Demon)\n
+Larry Nixon's Super Bass Fishing (Japan)\n
+Las Vegas Dream in Golden Paradise (Japan)\n
+Last Action Hero (Europe)\n
+Last Action Hero (USA)\n
+Last Battle, The (Japan)\n
+Last Bible III (Japan)\n
+Lawnmower Man, The (Europe)\n
+Lawnmower Man, The (USA)\n
+Lawnmower Man, The (USA) (Beta)\n
+Leading Company (Japan)\n
+Leading Jockey (Japan)\n
+Leading Jockey 2 (Japan)\n
+Legend (Europe)\n
+Legend (USA)\n
+Legend (USA) (Beta)\n
+Legend of the Mystical Ninja, The (Europe)\n
+Legend of the Mystical Ninja, The (Germany)\n
+Legend of the Mystical Ninja, The (USA)\n
+Legend of Zelda, The - A Link to the Past (Canada)\n
+Legend of Zelda, The - A Link to the Past (Europe)\n
+Legend of Zelda, The - A Link to the Past (France)\n
+Legend of Zelda, The - A Link to the Past (Germany)\n
+Legend of Zelda, The - A Link to the Past (USA)\n
+Legend of Zelda, The - A Link to the Past (USA) [Hack by Euclid+SePH v1.0] (~Legend of Zelda, The - Parallel Worlds)\n
+Legend of Zelda, The - A Link to the Past (USA) [Hack by Jamesbrad277 v0.90] (Master Quest)\n
+Legend of Zelda, The - A Link to the Past (USA) [Hack by JaSp v2.0] (Time+Day-Night Cycle)\n
+Legend of Zelda, The - A Link to the Past (USA) [Hack by Moulinoski v1.2] (Master Quest)\n
+Lemmings (Europe)\n
+Lemmings (Japan)\n
+Lemmings (USA)\n
+Lemmings (USA) (Rev A)\n
+Lemmings 2 - The Tribes (Europe)\n
+Lemmings 2 - The Tribes (Japan)\n
+Lemmings 2 - The Tribes (USA)\n
+Lennus - Kodai Kikai no Kioku (Japan)\n
+Lennus II - Fuuin no Shito (Japan)\n
+Lennus II - Fuuin no Shito (Japan) [En by Magic Destiny+Stealth v1.04] (~Lennus II - The Apostles of the Seals)\n
+Lester the Unlikely (USA)\n
+Lethal Enforcers (Europe)\n
+Lethal Enforcers (Japan)\n
+Lethal Enforcers (USA)\n
+Lethal Weapon (Europe)\n
+Lethal Weapon (USA)\n
+Libble Rabble (Japan)\n
+Liberty or Death (USA)\n
+Light Fantasy (Japan)\n
+Light Fantasy II (Japan)\n
+Lion King, The (Europe)\n
+Lion King, The (Japan)\n
+Lion King, The (USA)\n
+Little Magic (Europe) (Proto)\n
+Little Magic (Japan)\n
+Little Magic (Japan) (Beta)\n
+Little Magic (Japan) [En by Aeon Genesis v1.00B]\n
+Little Master - Nijiiro no Maseki (Japan)\n
+Little Master - Nijiiro no Maseki (Japan) [En by SSTrans v0.50Beta] (~Little Master III - Jewels of the Rainbow) (Incomplete)\n
+Live A Live (Japan)\n
+Live A Live (Japan) [En by Aeon Genesis v2.0Deluxe]\n
+Lock On (USA)\n
+Lode Runner Twin - Justy to Liberty no Daibouken (Japan)\n
+Lodoss-tou Senki (Japan)\n
+Lodoss-tou Senki (Japan) [En by LNF v0.90] (~Record of Lodoss War) (Incomplete)\n
+Logos Panic Goaisatsu (Japan)\n
+Looney Tunes B-Ball (USA)\n
+Looney Tunes Basketball (Europe)\n
+Lord Monarch (Japan)\n
+Lost Vikings II, The (Europe) (En,Fr,De)\n
+Lost Vikings II, The (USA)\n
+Lost Vikings, The (Europe)\n
+Lost Vikings, The (France) (En,Fr)\n
+Lost Vikings, The (Germany)\n
+Lost Vikings, The (Spain)\n
+Lost Vikings, The (USA)\n
+Lost Vikings, The (USA) (Beta)\n
+Lothar Matthaus Super Soccer (Germany)\n
+Love Quest (Japan)\n
+Lucky Luke (Europe) (En,Fr,De,Es)\n
+Lufia (Europe)\n
+Lufia (Germany)\n
+Lufia (Netherlands)\n
+Lufia (Spain)\n
+Lufia & The Fortress of Doom (USA)\n
+Lufia & The Fortress of Doom (USA) [Hack by D v1.0] (Uncensored Edition)\n
+Lufia II - Rise of the Sinistrals (USA)\n
+Lufia II - Rise of the Sinistrals (USA) [Hack by Relnqshd v1.0Beta] (Fixxxer Deluxe)\n
+Lupin Sansei - Densetsu no Hihou o Oe! (Japan)\n
+M.A.C.S. Basic Rifle Marksmanship (USA) [b]\n
+Madden NFL '94 (Europe)\n
+Madden NFL '94 (USA)\n
+Madden NFL '95 (Europe)\n
+Madden NFL '95 (USA)\n
+Madden NFL '96 (USA)\n
+Madden NFL '96 (USA) (Sample)\n
+Madden NFL '97 (USA)\n
+Madden NFL '98 (USA)\n
+Madou Monogatari - Hanamaru Daiyouchienji (Japan)\n
+Madou Monogatari - Hanamaru Daiyouchienji (Japan) [En by Aeon Genesis v1.01] (~Madou Monogatari - Big Kindergarten Kids)\n
+Maerchen Adventure Cotton 100% (Japan)\n
+Magic Boy (Europe)\n
+Magic Boy (Europe) (Beta)\n
+Magic Boy (USA)\n
+Magic Johnson no Super Slam Dunk (Japan)\n
+Magic Knight Rayearth (Japan)\n
+Magic Knight Rayearth (Japan) [En by LNF+RPGe v1.01]\n
+Magic Sword (Europe)\n
+Magic Sword (Japan)\n
+Magic Sword (USA)\n
+Magical Drop (Japan)\n
+Magical Drop (Japan) [En by Aeon Genesis v0.95]\n
+Magical Drop 2 (Japan)\n
+Magical Pop'n (Japan)\n
+Magical Pop'n (Japan) [En by Aeon Genesis v1.01]\n
+Magical Quest Starring Mickey Mouse, The (Europe)\n
+Magical Quest Starring Mickey Mouse, The (Europe) (Rev A)\n
+Magical Quest Starring Mickey Mouse, The (Germany)\n
+Magical Quest Starring Mickey Mouse, The (Germany) (Rev A)\n
+Magical Quest Starring Mickey Mouse, The (Italy)\n
+Magical Quest Starring Mickey Mouse, The (USA)\n
+Magical Quest Starring Mickey Mouse, The (USA) (Beta)\n
+Magical Taruruuto-kun - Magic Adventure (Japan)\n
+Magna Braban - Henreki no Yuusha (Japan)\n
+Magna Braban - Henreki no Yuusha (Japan) [En by KingMike v1.0] (~Magna Braban - The Wandering Hero)\n
+Mahjong Club (Japan)\n
+Mahjong Gokuu Tenjiku (Japan)\n
+Mahjong Hanjouki (Japan)\n
+Mahjong Sengoku Monogatari (Japan)\n
+Mahjong Taikai II (Japan)\n
+Mahjong Touhaiden, The (Japan)\n
+Mahou Poi Poi Poitto! (Japan)\n
+Mahoujin Guruguru (Japan)\n
+Mahoujin Guruguru 2 (Japan)\n
+Majin Tensei (Japan)\n
+Majin Tensei (Japan) (Rev A)\n
+Majin Tensei (Japan) (Rev B)\n
+Majin Tensei II - Spiral Nemesis (Japan)\n
+Majo-tachi no Nemuri (Japan)\n
+Majuu Ou (Japan)\n
+Majuu Ou (Japan) [En by Aeon Genesis v1.01] (~King of Demons)\n
+Maka Maka (Japan)\n
+Makeruna! Makendou (Japan)\n
+Makeruna! Makendou 2 - Kimero! Youkai Souridaijin (Japan)\n
+Manchester United Championship Soccer (Europe)\n
+Manchester United Championship Soccer (Europe) (Beta)\n
+Mario & Wario (Japan)\n
+Mario is Missing! (Europe)\n
+Mario is Missing! (France)\n
+Mario is Missing! (Germany)\n
+Mario is Missing! (USA)\n
+Mario no Super Picross (Japan)\n
+Mario Paint (Europe)\n
+Mario Paint (Japan, USA)\n
+Mario's Early Years! - Fun with Letters (USA)\n
+Mario's Early Years! - Fun with Numbers (USA)\n
+Mario's Early Years! - Preschool Fun (USA)\n
+Mario's Time Machine (Europe)\n
+Mario's Time Machine (Germany)\n
+Mario's Time Machine (USA)\n
+Mark Davis' The Fishing Master (USA)\n
+Marko's Magic Football (Europe) (En,Fr,De,Es)\n
+Marmalade Boy (Japan)\n
+Marvel Super Heroes - War of the Gems (Europe)\n
+Marvel Super Heroes - War of the Gems (Japan)\n
+Marvel Super Heroes - War of the Gems (USA)\n
+Marvel Super Heroes - War of the Gems (USA) (Beta)\n
+Marvelous - Mouhitotsu no Takarajima (Japan)\n
+Marvelous - Mouhitotsu no Takarajima (Japan) (English Translation)\n
+Mary Shelley's Frankenstein (USA)\n
+Mary Shelley's Frankenstein (USA) (Beta)\n
+Mask, The (Europe)\n
+Mask, The (Japan)\n
+Mask, The (USA)\n
+Mask, The (USA) (Beta)\n
+Maten Densetsu - Senritsu no Ooparts (Japan)\n
+Math Blaster - Episode One (USA)\n
+Matsukata Hiroki no Super Trolling (Japan)\n
+Matsumura Kuni Hiroden - Saikyou no Rekishi o Nurikaero! (Japan)\n
+Maui Mallard in Cold Shadow (USA)\n
+Mazinger Z (Japan) [3D7F]\n
+Mazinger Z (Japan) [7144]\n
+Mecarobot Golf (USA)\n
+Mechwarrior (Europe)\n
+Mechwarrior (France)\n
+Mechwarrior (Germany)\n
+Mechwarrior (Spain)\n
+Mechwarrior (USA)\n
+Mechwarrior 3050 (Europe)\n
+Mechwarrior 3050 (USA)\n
+Mega lo Mania - Jikuu Daisenryaku (Japan)\n
+Mega lo Mania (Europe) (En,Fr,De)\n
+Mega lo Mania (Europe) (En,Fr,De) (Beta)\n
+Megaman VII (Europe)\n
+Megaman VII (USA)\n
+Megaman X (Europe)\n
+Megaman X (USA)\n
+Megaman X (USA) (Rev A)\n
+Megaman X2 (Europe)\n
+Megaman X2 (USA)\n
+Megaman X3 (Europe)\n
+Megaman X3 (USA)\n
+Megaman's Soccer (USA)\n
+Melfand Stories (Japan)\n
+Metal Combat - Falcon's Revenge (Europe)\n
+Metal Combat - Falcon's Revenge (USA)\n
+Metal Marines (Europe)\n
+Metal Marines (USA)\n
+Metal Max 2 (Japan)\n
+Metal Max Returns (Japan)\n
+Metal Max Returns (Japan) [En by Aeon Genesis v1.0]\n
+Metal Morph (USA)\n
+Metal Slader Glory - Director's Cut (Japan) (NP)\n
+Metal Warriors (USA)\n
+Michael Andretti's IndyCar Challenge (Japan)\n
+Michael Andretti's IndyCar Challenge (USA)\n
+Michael Jordan - Chaos in the Windy City (Europe)\n
+Michael Jordan - Chaos in the Windy City (USA)\n
+Mick & Mack as the Global Gladiators (USA) (Proto) [1829]\n
+Mick & Mack as the Global Gladiators (USA) (Proto) [71AB]\n
+Mickey Mania - The Timeless Adventures of Mickey Mouse (Europe)\n
+Mickey Mania - The Timeless Adventures of Mickey Mouse (Japan)\n
+Mickey Mania - The Timeless Adventures of Mickey Mouse (USA)\n
+Mickey no Magical Adventure (Japan)\n
+Mickey no Magical Adventure (Japan) (Rev A)\n
+Mickey no Tokyo Disneyland Daibouken (Japan)\n
+Mickey to Donald - Magical Adventure 3 (Japan)\n
+Mickey to Donald - Magical Adventure 3 (Japan) [En by RPGOne v1.1] (~Mickey & Donald - Magical Adventure 3)\n
+Mickey to Minnie - Magical Adventure 2 (Japan)\n
+Mickey's Playtown Adventure - A Day of Discovery! (USA) (Proto)\n
+Mickey's Ultimate Challenge (USA)\n
+Micro Machines (Europe)\n
+Micro Machines (USA)\n
+Micro Machines 2 - Turbo Tournament (Europe)\n
+Might and Magic - Book Two (Japan)\n
+Might and Magic II - Gates to Another World (Europe)\n
+Might and Magic II - Gates to Another World (Germany)\n
+Might and Magic III - Isles of Terra (USA)\n
+Might and Magic III - Isles of Terra (USA) (Beta)\n
+Mighty Max (Europe)\n
+Mighty Max (USA)\n
+Mighty Max (USA) (Beta)\n
+Mighty Morphin Power Rangers - The Fighting Edition (Europe)\n
+Mighty Morphin Power Rangers - The Fighting Edition (USA)\n
+Mighty Morphin Power Rangers - The Movie (Europe)\n
+Mighty Morphin Power Rangers - The Movie (USA)\n
+Mighty Morphin Power Rangers (Europe)\n
+Mighty Morphin Power Rangers (Japan)\n
+Mighty Morphin Power Rangers (USA)\n
+Milandra (Japan)\n
+Militia (Japan)\n
+Mini Yonku Let's & Go!! - Power WGP 2 (Japan)\n
+Mini Yonku Shining Scorpion - Let's & Go!! (Japan)\n
+Miracle Casino Paradise (Japan)\n
+Miracle Girls (Japan)\n
+Miracle Girls (Japan) [En by RPGOne v1.0]\n
+Miracle Piano Teaching System, The (USA)\n
+Miyaji Shachou no Pachinko Fan - Shouri Sengen 2 (Japan)\n
+Mizuki Shigeru no Youkai Hyakkiyakou (Japan)\n
+MLBPA Baseball (USA)\n
+Mohawk & Headphone Jack (Europe)\n
+Mohawk & Headphone Jack (USA)\n
+Momotarou Dentetsu Happy (Japan)\n
+Monopoly (Japan)\n
+Monopoly (USA)\n
+Monopoly (USA) (Rev A)\n
+Monopoly Game 2, The (Japan)\n
+Monstania (Japan)\n
+Monstania (Japan) [En by Aeon Genesis v1.03]\n
+Monster Maker III - Hikari no Majutsushi (Japan)\n
+Monster Maker Kids - Ousama ni Naritai (Japan)\n
+Mortal Kombat - Shinken Kourin Densetsu (Japan)\n
+Mortal Kombat (Europe)\n
+Mortal Kombat (Europe) (Beta)\n
+Mortal Kombat (Europe) (Rev A)\n
+Mortal Kombat (USA)\n
+Mortal Kombat 3 (Europe)\n
+Mortal Kombat 3 (Europe) (Beta)\n
+Mortal Kombat 3 (USA)\n
+Mortal Kombat 3 (USA) (Beta)\n
+Mortal Kombat II - Kyuukyoku Shinken (Japan)\n
+Mortal Kombat II (Europe)\n
+Mortal Kombat II (Europe) (Rev A)\n
+Mortal Kombat II (USA)\n
+Mortal Kombat II (USA) (Rev A)\n
+Mother 2 - Gyiyg no Gyakushuu (Japan)\n
+Motoko-chan no Wonder Kitchen (Japan)\n
+Motteke Oh! Dorobou (Japan)\n
+Mountain Bike Rally (USA)\n
+Mouryou Senki Madara 2 (Japan)\n
+Mr Nutz (Europe) (En,Fr)\n
+Mr Nutz (Japan)\n
+Mr Nutz (USA) (En,Fr)\n
+Mr Nutz (USA) (En,Fr) (Beta)\n
+Mr. Do! (Europe)\n
+Mr. Do! (Japan)\n
+Mr. Do! (USA)\n
+Mr. Tuff (Europe) (En,Fr,De,Es,It) (Proto) (1994-12-05)\n
+Mr. Tuff (USA) (En,Fr,De) (Proto) (1994-07-12)\n
+Ms. Pac-Man (Europe)\n
+Ms. Pac-Man (USA)\n
+Muhammad Ali Heavyweight Boxing (USA) (Proto)\n
+Mujintou Monogatari (Japan)\n
+Multi Play Volleyball (Japan)\n
+Muscle Bomber - The Body Explosion (Japan)\n
+Musya (USA)\n
+Mystery Circle (Japan)\n
+Mystic Ark (Japan)\n
+Mystic Ark (Japan) [En by Aeon Genesis v1.01]\n
+Mystic Ark (Japan) [En by Dynamic Designs v1.0]\n
+Mystic Quest Legend (Europe)\n
+Mystic Quest Legend (France)\n
+Mystic Quest Legend (Germany)\n
+Nage Libre - Seijaku no Suishin (Japan)\n
+Nakajima Satoru Kanshuu F-1 Hero '94 (Japan)\n
+Nakano Kouichi Kanshuu - Keirin Ou (Japan)\n
+Naki no Ryuu - Mahjong Hishouden (Japan)\n
+Namcot Open (Japan)\n
+Nangoku Shounen Papuwa-kun (Japan)\n
+Nangoku Shounen Papuwa-kun (Japan) [En by FH v1.0Beta] (Incomplete)\n
+Naruhodo! The World (Japan)\n
+Natsuki Crisis Battle (Japan)\n
+Natsume Championship Wrestling (USA)\n
+NBA All-Star Challenge (Europe)\n
+NBA All-Star Challenge (Japan)\n
+NBA All-Star Challenge (USA)\n
+NBA Give 'n Go (Europe)\n
+NBA Give 'n Go (USA)\n
+NBA Hang Time (Europe)\n
+NBA Hang Time (USA)\n
+NBA Jam - Tournament Edition (Europe)\n
+NBA Jam - Tournament Edition (Japan)\n
+NBA Jam - Tournament Edition (USA)\n
+NBA Jam - Tournament Edition (USA) (Beta)\n
+NBA Jam (Europe)\n
+NBA Jam (Europe) (Rev A)\n
+NBA Jam (Japan)\n
+NBA Jam (USA)\n
+NBA Jam (USA) (Rev A)\n
+NBA Jikkyou Basket Winning Dunk (Japan)\n
+NBA Live '95 (Europe)\n
+NBA Live '95 (Japan) (Rev 0A)\n
+NBA Live '95 (USA)\n
+NBA Live '96 (Europe)\n
+NBA Live '96 (USA)\n
+NBA Live '97 (Europe)\n
+NBA Live '97 (USA)\n
+NBA Live '98 (USA)\n
+NBA Pro Basketball - Bulls vs Blazers (Japan)\n
+NBA Pro Basketball '94 - Bulls vs Suns (Japan)\n
+NBA Showdown (USA)\n
+NBA Showdown (USA) (Beta)\n
+NCAA Basketball (USA)\n
+NCAA Basketball (USA) (Beta)\n
+NCAA Basketball (USA) (Rev A)\n
+NCAA Final Four Basketball (USA)\n
+NCAA Football (USA)\n
+Nekketsu Tairiku Burning Heroes (Japan)\n
+Network Q Rally (USA) (Proto)\n
+Neugier - Umi to Kaze no Kodou (Japan)\n
+Neugier - Umi to Kaze no Kodou (Japan) [En by Haeleth v2.0]\n
+New Yatterman - Nandai Kandai Yajirobee (Japan)\n
+Newman-Haas IndyCar Racing featuring Nigel Mansell (Europe)\n
+Newman-Haas IndyCar Racing featuring Nigel Mansell (Japan)\n
+Newman-Haas IndyCar Racing featuring Nigel Mansell (USA)\n
+NFL Football (Europe)\n
+NFL Football (Europe) (Proto)\n
+NFL Football (Japan)\n
+NFL Football (USA)\n
+NFL Pro Football '94 (Japan)\n
+NFL Quarterback Club '96 (Europe)\n
+NFL Quarterback Club '96 (Japan)\n
+NFL Quarterback Club '96 (USA)\n
+NFL Quarterback Club '96 (USA) (Beta)\n
+NFL Quarterback Club (Europe)\n
+NFL Quarterback Club (Japan)\n
+NFL Quarterback Club (USA)\n
+NFL Quarterback Club (USA) (Beta)\n
+NHL '94 (Europe)\n
+NHL '94 (USA)\n
+NHL '94 (USA) (Beta)\n
+NHL '95 (Europe)\n
+NHL '95 (USA)\n
+NHL '96 (Europe)\n
+NHL '96 (USA)\n
+NHL '97 (Europe)\n
+NHL '97 (Europe) (Rev A)\n
+NHL '97 (USA)\n
+NHL '97 (USA) (Beta)\n
+NHL '98 (USA)\n
+NHL Pro Hockey '94 (Japan)\n
+NHL Stanley Cup (USA) (En,Fr)\n
+NHLPA Hockey '93 (Europe)\n
+NHLPA Hockey '93 (USA)\n
+Nice de Shot (Japan)\n
+Nichibutsu Arcade Classics (Japan)\n
+Nichibutsu Arcade Classics 2 - Heiankyou Alien (Japan)\n
+Nichibutsu Collection 1 (Japan)\n
+Nichibutsu Collection 2 (Japan)\n
+Nickelodeon GUTS (USA)\n
+Nigel Mansell F-1 Challenge (Japan)\n
+Nigel Mansell's World Championship (Europe) (Gremlins License)\n
+Nigel Mansell's World Championship Racing (Europe)\n
+Nigel Mansell's World Championship Racing (Europe) (Rev A)\n
+Nigel Mansell's World Championship Racing (USA)\n
+Nightmare Busters (World) (Unl)\n
+Ninja Gaiden Trilogy (USA)\n
+Ninja Ryuukenden Tomoe (Japan)\n
+Ninjawarriors Again, The (Japan)\n
+Ninjawarriors, The (Europe)\n
+Ninjawarriors, The (USA)\n
+Nintama Rantarou - Ninjutsu Gakuen Puzzle Taikai no Dan (Japan)\n
+Nintama Rantarou (Japan)\n
+Nintama Rantarou 2 (Japan)\n
+Nintama Rantarou 3 (Japan)\n
+Nintama Rantarou Special (Japan)\n
+Nintendo Scope 6 (Europe)\n
+Nishijin Pachinko 3 (Japan)\n
+Nishijin Pachinko Monogatari (Japan)\n
+Nishijin Pachinko Monogatari 2 (Japan)\n
+Nitropunks - Might Heads (Japan)\n
+No Escape (USA)\n
+Nobunaga no Yabou - Haouden (Japan)\n
+Nobunaga no Yabou - Haouden (Japan) (Rev A)\n
+Nobunaga no Yabou - Tenshouki (Japan)\n
+Nobunaga's Ambition - Lord of Darkness (USA)\n
+Nobunaga's Ambition (USA)\n
+Nolan Ryan's Baseball (USA)\n
+Nomark Baku Haitou - Shijou Saikyou no Janshi-tachi (Japan)\n
+Nontan to Issho - Kurukuru Puzzle (Japan)\n
+Nosferatu (Japan)\n
+Nosferatu (USA)\n
+Numbers Paradise (Japan)\n
+O-chan no Oekaki Logic (Japan)\n
+Obitus (USA)\n
+Oda Nobunaga - Haou no Gundan (Japan)\n
+Odekake Lester - Lelele no Le (Japan)\n
+Oekaki Logic (Japan) (NP)\n
+Oekaki Logic 2 (Japan) (NP)\n
+Ogre Battle - The March of the Black Queen (USA)\n
+Okamoto Ayako to Match Play Golf - Ko Olina Golf Club in Hawaii (Japan)\n
+Olivia's Mystery (Japan)\n
+Olympic Summer Games (Europe)\n
+Olympic Summer Games (USA)\n
+On the Ball (Europe)\n
+On the Ball (USA)\n
+Ongaku Tsukuru Kanaderu (Japan)\n
+Onizuka Katsuya Super Virtual Boxing - Shin Kentou Ou Densetsu (Japan)\n
+Oomono Black Bass Fishing - Jinzouko Hen (Japan)\n
+Oonita Atsushi FMW - Kagekara no Chousen (Japan)\n
+Oonita Atsushi FMW - Kagekara no Chousen (Japan) (Beta)\n
+Oozumou Damashii (Japan)\n
+Operation Europe - Path to Victory 1939-45 (USA)\n
+Operation Logic Bomb (Europe)\n
+Operation Logic Bomb (USA)\n
+Operation Thunderbolt (USA)\n
+Oraga Land Shusai - Best Farmer Shuukakusai (Japan)\n
+Oraga Land Shusai - Best Farmer Shuukakusai (Japan) (Sample)\n
+Oscar (Europe)\n
+Oscar (USA)\n
+Ossu!! Karate-bu (Japan)\n
+Othello World (Japan)\n
+Otoboke Ninja Colosseum (Japan)\n
+Otogirisou (Japan)\n
+Out of This World (USA)\n
+Out of This World (USA) (Beta)\n
+Out to Lunch (Europe)\n
+Out to Lunch (USA)\n
+Outer World (Japan)\n
+Outlander (Europe)\n
+Outlander (USA)\n
+P-Man (Japan)\n
+Pac-Attack (Europe)\n
+Pac-Attack (USA)\n
+Pac-in-Time (Europe)\n
+Pac-in-Time (Europe) (Beta)\n
+Pac-in-Time (Japan)\n
+Pac-in-Time (USA)\n
+Pac-Man 2 - The New Adventures (Europe)\n
+Pac-Man 2 - The New Adventures (France)\n
+Pac-Man 2 - The New Adventures (Germany)\n
+Pac-Man 2 - The New Adventures (USA)\n
+Pachi-Slot Gambler (Japan)\n
+Pachi-Slot Kanzen Kouryaku - Universal Shindai Nyuuka Volume 1 (Japan)\n
+Pachi-Slot Kenkyuu (Japan)\n
+Pachi-Slot Land - Pachipachi Coin no Densetsu (Japan)\n
+Pachi-Slot Love Story (Japan)\n
+Pachi-Slot Monogatari - PAL Kougyou Special (Japan)\n
+Pachi-Slot Monogatari - Universal Special (Japan)\n
+Pachinko Challenger (Japan)\n
+Pachinko Fan - Shouri Sengen (Japan)\n
+Pachinko Maruhi Hisshouhou (Japan)\n
+Pachinko Monogatari - Pachi-Slot mo Aru deyo!! (Japan)\n
+Pachinko Monogatari 2 - Nagoya Shachihoko no Teiou (Japan)\n
+Pachinko Ren-chan Tengoku - Super CR Special (Japan)\n
+Pachinko Tetsujin - Nanaban Shoubu (Japan)\n
+Pachinko Wars (Japan)\n
+Pachinko Wars II (Japan)\n
+Pachio-kun Special (Japan)\n
+Pachio-kun Special 2 (Japan)\n
+Pachio-kun Special 3 (Japan)\n
+Pacific Theater of Operations (USA)\n
+Pacific Theater of Operations II (USA)\n
+Packy & Marlon (USA) (En,Fr,Es)\n
+Pagemaster, The (Europe)\n
+Pagemaster, The (USA)\n
+Pagemaster, The (USA) (Beta)\n
+Paladin's Quest (USA)\n
+Panel de Pon (Japan)\n
+Panel de Pon (Japan) [En by Zuqkeo v1.0]\n
+Panic in Nakayoshi World (Japan)\n
+Panic in Nakayoshi World (Japan) [En by Project Sailor Moon v1.0]\n
+Paperboy 2 (Europe)\n
+Paperboy 2 (USA)\n
+Parame ROM Cassette Vol. 4 (Japan) (Unl)\n
+Parame ROM Cassette Vol. 5 (Japan) (Unl)\n
+Parlor! Mini - Pachinko Jikki Simulation Game (Japan)\n
+Parlor! Mini - Pachinko Jikki Simulation Game (Japan) (Rev A)\n
+Parlor! Mini 2 - Pachinko Jikki Simulation Game (Japan)\n
+Parlor! Mini 3 - Pachinko Jikki Simulation Game (Japan)\n
+Parlor! Mini 4 - Pachinko Jikki Simulation Game (Japan)\n
+Parlor! Mini 5 - Pachinko Jikki Simulation Game (Japan)\n
+Parlor! Mini 6 - Pachinko Jikki Simulation Game (Japan)\n
+Parlor! Mini 7 - Pachinko Jikki Simulation Game (Japan)\n
+Parlor! Parlor! (Japan)\n
+Parlor! Parlor! 2 (Japan)\n
+Parlor! Parlor! 3 (Japan)\n
+Parlor! Parlor! 5 (Japan)\n
+Parlor! Parlor! IV CR (Japan)\n
+Parodius - Non-Sense Fantasy (Europe)\n
+Parodius da! - Shinwa Kara Owarai e (Japan)\n
+Peace Keepers, The (USA)\n
+Pebble Beach Golf Links (Europe)\n
+Pebble Beach Golf Links (USA)\n
+Pebble Beach no Hatou (Japan)\n
+Pebble Beach no Hatou New - Tournament Edition (Japan)\n
+PGA European Tour (Europe)\n
+PGA European Tour (USA)\n
+PGA Tour '96 (Europe)\n
+PGA Tour '96 (USA)\n
+PGA Tour Golf (Europe)\n
+PGA Tour Golf (Japan)\n
+PGA Tour Golf (USA)\n
+Phalanx - The Enforce Fighter A-144 (Europe)\n
+Phalanx - The Enforce Fighter A-144 (Japan)\n
+Phalanx - The Enforce Fighter A-144 (USA)\n
+Phalanx - The Enforce Fighter A-144 (USA) (Beta)\n
+Phantom 2040 (Europe) (En,Fr,De)\n
+Phantom 2040 (USA)\n
+Phantom 2040 (USA) (Beta)\n
+Picachu (World) (Unl)\n
+Picross NP Vol. 1 (Japan) (NP)\n
+Picross NP Vol. 2 (Japan) (NP)\n
+Picross NP Vol. 2 (Japan) (Rev A) (NP)\n
+Picross NP Vol. 3 (Japan) (NP)\n
+Picross NP Vol. 4 (Japan) (NP)\n
+Picross NP Vol. 5 (Japan) (NP)\n
+Picross NP Vol. 6 (Japan) (NP)\n
+Picross NP Vol. 7 (Japan) (NP)\n
+Picross NP Vol. 8 (Japan) (NP)\n
+Pieces (USA)\n
+Pikiinya! (Japan)\n
+Pilotwings (Europe)\n
+Pilotwings (Japan)\n
+Pilotwings (USA)\n
+Pinball Dreams (Europe)\n
+Pinball Dreams (Europe) (Beta)\n
+Pinball Dreams (USA)\n
+Pinball Fantasies (Europe)\n
+Pinball Fantasies (USA)\n
+Pinball Pinball (Japan)\n
+Pink Panther in Pink Goes to Hollywood (Europe)\n
+Pink Panther in Pink Goes to Hollywood (Japan)\n
+Pink Panther in Pink Goes to Hollywood (USA)\n
+Pinocchio (Europe)\n
+Pinocchio (Japan)\n
+Pinocchio (USA)\n
+Pipe Dream (Japan)\n
+Pirates of Dark Water, The (Europe)\n
+Pirates of Dark Water, The (USA)\n
+Pirates of Dark Water, The (USA) (Beta)\n
+Pit-Fighter (Europe)\n
+Pit-Fighter (USA)\n
+Pitfall - Maya no Daibouken (Japan)\n
+Pitfall - The Mayan Adventure (Europe)\n
+Pitfall - The Mayan Adventure (USA)\n
+Pitfall - The Mayan Adventure (USA) (Beta)\n
+Planet's Champ TG 3000, The (Japan)\n
+Plok! (Europe)\n
+Plok! (France) (En,Fr)\n
+Plok! (Germany)\n
+Plok! (Japan)\n
+Plok! (USA)\n
+Pocky & Rocky (Europe)\n
+Pocky & Rocky (Europe) (Sample)\n
+Pocky & Rocky (USA)\n
+Pocky & Rocky 2 (Europe)\n
+Pocky & Rocky 2 (USA)\n
+Pocky & Rocky 2 (USA) (Beta)\n
+Poi Poi Ninja World (Japan) (ST)\n
+Pokemon Stadium (World) (Unl)\n
+Poko Nyan! - Henpokorin Adventure (Japan)\n
+Pop'n TwinBee - Rainbow Bell Adventures (Europe)\n
+Pop'n TwinBee - Rainbow Bell Adventures (Germany)\n
+Pop'n TwinBee (Europe)\n
+Pop'n TwinBee (Japan)\n
+Pop'n TwinBee (Japan) (Sample)\n
+Popeye - Ijiwaru Majo Sea Hag no Maki (Japan)\n
+Popeye - Ijiwaru Majo Sea Hag no Maki (Japan) [En by KingMike v1.0] (~Popeye - Tale of Teasing Witch Sea Hag)\n
+Popful Mail (Japan)\n
+Popoitto Hebereke (Japan)\n
+Populous (Europe)\n
+Populous (Japan)\n
+Populous (USA)\n
+Populous II - Trials of the Olympian Gods (Europe)\n
+Populous II - Trials of the Olympian Gods (Germany)\n
+Populous II - Trials of the Olympian Gods (Japan)\n
+Porky Pig's Haunted Holiday (Europe)\n
+Porky Pig's Haunted Holiday (USA)\n
+Porky Pig's Haunted Holiday (USA) (Beta)\n
+Power Athlete (Japan)\n
+Power Drive (Europe) (En,Fr,De,Es,Pt)\n
+Power Instinct (USA)\n
+Power Instinct (USA) (Beta)\n
+Power Lode Runner (Japan) (NP)\n
+Power Moves (USA)\n
+Power of the Hired (Japan)\n
+Power Piggs of the Dark Age (Europe)\n
+Power Piggs of the Dark Age (Europe) (Beta)\n
+Power Piggs of the Dark Age (USA)\n
+Power Rangers Zeo - Battle Racers (Europe)\n
+Power Rangers Zeo - Battle Racers (USA)\n
+Power Soukoban (Japan)\n
+PowerMonger - Mashou no Bouryaku (Japan)\n
+PowerMonger (Europe)\n
+Prehistorik Man (Europe) (En,Fr,De)\n
+Prehistorik Man (USA)\n
+Primal Rage (Europe)\n
+Primal Rage (USA)\n
+Primal Rage (USA) (Beta)\n
+Prime (USA) (Proto)\n
+Prince of Persia (Europe)\n
+Prince of Persia (Japan)\n
+Prince of Persia (USA)\n
+Prince of Persia 2 - The Shadow & The Flame (Europe)\n
+Prince of Persia 2 - The Shadow & The Flame (USA)\n
+Princess Maker - Legend of Another World (Japan)\n
+Princess Minerva (Japan)\n
+Pro Action Replay BIOS (Europe) (Unl)\n
+Pro Action Replay MK2 BIOS (Europe) (Unl)\n
+Pro Action Replay MK2 BIOS (Europe) (v1.1) (Unl)\n
+Pro Action Replay MK3 BIOS (Europe) (Unl)\n
+Pro Football '93 (Japan)\n
+Pro Football (Japan)\n
+Pro Kishi Jinsei Simulation - Shougi no Hanamichi (Japan)\n
+Pro Mahjong Kiwame (Japan)\n
+Pro Mahjong Kiwame II (Japan)\n
+Pro Mahjong Kiwame II (Japan) (Rev A)\n
+Pro Mahjong Kiwame III (Japan)\n
+Pro Mahjong Tsuwamono - Renka Ban (Japan)\n
+Pro Mahjong Tsuwamono (Japan)\n
+Pro Quarterback (USA)\n
+Pro Soccer (Japan)\n
+Pro Sport Hockey (USA)\n
+Pro Yakyuu Nettou Puzzle Stadium (Japan)\n
+Pro Yakyuu Nettou Puzzle Stadium (Japan) (Beta)\n
+Pro Yakyuu Star (Japan)\n
+Psycho Dream (Japan)\n
+Push-Over (Europe) (En,Fr,De,Es)\n
+Push-Over (USA)\n
+Push-Over (USA) (Beta)\n
+Putty Moon (Japan)\n
+Putty Squad (Europe)\n
+Puzzle Bobble - Bust-A-Move (Europe)\n
+Puzzle Bobble (Japan)\n
+Puzzle'n Desu! (Japan)\n
+Q-bert 3 (Japan)\n
+Q-bert 3 (USA)\n
+R-Type III - The Third Lightning (Europe)\n
+R-Type III - The Third Lightning (Europe) (Beta)\n
+R-Type III - The Third Lightning (Japan)\n
+R-Type III - The Third Lightning (USA)\n
+Race Drivin' (Europe)\n
+Race Drivin' (USA)\n
+Radical Dreamers - Nusume Nai Houseki (Japan) (BS) [En by Demiforce v1.2] [Fix by Radical R] (~Radical Dreamers - Le Tresor Interdit)\n
+Radical Dreamers - Nusume Nai Houseki (Japan) (BS) [En by Demiforce v1.4] (~Radical Dreamers - Le Tresor Interdit)\n
+Radical Psycho Machine Racing (Japan)\n
+Radical Psycho Machine Racing (USA)\n
+Radical Rex (Europe)\n
+Radical Rex (USA)\n
+Radical Rex (USA) (Beta)\n
+Raiden Densetsu (Japan)\n
+Raiden Trad (USA)\n
+Ramos Rui no World Wide Soccer (Japan)\n
+Rampart (USA)\n
+Ranma 1-2 - Akanekodan Teki Hihou (Japan)\n
+Ranma 1-2 - Akanekodan Teki Hihou (Japan) [En by Naruto+Ranma Team v0.99] (~Ranma 1-2 - Treasure of the Red Cat Gang) (Manga Version)\n
+Ranma 1-2 - Akanekodan Teki Hihou (Japan) [En by Naruto+Ranma Team v1.0] (~Ranma 1-2 - Treasure of the Red Cat Gang) (Anime Version)\n
+Ranma 1-2 - Bakuretsu Rantou Hen (Japan)\n
+Ranma 1-2 - Chougi Ranbu Hen (Japan)\n
+Ranma 1-2 - Chounai Gekitou Hen (Japan)\n
+Ranma 1-2 - Hard Battle (USA)\n
+Ranma 1-2 - Ougi Jaanken (Japan)\n
+Ranma 1-2 (Europe)\n
+Ranma 1-2 (France)\n
+Rap Basketball (USA) (Proto)\n
+Rap Jam - Volume One (USA) (En,Fr,Es)\n
+Realm (Europe)\n
+Realm (USA)\n
+Redline F-1 Racer (USA)\n
+Rejoice - Aretha Oukoku no Kanata (Japan)\n
+Relief Pitcher (USA)\n
+Relief Pitcher (USA) (Beta)\n
+Ren & Stimpy Show, The - Buckeroos! (USA)\n
+Ren & Stimpy Show, The - Fire Dogs (USA)\n
+Ren & Stimpy Show, The - Time Warp (Europe)\n
+Ren & Stimpy Show, The - Time Warp (USA)\n
+Ren & Stimpy Show, The - Veediots! (Europe)\n
+Ren & Stimpy Show, The - Veediots! (USA)\n
+Rendering Ranger R2 (Japan)\n
+Res Arcana - Diana Rei - Uranai no Meikyuu (Japan)\n
+Return of Double Dragon (Japan)\n
+Revolution X (Europe)\n
+Revolution X (Germany)\n
+Revolution X (Japan)\n
+Revolution X (USA)\n
+Rex Ronan - Experimental Surgeon (USA)\n
+RHI Roller Hockey '95 (USA) (Proto)\n
+Riddick Bowe Boxing (Japan)\n
+Riddick Bowe Boxing (USA)\n
+Rin Kaihou Kudan no Igo Taidou (Japan)\n
+Ring ni Kakero (Japan) (NP)\n
+Rise of the Phoenix (USA)\n
+Rise of the Robots (Europe)\n
+Rise of the Robots (Japan)\n
+Rise of the Robots (Japan) (Beta)\n
+Rise of the Robots (USA)\n
+Rival Turf (Europe)\n
+Rival Turf (USA)\n
+Riverse Kids (Japan) (Unl)\n
+Road Riot 4WD (Europe)\n
+Road Riot 4WD (USA)\n
+Road Riot 4WD (USA) (Beta)\n
+Road Runner (Europe)\n
+Road Runner (Europe) (Beta)\n
+Road Runner vs Wile E. Coyote (Japan)\n
+Road Runner's Death Valley Rally (USA)\n
+RoboCop 3 (Europe)\n
+RoboCop 3 (USA)\n
+RoboCop versus The Terminator (Europe)\n
+RoboCop versus The Terminator (USA)\n
+Robotrek (USA)\n
+Rock n' Roll Racing (Europe)\n
+Rock n' Roll Racing (Japan)\n
+Rock n' Roll Racing (USA)\n
+Rock n' Roll Racing (USA) (Beta)\n
+Rocketeer, The (Japan)\n
+Rocketeer, The (USA)\n
+Rockman & Forte (Japan)\n
+Rockman & Forte (Japan) [En by Aeon Genesis v1.0]\n
+Rockman & Forte (Japan) [En by Aeon Genesis v1.0] (~Mega Man & Bass)\n
+Rockman 7 - Shukumei no Taiketsu! (Japan)\n
+Rockman 7 - Shukumei no Taiketsu! (Japan) (Sample)\n
+Rockman X (Japan)\n
+Rockman X (Japan) (Rev A)\n
+Rockman X2 (Japan)\n
+Rockman X3 (Japan)\n
+Rockman's Soccer (Japan)\n
+Rocko's Modern Life - Spunky's Dangerous Day (USA)\n
+Rocky Rodent (Europe)\n
+Rocky Rodent (USA)\n
+Roger Clemens' MVP Baseball (Japan)\n
+Roger Clemens' MVP Baseball (USA)\n
+Roger Clemens' MVP Baseball (USA) (Beta)\n
+Roger Clemens' MVP Baseball (USA) (Rev A)\n
+Rokudenashi Blues - Taiketsu! Tokyo Shitennou (Japan)\n
+Romance of the Three Kingdoms II (USA)\n
+Romance of the Three Kingdoms III - Dragon of Destiny (USA)\n
+Romance of the Three Kingdoms IV - Wall of Fire (USA)\n
+Romancing Sa-Ga (Japan)\n
+Romancing Sa-Ga (Japan) (Rev A)\n
+Romancing Sa-Ga 2 (Japan)\n
+Romancing Sa-Ga 3 (Japan)\n
+Romancing Sa-Ga 3 (Japan) (Rev A)\n
+Romancing Sa-Ga 3 (Japan) (Sample)\n
+Romancing SaGa (Japan) [En by Trans Dimension v0.40] (Incomplete)\n
+Romancing SaGa 2 (Japan) [En by Gilhide v0.05c] (Incomplete)\n
+Romancing SaGa 3 (Japan) (Rev 1) [En by Mana Sword v0.30]\n
+Romancing SaGa 3 (Japan) [En by Mana Sword v0.30]\n
+Royal Conquest (Japan)\n
+RPG Tsukuru - Super Dante (Japan)\n
+RPG Tsukuru - Super Dante (Japan) [En by MageCraft v0.90] (~RPG Maker - Super Dante) (Incomplete)\n
+RPG Tsukuru 2 (Japan)\n
+RPG Tsukuru 2 (Japan) [En by KanjiHack v0.90C] (~RPG Maker 2) (Incomplete)\n
+Rudra no Hihou (Japan)\n
+Rudra no Hihou (Japan) [En by Aeon Genesis v2.0] (~Treasure of the Rudras)\n
+Ruin Arm (Japan)\n
+Run Saber (Europe)\n
+Run Saber (USA)\n
+Rushing Beat (Japan)\n
+Rushing Beat Ran - Fukusei Toshi (Japan)\n
+Rushing Beat Shura (Japan)\n
+Ryuuki Heidan Danzarb (Japan)\n
+Ryuuki Heidan Danzarb (Japan) [En by Aeon Genesis v1.0] (~Dragon Squadron Danzarb)\n
+Ryuuko no Ken (Japan)\n
+Ryuuko no Ken 2 (Japan)\n
+Saibara Rieko no Mahjong Hourouki (Japan)\n
+Saikousoku Shikou - Shougi Mahjong (Japan)\n
+Saikyou - Takada Nobuhiko (Japan)\n
+Sailormoon (France)\n
+Sakurai Shouichi no Jankiryuu - Mahjong Hisshouhou (Japan)\n
+Same Game - Chara Cassette (Japan) (BS)\n
+Same Game - Chara Data Shuu - Tengai Makyou Koma (Japan) (BS)\n
+Same Game (Japan)\n
+Samurai Shodown (Europe)\n
+Samurai Shodown (USA)\n
+Samurai Spirits (Japan)\n
+Samurai Spirits (Japan) (Beta)\n
+Sandro no Daibouken - Valkyrie Tono Deai (Japan)\n
+Sangokushi Eiketsuden (Japan)\n
+Sangokushi III (Hong Kong)\n
+Sangokushi III (Japan)\n
+Sangokushi III (Japan) (Rev A)\n
+Sangokushi IV (Japan)\n
+Sangokushi Seishi - Tenbu Spirits (Japan)\n
+Sankyo Fever! Fever! (Japan)\n
+Sanrio Shanghai (Japan)\n
+Sanrio World Smash Ball! (Japan)\n
+Sanrio World Smash Ball! (Japan) [En by Suicidal v1.0]\n
+Sansara Naga 2 (Japan)\n
+Sanspo Fishing - Keiryuu Ou (Japan)\n
+Satellaview BS-X (Japan) (Rev AB)\n
+Saturday Night Slam Masters (Europe)\n
+Saturday Night Slam Masters (USA)\n
+Scooby-Doo Mystery (USA)\n
+SD F-1 Grand Prix (Japan)\n
+SD F-1 Grand Prix (Japan) (Sample)\n
+SD Gundam - Power Formation Puzzle (Japan)\n
+SD Gundam G-Next - Unit & Map Collection (Japan) (BS)\n
+SD Gundam G-Next (Japan) (Rev 0A)\n
+SD Gundam Gaiden - Knight Gundam Monogatari - Ooinaru Isan (Japan)\n
+SD Gundam Gaiden - Knight Gundam Monogatari - Ooinaru Isan (Japan) (Rev A)\n
+SD Gundam Gaiden 2 - Entaku no Kishi (Japan)\n
+SD Gundam Generation - Axis Senki (Japan) (ST)\n
+SD Gundam Generation - Babylonia Kenkoku Senki (Japan) (ST)\n
+SD Gundam Generation - Colony Kakutouki (Japan) (ST)\n
+SD Gundam Generation - Gryps Senki (Japan) (ST)\n
+SD Gundam Generation - Ichinen Sensouki (Japan) (ST)\n
+SD Gundam Generation - Zanscare Senki (Japan) (ST)\n
+SD Gundam GX (Japan)\n
+SD Hiryuu no Ken (Japan)\n
+SD Kidou Senshi Gundam - V Sakusen Shidou (Japan)\n
+SD Kidou Senshi Gundam 2 (Japan)\n
+SD The Great Battle - Aratanaru Chousen (Japan)\n
+SD Ultra Battle - Seven Densetsu (Japan) (ST)\n
+SD Ultra Battle - Ultraman Densetsu (Japan) (ST)\n
+SeaQuest DSV (Europe)\n
+SeaQuest DSV (USA)\n
+Secret of Evermore (Europe)\n
+Secret of Evermore (France)\n
+Secret of Evermore (Germany)\n
+Secret of Evermore (Spain)\n
+Secret of Evermore (USA)\n
+Secret of Evermore (USA) [Hack by FuSoYa v1.02] (2 Player Edition)\n
+Secret of Evermore (USA) [Hack by FuSoYa v1.02] [Hack by Ninakoru v1.0] (Balance Enhancement - 2 Player Edition)\n
+Secret of Evermore (USA) [Hack by Ninakoru v1.0] (Balance Enhancement)\n
+Secret of Mana (Europe)\n
+Secret of Mana (Europe) (Rev 1) [Hack by Masterflow v1.02] (Hard Mode)\n
+Secret of Mana (Europe) (Rev A)\n
+Secret of Mana (Europe) [Hack by Masterflow v1.02] (Hard Mode)\n
+Secret of Mana (France)\n
+Secret of Mana (France) (Rev A)\n
+Secret of Mana (Germany)\n
+Secret of Mana (USA)\n
+Secret of Mana (USA) [En by FuSoYa v1.0] (Variable Width Font Edition)\n
+Secret of Mana (USA) [En by FuSoYa v1.0] [Hack by Masterflow v1.02] (Hard Mode)\n
+Secret of Mana (USA) [Hack by Masterflow v1.02] (Hard Mode)\n
+Seifuku Densetsu Pretty Fighter (Japan)\n
+Seijuu Maden Beasts & Blades (Japan)\n
+Seiken Densetsu 2 (Japan)\n
+Seiken Densetsu 3 (Japan)\n
+Seiken Densetsu 3 (Japan) (Sample)\n
+Seiken Densetsu 3 (Japan) [En by LNF+Neill Corlett+SoM2Freak v1.01]\n
+Seiken Densetsu 3 (Japan) [En by LNF+Neill Corlett+SoM2Freak v1.01] [Hack by Parlance v1.0] (3 Player Edition)\n
+Seiken Densetsu 3 (Japan) [En by LNF+Neill Corlett+SoM2Freak v1.01] [Title Hack by Dragonsbrethren v1.0] (~Secret of Mana 2)\n
+Sengoku Denshou (Japan)\n
+Sengoku no Hasha - Tenkafubu e no Michi (Japan)\n
+Sensible Soccer - International Edition (Europe) (En,Fr,De,It)\n
+Sensible Soccer (Europe) (En,Fr,De,It)\n
+Sensible Soccer (Europe) (En,Fr,De,It) (Beta)\n
+Septentrion (Japan)\n
+Serizawa Nobuo no Birdie Try (Japan)\n
+SF Memory Multi Menu (Japan) (NP)\n
+SF Memory Multi Menu (Japan) (Rev A) (NP)\n
+Sgt. Saunders' Combat! (Japan)\n
+Shadow, The (USA) (Proto) [50A3]\n
+Shadow, The (USA) (Proto) [97E7]\n
+Shadowrun (Europe)\n
+Shadowrun (Germany)\n
+Shadowrun (Japan)\n
+Shadowrun (Sweden)\n
+Shadowrun (USA)\n
+Shadowrun (USA) (Beta)\n
+Shanghai - Banri no Choujou (Japan)\n
+Shanghai - Banri no Choujou (Japan) (Rev A)\n
+Shanghai II - Dragon's Eye (Europe)\n
+Shanghai II - Dragon's Eye (USA)\n
+Shanghai III (Japan)\n
+Shaq Fu (Europe)\n
+Shaq Fu (USA)\n
+Shaq Fu (USA) (Beta)\n
+Shichuusuimeigaku Nyuumon - Shin Tougenkyou (Japan)\n
+Shien - The Blade Chaser (Japan)\n
+Shien's Revenge (USA)\n
+Shien's Revenge (USA) (Beta)\n
+Shijou Saikyou League Serie A - Ace Striker (Japan)\n
+Shijou Saikyou no Quiz Ou Ketteisen Super (Japan)\n
+Shiki Eiyuuden - Jinryuu Densetsu (Japan)\n
+Shimono Masaki no Fishing to Bassing (Japan)\n
+Shin Chou Kouki (Japan)\n
+Shin Ikkakusenkin (Japan)\n
+Shin Kidou Senki Gundam W - Endless Duel (Japan)\n
+Shin Kidou Senki Gundam W - Endless Duel (Japan) [En by Aeon Genesis v1.0] (~Mobile Suit Gundam Wing - Endless Duel)\n
+Shin Mahjong (Japan)\n
+Shin Megami Tensei (Japan)\n
+Shin Megami Tensei (Japan) (Rev A)\n
+Shin Megami Tensei (Japan) [En by Aeon Genesis v1.0]\n
+Shin Megami Tensei if... (Japan)\n
+Shin Megami Tensei II (Japan)\n
+Shin Megami Tensei II (Japan) [En by Aeon Genesis v1.0]\n
+Shin Momotarou Densetsu (Japan)\n
+Shin Naki no Ryuu - Mahjong Hishouden (Japan)\n
+Shin Nekketsu Kouha - Kunio-tachi no Banka (Japan)\n
+Shin Nekketsu Kouha - Kunio-tachi no Banka (Japan) [En by Aeon Genesis v1.0] (Renegade 2)\n
+Shin Nihon Pro Wresling - Chou Senshi in Tokyo Dome - Fantastic Story (Japan)\n
+Shin Nihon Pro Wresling Kounin - '94 Battlefield in Tokyo Dome (Japan)\n
+Shin Nihon Pro Wresling Kounin - '95 Tokyo Dome Battle 7 (Japan)\n
+Shin SD Sengokuden - Daishougun Retsuden (Japan)\n
+Shin Shougi Club (Japan)\n
+Shin Star Trek - The Next Generation - Ooinaru Isan IFD no Nazo no Oe (Japan)\n
+Shinri Game 2, The - Magical Trip (Japan)\n
+Shinri Game 3, The (Japan)\n
+Shinri Game, The - Akuma no Kokoroji (Japan)\n
+Shinseiki GPX Cyber Formula (Japan)\n
+Shinseiki Odysselya (Japan)\n
+Shinseiki Odysselya II (Japan)\n
+Shinzui Taikyoku Igo - Go Sennin (Japan)\n
+Shiroi Ring e Twinkle Little Star (Japan)\n
+Shodai Nekketsu Kouha Kunio-kun (Japan)\n
+Shodai Nekketsu Kouha Kunio-kun (Japan) [En by Aeon Genesis v1.0] (River City Ransom 2)\n
+Shodan Morita Shougi (Japan)\n
+Shodani Nintei - Shodan Pro Mahjong (Japan)\n
+Shougi Club (Japan)\n
+Shougi Fuurin Kazan (Japan)\n
+Shougi Saikyou (Japan)\n
+Shougi Saikyou II - Jissen Taikyoku Hen (Japan)\n
+Shougi Zanmai (Japan)\n
+Shounen Ashibe - Goma-chan no Yuuenchi Daibouken (Japan)\n
+Shounen Ninja Sasuke (Japan)\n
+Shounin yo, Taishi o Idake!! (Japan)\n
+Shuushoku Game - Trendy Drama (Japan)\n
+Side Pocket (Europe)\n
+Side Pocket (Japan)\n
+Side Pocket (USA)\n
+Silva Saga II - The Legend of Light and Darkness (Japan)\n
+SimAnt (Japan)\n
+SimAnt (USA)\n
+SimAnt (USA) (Beta)\n
+SimCity (Europe)\n
+SimCity (France)\n
+SimCity (Germany)\n
+SimCity (Japan)\n
+SimCity (USA)\n
+SimCity 2000 (Europe)\n
+SimCity 2000 (Japan)\n
+SimCity 2000 (USA)\n
+SimCity Jr. (Japan)\n
+SimEarth - The Living Planet (Japan) (Rev 0A)\n
+SimEarth - The Living Planet (USA)\n
+Simpsons, The - Bart no Fushigi na Yume no Daibouken (Japan)\n
+Simpsons, The - Bart's Nightmare (Europe)\n
+Simpsons, The - Bart's Nightmare (USA)\n
+Simulation Pro Yakyuu (Japan)\n
+Sink or Swim (Europe)\n
+Sink or Swim (USA)\n
+Ski Paradise with Snowboard (Japan)\n
+Skuljagger - Revolt of the Westicans (USA)\n
+Skuljagger - Revolt of the Westicans (USA) (Beta)\n
+Sky Mission (Japan)\n
+Skyblazer (Europe)\n
+Skyblazer (USA)\n
+Skyblazer (USA) (Beta1)\n
+Skyblazer (USA) (Beta2)\n
+Slap Stick (Japan)\n
+Slayers (Japan)\n
+Slayers (Japan) [En by Filler v0.20] (Incomplete)\n
+SM Choukyoushi Hitomi - Bangai Hen (Japan) (Unl)\n
+SM Choukyoushi Hitomi - Bangai Hen 2 - Maki no Love Love Panic (Japan) (Unl)\n
+SM Choukyoushi Hitomi - Test Version (Japan) (Unl)\n
+SM Choukyoushi Hitomi (Japan) (Unl)\n
+SM Choukyoushi Hitomi Vol. 2 - Trial Version (Japan) (Unl)\n
+SM Choukyoushi Hitomi Vol. 2 (Japan) (Unl)\n
+SM Choukyoushi Hitomi Vol. 2 Remix (Japan) (Unl)\n
+SM Choukyoushi Hitomi Vol. 3 - Test Version (Japan) (Unl)\n
+SM Choukyoushi Hitomi Vol. 3 (Japan) (Unl) [0810]\n
+SM Choukyoushi Hitomi Vol. 3 (Japan) (Unl) [1087]\n
+Smart Ball (USA)\n
+Smash T.V. (Japan)\n
+Smash Tennis (Europe)\n
+Smash Tennis (Europe) (Beta)\n
+SMPRGRevolutionV1.1a\n
+Smurfs 2, The (Europe) (En,Fr,De,Es)\n
+Smurfs, The (Europe) (En,Fr,De,Es,It)\n
+Snoopy Concert (Japan)\n
+Snoopy Concert (Japan) [En by Aeon Genesis v1.0]\n
+Snow White in Happily Ever After (USA)\n
+Soccer Kid (Europe) (En,Fr,De,Es,It)\n
+Soccer Kid (Japan)\n
+Soccer Kid (Japan) (Beta)\n
+Soccer Shootout (Europe)\n
+Soldiers of Fortune (USA)\n
+Solid Runner (Japan)\n
+Solstice II (Japan)\n
+Song Master (Japan)\n
+Sonic Blast Man (Europe)\n
+Sonic Blast Man (Japan)\n
+Sonic Blast Man (USA)\n
+Sonic Blast Man II (Japan)\n
+Sonic Blast Man II (USA)\n
+Sonic the Hedgehog 4 (World) (Unl)\n
+Sonic Wings (Japan)\n
+Soreyuke Ebisumaru Karakuri Meiro - Kieta Goemon no Nazo!! (Japan)\n
+SOS (USA)\n
+Sotsugyou Bangai Hen - Nee Mahjong Shiyo! (Japan)\n
+Sougou Kakutougi Astral Bout (Japan)\n
+Sougou Kakutougi Astral Bout 2 - The Total Fighters (Japan)\n
+Sougou Kakutougi Rings - Astral Bout 3 (Japan)\n
+Soukou Kihei Votoms - The Battling Road (Japan)\n
+Soul & Sword (Japan)\n
+Soul Blade (World) (Unl)\n
+Soul Blader (Japan)\n
+Soul Blazer (Europe)\n
+Soul Blazer (France)\n
+Soul Blazer (Germany)\n
+Soul Blazer (USA)\n
+Sound Novel Tsukuru (Japan)\n
+Space Ace (Europe)\n
+Space Ace (Japan)\n
+Space Ace (USA)\n
+Space Ace (USA) (Beta)\n
+Space Bazooka (Japan)\n
+Space Football - One on One (USA)\n
+Space Funky B.O.B. (Japan)\n
+Space Invaders - The Original Game (Europe)\n
+Space Invaders - The Original Game (Japan)\n
+Space Invaders - The Original Game (USA)\n
+Space Megaforce (USA)\n
+Spanky's Quest (Europe)\n
+Spanky's Quest (USA)\n
+Spark World (Japan)\n
+Sparkster (Europe)\n
+Sparkster (Japan)\n
+Sparkster (USA)\n
+Spawn (Europe)\n
+Spawn (Japan) (Proto)\n
+Spawn (USA)\n
+Spectre (Europe)\n
+Spectre (USA)\n
+Speed Racer (USA)\n
+Speedy Gonzales in Los Gatos Bandidos (Europe) (Proto)\n
+Speedy Gonzales in Los Gatos Bandidos (USA)\n
+Speedy Gonzales in Los Gatos Bandidos (USA) (Beta)\n
+Speedy Gonzales in Los Gatos Bandidos (USA) (Rev A)\n
+SpellCraft (USA) (Proto)\n
+Spider-Man (Europe)\n
+Spider-Man (USA)\n
+Spider-Man (USA) (Beta)\n
+Spider-Man & Venom - Maximum Carnage (Europe)\n
+Spider-Man & Venom - Maximum Carnage (USA)\n
+Spider-Man & Venom - Separation Anxiety (Europe)\n
+Spider-Man & Venom - Separation Anxiety (USA)\n
+Spider-Man and the X-Men in Arcade's Revenge (Europe)\n
+Spider-Man and the X-Men in Arcade's Revenge (USA)\n
+Spider-Man and the X-Men in Arcade's Revenge (USA) (4 Man Version)\n
+Spindizzy Worlds (Europe)\n
+Spindizzy Worlds (Japan)\n
+Spindizzy Worlds (USA)\n
+Spirou (Europe) (En,Fr,De,Es)\n
+Sporting News Power Baseball, The (USA)\n
+Sports Illustrated Championship Football & Baseball (USA)\n
+Sports Illustrated Championship Football & Baseball (USA) (Beta)\n
+Spriggan Powered (Japan)\n
+Sprinter Monogatari - Mezase!! Ikkakusenkin (Japan)\n
+St. Andrews - Eikou to Rekishi no Old Course (Japan)\n
+Stable Star - Kyuusha Monogatari (Japan)\n
+Star Fox (Japan)\n
+Star Fox (USA)\n
+Star Fox (USA) (Rev B)\n
+Star Fox (USA) (Super Weekend Competition)\n
+Star Fox 2 (Japan) (Proto) (Alt 1) [En by Aeon Genesis v1.0] (Debug Version)\n
+Star Fox 2 (Japan) (Proto) (Alt 1) [En+Hack by Aeon Genesis v1.0] (Final Version)\n
+Star Fox 2 (Japan) (Proto) (Alt 1) [En+Hack by Aeon Genesis v1.0] [Fix by ManuLoewe] (Final Version)\n
+Star Fox 2 (Japan) (Proto1)\n
+Star Fox 2 (Japan) (Proto2)\n
+Star Ocean (Japan)\n
+Star Ocean (Japan) [En by DeJap v1.0]\n
+Star Trek - Deep Space Nine - Crossroads of Time (Europe)\n
+Star Trek - Deep Space Nine - Crossroads of Time (USA)\n
+Star Trek - Deep Space Nine - Crossroads of Time (USA) (Beta)\n
+Star Trek - Starfleet Academy (Europe)\n
+Star Trek - Starfleet Academy (Germany)\n
+Star Trek - Starfleet Academy (USA)\n
+Star Trek - The Next Generation - Future's Past (Europe)\n
+Star Trek - The Next Generation - Future's Past (USA)\n
+Stardust Suplex (Japan)\n
+Stargate (Europe) (En,Fr,De)\n
+Stargate (Japan)\n
+Stargate (USA)\n
+Stargate (USA) (Beta)\n
+Starwing (Europe)\n
+Starwing (Europe) (Rev A)\n
+Starwing (Europe) (Super Weekend Competition)\n
+Starwing (Germany)\n
+Starwing (Germany) (Competition Edition)\n
+Stealth (Japan)\n
+Steel Talons (USA)\n
+Sterling Sharpe End 2 End (USA)\n
+Steven Seagal Is The Final Option (USA) (Proto)\n
+Stone Protectors (Japan) (Proto)\n
+Stone Protectors (USA)\n
+Street Combat (Europe)\n
+Street Combat (USA)\n
+Street Fighter Alpha 2 (Europe)\n
+Street Fighter Alpha 2 (USA)\n
+Street Fighter EX (World) (Unl)\n
+Street Fighter II - The World Warrior (Europe)\n
+Street Fighter II - The World Warrior (Japan)\n
+Street Fighter II - The World Warrior (USA)\n
+Street Fighter II Turbo - Hyper Fighting (Europe)\n
+Street Fighter II Turbo - Hyper Fighting (Europe) (Rev A)\n
+Street Fighter II Turbo - Hyper Fighting (Japan) (Rev 0A)\n
+Street Fighter II Turbo - Hyper Fighting (USA)\n
+Street Fighter Zero 2 (Japan)\n
+Street Hockey '95 (USA)\n
+Street Hockey '95 (USA) (Beta)\n
+Street Racer (Europe)\n
+Street Racer (Europe) (Rev A)\n
+Street Racer (Japan)\n
+Street Racer (USA)\n
+Street Racer (USA) (Beta)\n
+Strike Gunner S.T.G (Japan)\n
+Strike Gunner S.T.G (USA)\n
+Striker (Europe) (En,Fr,De,Es,It,Nl,Sv)\n
+Striker (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)\n
+Stunt Race FX (Europe)\n
+Stunt Race FX (USA)\n
+Sufami Turbo Add-On Base Cassette (Japan)\n
+Sugoi Hebereke (Japan)\n
+Sugoro Quest++ - Dicenics (Japan)\n
+Sugoroku Ginga Senki (Japan)\n
+Sunset Riders (Europe)\n
+Sunset Riders (USA)\n
+Supapoon (Japan)\n
+Supapoon DX (Japan)\n
+Super 3D Baseball (Japan)\n
+Super 4WD - The Baja (Japan)\n
+Super Adventure Island (Europe)\n
+Super Adventure Island (USA)\n
+Super Adventure Island II (Europe)\n
+Super Adventure Island II (USA)\n
+Super Air Diver (Europe)\n
+Super Air Diver (Japan)\n
+Super Air Diver 2 (Japan)\n
+Super Aleste (Europe)\n
+Super Aleste (Japan)\n
+Super Alfred Chicken (USA)\n
+Super Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan)\n
+Super Aquatic Games, The (USA)\n
+Super Aquatic Games, The (USA) (Beta)\n
+Super B.C. Kid (Europe)\n
+Super Back to the Future Part II (Japan)\n
+Super Baken Ou '95 (Japan)\n
+Super Baseball Simulator 1.000 (USA)\n
+Super Bases Loaded (USA)\n
+Super Bases Loaded 3 - License to Steal (USA)\n
+Super Bases Loaded 3 - License to Steal (USA) (Rev A) [b]\n
+Super Bases Loaded II (USA)\n
+Super Batter Up (USA)\n
+Super Battleship (Europe)\n
+Super Battleship (USA)\n
+Super Battletank - War in the Gulf (USA)\n
+Super Battletank - War in the Gulf (USA) (Rev A)\n
+Super Battletank (Europe)\n
+Super Battletank (Japan)\n
+Super Battletank 2 (Europe)\n
+Super Battletank 2 (Japan)\n
+Super Battletank 2 (Spain)\n
+Super Battletank 2 (USA)\n
+Super Bikkuriman (Japan)\n
+Super Billiard Championship Pool (Japan)\n
+Super Birdie Rush (Japan)\n
+Super Black Bass (Japan)\n
+Super Black Bass (USA)\n
+Super Black Bass 2 (Japan)\n
+Super Black Bass 3 (Japan)\n
+Super Black Bass 3 (Japan) (Rev A)\n
+Super Bomberman - Panic Bomber W (Japan)\n
+Super Bomberman (Europe)\n
+Super Bomberman (Japan)\n
+Super Bomberman (USA)\n
+Super Bomberman 2 - Caravan Event Ban (Japan)\n
+Super Bomberman 2 (Europe)\n
+Super Bomberman 2 (Japan)\n
+Super Bomberman 2 (USA)\n
+Super Bomberman 3 (Europe)\n
+Super Bomberman 3 (Japan)\n
+Super Bomberman 3 (Japan) (Beta)\n
+Super Bomberman 4 (English - Translated)\n
+Super Bomberman 4 (Japan)\n
+Super Bomberman 5 - Caravan Event Ban (Japan)\n
+Super Bomberman 5 (Japan)\n
+Super Bombliss (Japan)\n
+Super Bonk (USA)\n
+Super Bowling (Japan)\n
+Super Bowling (USA)\n
+Super Buster Bros. (USA)\n
+Super Buster Bros. (USA) (Beta)\n
+Super Buster Bros. (USA) (Rev A)\n
+Super Caesars Palace (USA)\n
+Super Caesars Palace (USA) (Beta)\n
+Super Casino - Caesars Palace (Japan)\n
+Super Casino - Caesars Palace (Japan) (Rev A)\n
+Super Casino 2 (Japan)\n
+Super Castles (Japan)\n
+Super Castlevania IV (Europe)\n
+Super Castlevania IV (USA)\n
+Super Chase H.Q. (Europe)\n
+Super Chase H.Q. (USA)\n
+Super Chinese Fighter (Japan)\n
+Super Chinese World (Japan)\n
+Super Chinese World 2 - Uchuu Ichibu Toudaikai (Japan)\n
+Super Chinese World 2 - Uchuu Ichibu Toudaikai (Japan) (Sample)\n
+Super Chinese World 3 (Japan)\n
+Super Conflict - The Mideast (Europe)\n
+Super Conflict - The Mideast (USA)\n
+Super Copa (Brazil) (Es,Pt)\n
+Super Cup Soccer (Japan)\n
+Super Daikoukai Jidai (Japan)\n
+Super Dany (France)\n
+Super Dany (France) (Beta)\n
+Super Dogfight (Japan)\n
+Super Donkey Kong (Japan)\n
+Super Donkey Kong (Japan) (Rev A)\n
+Super Donkey Kong 2 - Dixie & Diddy (Japan)\n
+Super Donkey Kong 2 - Dixie & Diddy (Japan) (Rev A)\n
+Super Donkey Kong 3 - Nazo no Krems-tou (Japan)\n
+Super Donkey Kong 3 - Nazo no Krems-tou (Japan) (Rev A)\n
+Super Double Dragon (Europe)\n
+Super Double Dragon (Europe) (Beta)\n
+Super Double Dragon (USA)\n
+Super Double Yakuman (Japan)\n
+Super Double Yakuman II (Japan)\n
+Super Drakkhen (Japan)\n
+Super Drift Out - World Rally Championships (Japan)\n
+Super Dropzone (Europe)\n
+Super Dunk Shot (Japan)\n
+Super Dunk Star (Japan)\n
+Super Earth Defense Force (Europe)\n
+Super Earth Defense Force (Japan)\n
+Super Earth Defense Force (USA)\n
+Super F-1 Hero (Japan)\n
+Super F1 Circus (Japan)\n
+Super F1 Circus 2 (Japan)\n
+Super F1 Circus 3 (Japan)\n
+Super F1 Circus Gaiden (Japan)\n
+Super F1 Circus Limited (Japan)\n
+Super Famicom Controller Test Program (Japan)\n
+Super Famicom Wars (Japan) (NP)\n
+Super Family Circuit (Japan)\n
+Super Family Gelaende (Japan) (NP)\n
+Super Family Tennis (Japan)\n
+Super Famista (Japan)\n
+Super Famista 2 (Japan)\n
+Super Famista 3 (Japan)\n
+Super Famista 4 (Japan)\n
+Super Famista 4 (Japan) (Rev A)\n
+Super Famista 5 (Japan) (Rev 0A)\n
+Super Final Match Tennis (Japan)\n
+Super Fire Pro Wrestling - Queen's Special (Japan)\n
+Super Fire Pro Wrestling - Queen's Special (Japan) [En by Phil v1.0]\n
+Super Fire Pro Wrestling (Japan)\n
+Super Fire Pro Wrestling 2 (Japan)\n
+Super Fire Pro Wrestling III - Easy Type (Japan)\n
+Super Fire Pro Wrestling III - Final Bout (Japan)\n
+Super Fire Pro Wrestling III - Final Bout (Japan) (Rev A)\n
+Super Fire Pro Wrestling Special (Japan)\n
+Super Fire Pro Wrestling Special (Japan) (Rev A)\n
+Super Fire Pro Wrestling X (Japan)\n
+Super Fire Pro Wrestling X Premium (Japan)\n
+Super Fire Pro Wrestling X Premium (Japan) [En by Sydra v0.70]\n
+Super Fishing - Big Fight (Japan)\n
+Super Formation Soccer '94 - World Cup Final Data (Japan)\n
+Super Formation Soccer '94 (Japan)\n
+Super Formation Soccer '95 della Serie A - UCC Xaqua Version (Japan)\n
+Super Formation Soccer '95 della Serie A (Japan)\n
+Super Formation Soccer '96 - World Club Edition (Japan)\n
+Super Formation Soccer (Japan)\n
+Super Formation Soccer II (Japan)\n
+Super Full Metal (Europe) (It,Sv) (Proto)\n
+Super Gachapon World - SD Gundam X (Japan)\n
+Super Gachapon World - SD Gundam X (Japan) [En by Serin9x v1.51] (Incomplete)\n
+Super Game Boy (World)\n
+Super Game Boy (World) (Rev A)\n
+Super Game Boy (World) (Rev B)\n
+Super Game Boy 2 (Japan)\n
+Super Genjin (Japan)\n
+Super Genjin 2 (Japan)\n
+Super Genjin 2 (Japan) [En by Gaijin v1.0] (~Super Bonk 2)\n
+Super Ghouls'n Ghosts (Europe)\n
+Super Ghouls'n Ghosts (USA)\n
+Super Goal! (Europe)\n
+Super Goal! 2 (USA)\n
+Super Godzilla (Japan)\n
+Super Godzilla (Japan) (Rev A)\n
+Super Godzilla (USA)\n
+Super Gomoku Narabe - Renju (Japan)\n
+Super Gomoku Shougi - Jouseki Kenkyuu Hen (Japan)\n
+Super Gussun Oyoyo (Japan)\n
+Super Gussun Oyoyo (Japan) (Sample)\n
+Super Gussun Oyoyo 2 (Japan)\n
+Super Gussun Oyoyo 2 (Japan) [En by RPGOne v1.0]\n
+Super H.Q. - Criminal Chaser (Japan)\n
+Super Hanafuda (Japan)\n
+Super Hanafuda 2 (Japan)\n
+Super High Impact (Japan)\n
+Super High Impact (USA)\n
+Super High Impact (USA) (Beta)\n
+Super Hockey '94 (Japan)\n
+Super Hockey (Europe)\n
+Super Hockey (France) (En,Fr)\n
+Super Honmei - GI Seiha (Japan)\n
+Super Ice Hockey (Europe)\n
+Super Igo - Go Ou (Japan)\n
+Super Indy Champ (Japan)\n
+Super Inindou - Datou Nobunaga (Japan)\n
+Super International Cricket (Europe)\n
+Super International Cricket (Europe) (Beta)\n
+Super James Pond (USA)\n
+Super James Pond (USA) (Beta)\n
+Super James Pond II (Europe)\n
+Super James Pond II (Japan)\n
+Super Jangou (Japan)\n
+Super Jinsei Game (Japan)\n
+Super Jinsei Game (Japan) (Rev A)\n
+Super Jinsei Game 2 (Japan)\n
+Super Jinsei Game 3 (Japan)\n
+Super Keiba (Japan)\n
+Super Keiba 2 (Japan)\n
+Super Keirin (Japan)\n
+Super Kick Boxing - Best of the Best (Japan)\n
+Super Kick Off (Japan)\n
+Super Koukou Yakyuu - Ikkyuu Nyuukon (Japan)\n
+Super Kyousouba - Kaze no Sylphid (Japan)\n
+Super Kyoutei (Japan)\n
+Super Kyoutei (Japan) (Rev A)\n
+Super Kyoutei 2 (Japan)\n
+Super Kyuukyoku Harikiri Stadium (Japan)\n
+Super Kyuukyoku Harikiri Stadium 2 (Japan)\n
+Super Linearball (Japan)\n
+Super Loopz (Japan)\n
+Super Mad Champ (Japan)\n
+Super Mahjong (Japan)\n
+Super Mahjong 2 - Honkaku 4 Nin Uchi (Japan)\n
+Super Mahjong 2 - Honkaku 4 Nin Uchi (Japan) (Rev A)\n
+Super Mahjong 3 - Karakuchi (Japan)\n
+Super Mahjong Taikai (Japan)\n
+Super Mahjong Taikai (Japan) (Rev A)\n
+Super Mahjong Taikai (Japan) (Rev C)\n
+Super Mahjong Taikai (Japan) (Rev D)\n
+Super Mario - Yossy Island (Japan)\n
+Super Mario - Yossy Island (Japan) (Rev A)\n
+Super Mario - Yossy Island (Japan) (Rev B)\n
+Super Mario All-Stars (Europe)\n
+Super Mario All-Stars (USA)\n
+Super Mario All-Stars + Super Mario World (Europe)\n
+Super Mario All-Stars + Super Mario World (USA)\n
+Super Mario Collection (Japan)\n
+Super Mario Collection (Japan) (Rev A)\n
+Super Mario Kart (Europe) (Rev 0A)\n
+Super Mario Kart (Japan) (Rev 0A)\n
+Super Mario Kart (USA)\n
+Super Mario Kart (USA) [Hack by d4s v1.1] (~Mario Kart R)\n
+Super Mario Kart (USA) [Hack by Ok Impala v1.0] (~Super Mario Kart - The Impala Battles) (Custom Battle Tracks)\n
+Super Mario Kart (USA) [Hack by sYs85 v20090206] (Custom Tracks+New AI)\n
+Super Mario RPG - Legend of the Seven Stars (USA)\n
+Super Mario RPG (Japan)\n
+Super Mario RPG Revolution [Hack]\n
+Super Mario RPG Revolution 2.0\n
+Super Mario World - Super Mario Bros. 4 (Japan) (Rev 0A)\n
+Super Mario World (Europe)\n
+Super Mario World (Europe) (Rev A)\n
+Super Mario World (USA)\n
+Super Mario World (USA) [Graphic Hack by Pac v1.21] (All-Stars & Yoshi's Island GFX)\n
+Super Mario World (USA) [Hack by Anikiti Rev 0.422] (~Luigi's Adventure - The Revival of Tortoise Empire) (Ja)\n
+Super Mario World (USA) [Hack by Anikiti v1.0] (~MarioX World - Deluxe) (Ja)\n
+Super Mario World (USA) [Hack by Anikiti v1.0] (~MarioX World - Second Edition Returns) (Ja)\n
+Super Mario World (USA) [Hack by Anikiti v1.1] (~Luigi's Adventure - Overseas Edition)\n
+Super Mario World (USA) [Hack by Anikiti v1.1] (~Luigi's Adventure - The Adventure of Phantasm World) (Ja)\n
+Super Mario World (USA) [Hack by Anikiti v1.2] (~Luigi's Adventure) (Ja)\n
+Super Mario World (USA) [Hack by Anikiti v1.2] (~MarioX World - Bowser's Strike Back) (Ja)\n
+Super Mario World (USA) [Hack by B.B.Link v1.1] (~Dr. Mario World - House Calls)\n
+Super Mario World (USA) [Hack by B.B.Link v1.3] (~Mario is Missing! 2 - Luigi's New Adventure)\n
+Super Mario World (USA) [Hack by BMF54123 v0.20] (~Super Mario Odyssey - A Journey Through Time and Space)\n
+Super Mario World (USA) [Hack by Carol v1.0] (~Brutal Mario) (Ja)\n
+Super Mario World (USA) [Hack by Carol v1.0] [En by ntr11023 v1.0] (~Brutal Mario)\n
+Super Mario World (USA) [Hack by FPI v1.0] (~Super Mario World - The Second Reality Project - SNES Version)\n
+Super Mario World (USA) [Hack by FPI v1.1] (~Super Mario World - The Second Reality Project Reloaded)\n
+Super Mario World (USA) [Hack by FPI v1.2] (~Super Mario World - The Second Reality Project 2 - Zycloboo's Challenge)\n
+Super Mario World (USA) [Hack by FPI v1.5] (~Super Mario World - The Second Reality Project)\n
+Super Mario World (USA) [Hack by FuSoYa v1.1] (~Super Demo World - The Legend Continues)\n
+Super Mario World (USA) [Hack by Golden Yoshi v1.0] (~SMW2+3 - The Essence Star)\n
+Super Mario World (USA) [Hack by Higsby v1.0] (~Super Mario Omega)\n
+Super Mario World (USA) [Hack by Mirumo v0.10] (~Super Mario Bros. 3 X)\n
+Super Mario World (USA) [Hack by Pac v1.0] (~Super Mario Bros. - The Lost Levels Deluxe)\n
+Super Mario World (USA) [Hack by Pac v1.2] (~Super Mario Bros. Deluxe)\n
+Super Mario World (USA) [Hack by RAGB v1.2] (~Super Mario World - Return to Dinosaur Land)\n
+Super Mario World (USA) [Hack by Stark v1.0Beta] (~Mario's Return Again)\n
+Super Mario World (USA) [Hack by Superwiidude v1.0] (~Mario's Amazing Adventure)\n
+Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De)\n
+Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De) (Rev A)\n
+Super Mario World 2 - Yoshi's Island (USA)\n
+Super Mario World 2 - Yoshi's Island (USA) (Rev A)\n
+Super Mario World 2 - Yoshi's Island (USA) [Hack by Golden Yoshi v1.0] (~SMW2+2 - Yoshi's Island)\n
+Super Mario World 2 - Yoshi's Island (USA) [Hack by Golden Yoshi v1.0] (~Super Mario World 2 Plus - Yoshi's Island)\n
+Super Metroid (Europe) (En,Fr,De)\n
+Super Metroid (Europe) (En,Fr,De) [Graphic Hack by Auximines v0.99b] (~Super Metroid - Justin Bailey)\n
+Super Metroid (Japan, USA) (En,Ja)\n
+Super Metroid (Japan, USA) (En,Ja) [Graphic Hack by Auximines v0.99b] (~Super Metroid - Justin Bailey)\n
+Super Metroid (Japan, USA) (En,Ja) [Hack by Banana Oyaji v1.06] (~Metroid Legacy)\n
+Super Metroid (Japan, USA) (En,Ja) [Hack by Black Telomeres v1.87] (~Super Metroid - Dependence)\n
+Super Metroid (Japan, USA) (En,Ja) [Hack by Black Telomeres v2.66] (~Super Metroid - Golden Dawn)\n
+Super Metroid (Japan, USA) (En,Ja) [Hack by Crocomire v3.0] (~Super Metroid - Zebes Returns)\n
+Super Metroid (Japan, USA) (En,Ja) [Hack by Drewseph v2.1] (~Super Metroid - Redesign)\n
+Super Metroid (Japan, USA) (En,Ja) [Hack by Kejardon v1.1] (Control Freak)\n
+Super Metroid (Japan, USA) (En,Ja) [Hack by Saturn v1.5] (~Super Metroid - Impossible)\n
+Super Moero!! Pro Yakyuu (Japan)\n
+Super Momotarou Dentetsu DX - Jr Nishi-Nihon Presents (Japan)\n
+Super Momotarou Dentetsu DX (Japan)\n
+Super Momotarou Dentetsu II (Japan)\n
+Super Momotarou Dentetsu III (Japan)\n
+Super Momotarou Dentetsu III (Japan) (Rev A)\n
+Super Momotarou Dentetsu III (Japan) (Rev B)\n
+Super Morph (Europe)\n
+Super Naxat Open - Golf de Shoubu da Dorabot-chan (Japan)\n
+Super Nazo Puyo - Lulu no Lu (Japan)\n
+Super Nazo Puyo Tsuu - Lulu no Tetsuwan Hanjouki (Japan)\n
+Super Nichibutsu Mahjong (Japan)\n
+Super Nichibutsu Mahjong 2 - Zenkoku Seiha Hen (Japan)\n
+Super Nichibutsu Mahjong 3 - Yoshimoto Gekijou Hen (Japan)\n
+Super Nichibutsu Mahjong 4 - Kisokenkyuu Hen (Japan)\n
+Super Ninja Boy (USA)\n
+Super Ninja-kun (Japan)\n
+Super Nobunaga no Yabou - Bushou Fuuunroku (Japan)\n
+Super Nobunaga no Yabou - Bushou Fuuunroku (Japan) (Rev A)\n
+Super Nobunaga no Yabou - Zenkoku Ban (Japan)\n
+Super Nova (USA)\n
+Super Off Road - The Baja (USA)\n
+Super Off Road - The Baja (USA) (Beta)\n
+Super Off Road (Europe)\n
+Super Off Road (Japan)\n
+Super Off Road (USA)\n
+Super Okumanchouja Game (Japan)\n
+Super Oozumou - Nessen Daiichiban (Japan)\n
+Super Pachi-Slot Mahjong (Japan)\n
+Super Pachinko (Japan)\n
+Super Pachinko Taisen (Japan)\n
+Super Pang (Europe)\n
+Super Pang (Japan)\n
+Super Pinball - Behind the Mask (Europe)\n
+Super Pinball - Behind the Mask (Japan)\n
+Super Pinball - Behind the Mask (Japan) (Beta)\n
+Super Pinball - Behind the Mask (USA)\n
+Super Pinball - Behind the Mask (USA) (Rev A)\n
+Super Pinball II - The Amazing Odyssey (Japan)\n
+Super Play Action Football (USA)\n
+Super Power League (Japan)\n
+Super Power League 2 (Japan)\n
+Super Power League 2 (Japan) (Rev A)\n
+Super Power League 3 (Japan)\n
+Super Power League 4 (Japan)\n
+Super Probotector - Alien Rebels (Europe)\n
+Super Professional Baseball (Japan)\n
+Super Professional Baseball II (Japan)\n
+Super Punch-Out!! (Europe)\n
+Super Punch-Out!! (Japan) (NP)\n
+Super Punch-Out!! (USA)\n
+Super Putty (Europe)\n
+Super Putty (Europe) (Beta) [b]\n
+Super Putty (USA)\n
+Super Puyo Puyo (Japan)\n
+Super Puyo Puyo (Japan) (Rev A)\n
+Super Puyo Puyo (Japan) (Rev B)\n
+Super Puyo Puyo Tsuu (Japan)\n
+Super Puyo Puyo Tsuu (Japan) [En by J2e v1.1] (~Super Puyo Puyo 2)\n
+Super Puyo Puyo Tsuu Remix (Japan)\n
+Super R-Type (Europe)\n
+Super R-Type (Japan)\n
+Super R-Type (USA)\n
+Super R.B.I. Baseball (USA)\n
+Super Real Mahjong PIV (Japan)\n
+Super Real Mahjong PV Paradise - All-Star 4 Nin Uchi (Japan)\n
+Super Robot Taisen EX (Japan)\n
+Super Robot Taisen Gaiden - Masou Kishin - The Lord of Elemental (Japan)\n
+Super Royal Blood (Japan)\n
+Super Rugby (Japan)\n
+Super Sangokushi (Japan)\n
+Super Sangokushi II (Japan)\n
+Super Sangokushi II (Japan) (Rev A)\n
+Super Scope 6 (Japan)\n
+Super Scope 6 (USA)\n
+Super Shadow of the Beast (USA) (Proto)\n
+Super Shanghai - Dragon's Eye (Japan)\n
+Super Shougi (Japan)\n
+Super Shougi 2 (Japan)\n
+Super Shougi 3 - Kitaihei (Japan)\n
+Super Slam Dunk (USA)\n
+Super Slapshot (Japan)\n
+Super Slapshot (USA)\n
+Super Smash T.V. (Europe)\n
+Super Smash T.V. (USA)\n
+Super Snakey (Japan)\n
+Super Soccer (Europe)\n
+Super Soccer (USA)\n
+Super Soccer Champ (USA)\n
+Super Solitaire (Europe) (En,Fr,De,Es,It)\n
+Super Solitaire (USA) (En,Fr,De,Es,It)\n
+Super Soukoban (Japan)\n
+Super Stadium (Japan)\n
+Super Star Wars - Jedi no Fukushuu (Japan)\n
+Super Star Wars - Return of the Jedi (Europe)\n
+Super Star Wars - Return of the Jedi (Europe) (Rev A)\n
+Super Star Wars - Return of the Jedi (USA)\n
+Super Star Wars - Return of the Jedi (USA) (Rev A)\n
+Super Star Wars - Teikoku no Gyakushuu (Japan)\n
+Super Star Wars - The Empire Strikes Back (Europe)\n
+Super Star Wars - The Empire Strikes Back (Europe) (Beta)\n
+Super Star Wars - The Empire Strikes Back (USA)\n
+Super Star Wars - The Empire Strikes Back (USA) (Rev A)\n
+Super Star Wars (Europe)\n
+Super Star Wars (Europe) (Rev A)\n
+Super Star Wars (Japan)\n
+Super Star Wars (USA)\n
+Super Star Wars (USA) (Beta)\n
+Super Star Wars (USA) (Rev A)\n
+Super Street Fighter II - The New Challengers (Europe)\n
+Super Street Fighter II - The New Challengers (Japan)\n
+Super Street Fighter II - The New Challengers (USA)\n
+Super Strike Eagle (Europe) (En,Fr,De,Es,It)\n
+Super Strike Eagle (USA)\n
+Super Strike Gunner (Europe)\n
+Super SWIV (Europe)\n
+Super SWIV (Japan)\n
+Super Tekkyuu Fight! (Japan)\n
+Super Tennis - World Circuit (Japan)\n
+Super Tennis (Europe)\n
+Super Tennis (Europe) (Rev A)\n
+Super Tennis (USA)\n
+Super Tetris 2 + Bombliss - Genteiban (Japan)\n
+Super Tetris 2 + Bombliss (Japan)\n
+Super Tetris 2 + Bombliss (Japan) (Rev A)\n
+Super Tetris 3 (Japan)\n
+Super Troll Islands (Europe)\n
+Super Troll Islands (Japan)\n
+Super Troll Islands (USA)\n
+Super Troll Islands (USA) (Beta)\n
+Super Trump Collection (Japan)\n
+Super Trump Collection 2 (Japan)\n
+Super Tsume Shougi 1000 (Japan)\n
+Super Turrican (Europe)\n
+Super Turrican (Japan)\n
+Super Turrican (USA)\n
+Super Turrican 2 (Europe)\n
+Super Turrican 2 (USA)\n
+Super Turrican 2 (USA) (Beta1)\n
+Super Turrican 2 (USA) (Beta2)\n
+Super Ultra Baseball (Japan)\n
+Super Ultra Baseball 2 (Japan)\n
+Super Ultra Baseball 2 (Japan) [En by VX v1.0]\n
+Super Uno (Japan)\n
+Super Uno (Japan) (Rev A)\n
+Super Valis - Akaki Tsuki no Otome (Japan)\n
+Super Valis IV (USA)\n
+Super Variable Geo (Japan)\n
+Super Volley II (Japan) (Rev 0A)\n
+Super Wagan Land (Japan)\n
+Super Wagan Land 2 (Japan)\n
+Super Widget (Europe)\n
+Super Widget (USA)\n
+Super Wrestle Angels (Japan)\n
+Super X-Terminator 2 Sasuke (Japan) (Unl)\n
+Super Yakyuudou (Japan)\n
+Super Zugan - Hakotenjou Kara no Shoutaijou (Japan)\n
+Super Zugan 2 - Tsukanpo Fighter (Japan)\n
+Sutobasu Yarou Show (Japan)\n
+Sutte Hakkun (Japan)\n
+Suzuka 8 Hours (Japan)\n
+Suzuka 8 Hours (USA)\n
+Suzuki Aguri no F-1 Super Driving (Japan)\n
+SWAT Kats - The Radical Squadron (USA)\n
+Sword Maniac (Japan)\n
+Sword World SFC (Japan)\n
+Sword World SFC 2 - Inishie no Kyojin Densetsu (Japan) (Rev 0A)\n
+Sylvester and Tweety (USA) (Proto)\n
+Syndicate (Europe) (En,Fr,De)\n
+Syndicate (Europe) (En,Fr,De) (Beta)\n
+Syndicate (Japan)\n
+Syndicate (USA)\n
+Syvalion (Europe)\n
+Syvalion (Europe) (Beta)\n
+Syvalion (Japan)\n
+T2 - The Arcade Game (Europe)\n
+T2 - The Arcade Game (Japan)\n
+T2 - The Arcade Game (USA)\n
+Table Game Daishuugou!! (Japan)\n
+Tactical Soccer (Japan)\n
+Tactical Soccer (Japan) (Beta)\n
+Tactics Ogre - Let Us Cling Together (Japan)\n
+Tactics Ogre - Let Us Cling Together (Japan) (Rev A)\n
+Tactics Ogre - Let Us Cling Together (Japan) (Rev B)\n
+Tadaima Yuusha Boshuuchuu Okawari (Japan)\n
+Taekwon-Do (Japan) (Ja,Ko)\n
+Taiketsu!! Brass Numbers (Japan)\n
+Taikou Risshiden (Japan)\n
+Taikyoku Igo - Goliath (Japan)\n
+Taikyoku Igo - Idaten (Japan)\n
+Takahashi Meijin no Daibouken Shima (Japan)\n
+Takahashi Meijin no Daibouken Shima II (Japan)\n
+Take Yutaka GI Memory (Japan)\n
+Takeda Nobuhiro no Super Cup Soccer (Japan)\n
+Takeda Nobuhiro no Super League Soccer (Japan)\n
+Takemiya Masaki Kudan no Igo Taishou (Japan)\n
+Tales of Phantasia (Japan)\n
+Tales of Phantasia (Japan) [En by DeJap v1.2] (Lower Case Font)\n
+Tales of Phantasia (Japan) [En by DeJap v1.2] (Upper Case Font)\n
+Tamagotchi Town (Japan) (NP)\n
+Tarot Mystery (Japan)\n
+Tatakae Genshijin 2 - Rookie no Bouken (Japan)\n
+Tatakae Genshijin 3 - Shuyaku wa Yappari Joe & Mac (Japan)\n
+Taz-Mania (Europe)\n
+Taz-Mania (USA)\n
+Taz-Mania (USA) (Beta)\n
+Taz-Mania (USA) (Rev A)\n
+Tecmo Secret of the Stars (USA)\n
+Tecmo Secret of the Stars (USA) (Beta)\n
+Tecmo Secret of the Stars (USA) [Bug Fix by KingMike v1.0] (Decatus Bribe Fix)\n
+Tecmo Super Baseball (Japan)\n
+Tecmo Super Baseball (USA)\n
+Tecmo Super Baseball (USA) (Beta)\n
+Tecmo Super Bowl (Japan)\n
+Tecmo Super Bowl (USA)\n
+Tecmo Super Bowl (USA) (Beta)\n
+Tecmo Super Bowl II - Special Edition (Japan)\n
+Tecmo Super Bowl II - Special Edition (USA)\n
+Tecmo Super Bowl III - Final Edition (Japan)\n
+Tecmo Super Bowl III - Final Edition (USA)\n
+Tecmo Super NBA Basketball (Australia)\n
+Tecmo Super NBA Basketball (Europe)\n
+Tecmo Super NBA Basketball (Japan)\n
+Tecmo Super NBA Basketball (Japan) (Rev A)\n
+Tecmo Super NBA Basketball (USA)\n
+Teenage Mutant Hero Turtles - Tournament Fighters (Europe)\n
+Teenage Mutant Hero Turtles IV - Turtles in Time (Europe)\n
+Teenage Mutant Ninja Turtles - Mutant Warriors (Japan)\n
+Teenage Mutant Ninja Turtles - Tournament Fighters (Australia)\n
+Teenage Mutant Ninja Turtles - Tournament Fighters (USA)\n
+Teenage Mutant Ninja Turtles - Tournament Fighters (USA) (Beta)\n
+Teenage Mutant Ninja Turtles - Turtles in Time (Japan)\n
+Teenage Mutant Ninja Turtles IV - Turtles in Time (Australia)\n
+Teenage Mutant Ninja Turtles IV - Turtles in Time (USA)\n
+Teenage Mutant Ninja Turtles IV - Turtles in Time (USA) (Beta)\n
+Teitoku no Ketsudan (Japan)\n
+Teitoku no Ketsudan (Japan) (Rev A)\n
+Teitoku no Ketsudan II (Japan)\n
+Teitoku no Ketsudan II (Japan) (Rev A)\n
+Tekichuu Keiba Juku (Japan)\n
+Tekken 2 (World) (Unl)\n
+Tenchi Muyou! - Game Hen (Japan)\n
+Tenchi Muyou! - Game Hen (Japan) [En by BorderLine+LNF v1.0]\n
+Tenchi o Kurau - Sangokushi Gunyuuden (Japan)\n
+Tenchi Souzou (Japan)\n
+Tengai Makyou Zero - Shounen Jump no Shou (Japan)\n
+Tengai Makyou Zero (Japan)\n
+Tenryuu Genichiro no Pro Wrestling Revolution (Japan)\n
+Tenshi no Uta - Shiroki Tsubasa no Inori (Japan)\n
+Terminator 2 - Judgment Day (Europe)\n
+Terminator 2 - Judgment Day (Europe) (Beta)\n
+Terminator 2 - Judgment Day (USA)\n
+Terminator, The (Europe)\n
+Terminator, The (Europe) (Beta)\n
+Terminator, The (USA)\n
+Terranigma (Europe)\n
+Terranigma (France)\n
+Terranigma (Germany)\n
+Terranigma (Germany) (Rev A)\n
+Terranigma (Spain)\n
+Tetris & Dr. Mario (Europe)\n
+Tetris & Dr. Mario (USA)\n
+Tetris 2 (Europe)\n
+Tetris 2 (USA)\n
+Tetris 2 (USA) (Rev A)\n
+Tetris Attack (Europe) (En,Ja)\n
+Tetris Attack (USA) (En,Ja)\n
+Tetris Battle Gaiden (Japan)\n
+Tetris Flash (Japan)\n
+Tetsuwan Atom (Japan)\n
+Theme Park (Europe) (En,Fr,De)\n
+Theme Park (Japan)\n
+Thomas the Tank Engine and Friends (Europe)\n
+Thomas the Tank Engine and Friends (USA)\n
+Thoroughbred Breeder (Japan)\n
+Thoroughbred Breeder II (Japan)\n
+Thoroughbred Breeder III (Japan)\n
+Thunder Spirits (Japan)\n
+Thunder Spirits (USA)\n
+Thunderbirds - Kokusai Kyuujotai Shutsudou seyo! (Japan)\n
+Tick, The (USA)\n
+Time Slip (Europe)\n
+Time Slip (Europe) (Beta)\n
+Time Slip (USA)\n
+Time Trax (Europe)\n
+Time Trax (USA)\n
+Time Trax (USA) (Beta)\n
+Timecop (Europe)\n
+Timecop (Japan)\n
+Timecop (USA)\n
+Timon & Pumbaa's Jungle Games (Europe)\n
+Timon & Pumbaa's Jungle Games (USA)\n
+Tin Star (USA)\n
+Tinhead (Europe) (Proto)\n
+Tintin in Tibet (Europe) (En,Fr,De,Nl)\n
+Tiny Toon Adventures - Buster Busts Loose! (Europe)\n
+Tiny Toon Adventures - Buster Busts Loose! (Europe) [Bug Fix by KingMike v1.0] (Train Bug Fix)\n
+Tiny Toon Adventures - Buster Busts Loose! (Spain)\n
+Tiny Toon Adventures - Buster Busts Loose! (USA)\n
+Tiny Toon Adventures - Buster Busts Loose! (USA) (Beta)\n
+Tiny Toon Adventures - Buster Busts Loose! (USA) (Beta) [Bug Fix by KingMike v1.0] (Train Bug Fix)\n
+Tiny Toon Adventures - Buster Busts Loose! (USA) [Bug Fix by KingMike v1.0] (Train Bug Fix)\n
+Tiny Toon Adventures - Dotabata Daiundoukai (Japan)\n
+Tiny Toon Adventures - Wacky Sports Challenge (USA)\n
+Tiny Toon Adventures - Wild & Wacky Sports (Europe)\n
+Tiny Toon Adventures - Wild & Wacky Sports (Europe) (Beta)\n
+Tiny Toon Adventures - Wild & Wacky Sports (Europe) (Rev A)\n
+Tiny Toon Adventures (Japan)\n
+Tiny Toon Adventures (Japan) (Rev A)\n
+TKO Super Championship Boxing (Europe)\n
+TKO Super Championship Boxing (USA)\n
+TKO Super Championship Boxing (USA) (Sample)\n
+TNN Bass Tournament of Champions (USA)\n
+Tokimeki Memorial - Densetsu no Ki no Shita de (Japan)\n
+Tokimeki Memorial - Densetsu no Ki no Shita de (Japan) (Rev A)\n
+Tokoro's Mahjong (Japan)\n
+Tom & Jerry (Europe)\n
+Tom & Jerry (Japan)\n
+Tom & Jerry (USA)\n
+Tom & Jerry (USA) (Beta)\n
+Tony Meola's Sidekicks Soccer (USA)\n
+Top Gear (Europe)\n
+Top Gear (USA)\n
+Top Gear 2 (Europe)\n
+Top Gear 2 (USA)\n
+Top Gear 3000 (Europe)\n
+Top Gear 3000 (USA)\n
+Top Management II (Japan)\n
+Top Racer (Japan)\n
+Top Racer 2 (Japan)\n
+Torneco no Daibouken - Fushigi no Dungeon (Japan)\n
+Torneco no Daibouken - Fushigi no Dungeon (Japan) (Rev A)\n
+Torneco no Daibouken - Fushigi no Dungeon (Japan) [En by Magic Destiny v0.99] (~Taloon's Great Adventure - Mystery Dungeon)\n
+Total Carnage (Europe)\n
+Total Carnage (USA)\n
+Total Carnage (USA) (Beta1)\n
+Total Carnage (USA) (Beta2)\n
+Tottemo! Lucky Man - Lucky Cookie Roulette de Totsugeki!! (Japan)\n
+Touge Densetsu - Saisoku Battle (Japan)\n
+Tower Dream (Japan)\n
+Toy Story (Europe) (En,Fr,De)\n
+Toy Story (Japan)\n
+Toy Story (USA)\n
+Toys (Europe)\n
+Toys (USA)\n
+Traverse - Starlight & Prairie (Japan)\n
+Treasure Hunter G (Japan)\n
+Treasure Hunter G (Japan) [En by Metalhawk+Obsolete v1.0PostBeta2]\n
+Tri-Star Super 8 BIOS (USA) (Unl)\n
+Tri-Star Super 8 BIOS (USA) (v1.1) (Unl)\n
+Trinea (Japan)\n
+Troddlers (Europe)\n
+Troddlers (Europe) (Beta)\n
+Troddlers (USA)\n
+Troy Aikman NFL Football (Europe)\n
+Troy Aikman NFL Football (USA)\n
+True Lies (Europe)\n
+True Lies (Germany)\n
+True Lies (Japan)\n
+True Lies (USA)\n
+True Lies (USA) (Beta)\n
+Trump Island (Japan)\n
+Tsukikomori (Japan)\n
+Tsuppari Oozumou - Risshin Shusse Hen (Japan)\n
+Tsuri Tarou (Japan)\n
+Tsuyoshi Shikkari Shinasai - Taisen Puzzle Dama (Japan)\n
+Tuff E Nuff (Europe)\n
+Tuff E Nuff (USA)\n
+Turbo Toons (Europe)\n
+Turf Hero (Japan)\n
+Turf Memories (Japan)\n
+Turn and Burn - No-Fly Zone (Europe)\n
+Turn and Burn - No-Fly Zone (Spain)\n
+Turn and Burn - No-Fly Zone (USA)\n
+TwinBee - Rainbow Bell Adventure (Japan)\n
+Twisted Tales of Spike McFang, The (USA)\n
+U.F.O. Kamen Yakisoban - Kettler no Kuroi Inbou - Keihin Ban (Japan)\n
+U.F.O. Kamen Yakisoban - Kettler no Kuroi Inbou (Japan)\n
+U.N. Squadron (Europe)\n
+U.N. Squadron (USA)\n
+Uchuu no Kishi Tekkaman Blade (Japan)\n
+Uchuu no Kishi Tekkaman Blade (Japan) (Beta)\n
+Uchuu no Kishi Tekkaman Blade (Japan) [En by D v1.0] (~Space Knight Tekkaman Blade)\n
+Uchuu Race - Astro Go! Go! (Japan)\n
+Ultima - Kyouryuu Teikoku (Japan)\n
+Ultima - Runes of Virtue II (USA)\n
+Ultima - Runes of Virtue II (USA) (Beta) (1993-07-30)\n
+Ultima - Runes of Virtue II (USA) (Beta) (1994-XX-XX)\n
+Ultima Gaiden - Kuro Kishi no Inbou (Japan)\n
+Ultima VI - Itsuwari no Yogensha (Japan)\n
+Ultima VI - Itsuwari no Yogensha (Japan) (Beta)\n
+Ultima VI - The False Prophet (USA)\n
+Ultima VII - The Black Gate (Japan)\n
+Ultima VII - The Black Gate (USA)\n
+Ultima VII - The Black Gate (USA) (Beta)\n
+Ultimate Fighter (USA)\n
+Ultimate Football (Japan)\n
+Ultimate Mortal Kombat 3 (Europe)\n
+Ultimate Mortal Kombat 3 (USA)\n
+Ultra Baseball Jitsumei Ban (Japan)\n
+Ultra Baseball Jitsumei Ban (Japan) [En by VX v1.04Final]\n
+Ultra Baseball Jitsumei Ban 2 (Japan)\n
+Ultra Baseball Jitsumei Ban 3 (Japan)\n
+Ultra League - Moero! Soccer Daikessen!! (Japan)\n
+Ultra Seven (Japan)\n
+Ultraman - Towards the Future (Europe)\n
+Ultraman - Towards the Future (USA)\n
+Ultraman (Japan)\n
+Umi no Nushi Tsuri (Japan)\n
+Umi no Nushi Tsuri (Japan) (Rev A)\n
+Umi Tsuri Meijin - Suzuki Hen (Japan)\n
+Umihara Kawase (Japan)\n
+Umihara Kawase (Japan) [En by Satsu v0.90]\n
+Uncharted Waters - New Horizons (USA)\n
+Uncharted Waters (USA)\n
+Undake 30 Same Game Daisakusen - Mario Version (Japan)\n
+Undercover Cops (Japan)\n
+Uniracers (USA)\n
+Unirally (Europe)\n
+Universal Soldier (USA) (Proto)\n
+Untouchables, The (USA)\n
+Urban Strike (Europe)\n
+Urban Strike (USA)\n
+USA Ice Hockey (Japan)\n
+USA Ice Hockey (Japan) (Rev A)\n
+Ushio to Tora (Japan)\n
+Utopia - The Creation of a Nation (Europe)\n
+Utopia - The Creation of a Nation (Germany)\n
+Utopia - The Creation of a Nation (Japan)\n
+Utopia - The Creation of a Nation (USA)\n
+Utopia - The Creation of a Nation (USA) (Beta)\n
+Val d'Isere Championship (Europe)\n
+Val d'Isere Championship (Europe) (Beta1)\n
+Val d'Isere Championship (Europe) (Beta2)\n
+Vegas Stakes (Europe)\n
+Vegas Stakes (USA)\n
+Verne World (Japan)\n
+Viking no Daimeiwaku (Japan)\n
+Virtual Bart (Europe)\n
+Virtual Bart (Japan)\n
+Virtual Bart (USA)\n
+Virtual Bart (USA) (Beta)\n
+Virtual Soccer (Europe)\n
+Virtual Soccer (USA) (Proto)\n
+Virtual Wars (Japan)\n
+Volleyball Twin (Japan)\n
+Vortex (Europe) (En,Es)\n
+Vortex (Japan)\n
+Vortex (USA) (En,Es)\n
+Vs. Collection (Japan)\n
+Wagan Paradise (Japan)\n
+Waialae Country Club (USA)\n
+Waialae no Kiseki (Japan)\n
+Wakataka Oozumou - Yume no Kyoudai Taiketsu (Japan)\n
+Wakuwaku Ski Wonder Spur (Japan)\n
+Wally o Sagase! - Ehon no Kuni no Daibouken (Japan)\n
+War 2410 (USA)\n
+War 3010 - The Revolution (USA)\n
+Waratte Iitomo! Tamorin Pick (Japan)\n
+Wares, La (Japan)\n
+Wario's Woods (Europe)\n
+Wario's Woods (USA)\n
+Warlock (Europe)\n
+Warlock (Japan)\n
+Warlock (USA)\n
+Warlock (USA) (Beta) [0556]\n
+Warlock (USA) (Beta) [9FB9]\n
+Warp Speed (Europe)\n
+Warp Speed (USA)\n
+Waterworld (Europe)\n
+Wayne Gretzky and the NHLPA All-Stars (USA)\n
+Wayne Gretzky and the NHLPA All-Stars (USA) (Beta)\n
+Wayne's World (Europe)\n
+Wayne's World (USA)\n
+WCW Super Brawl Wrestling (USA)\n
+We're Back! - A Dinosaur's Story (Europe)\n
+We're Back! - A Dinosaur's Story (USA)\n
+Weapon Lord (Europe)\n
+Weapon Lord (USA)\n
+Wedding Peach (Japan)\n
+Wheel of Fortune - Deluxe Edition (USA)\n
+Wheel of Fortune (USA)\n
+Where in the World is Carmen Sandiego (Europe) (En,Fr,De,Es,It)\n
+Where in the World is Carmen Sandiego (USA)\n
+Where in Time is Carmen Sandiego (USA)\n
+Whirlo (Europe)\n
+Whizz (Europe)\n
+Whizz (USA)\n
+Wicked 18 (USA)\n
+Wild Guns (Europe)\n
+Wild Guns (Japan)\n
+Wild Guns (Japan) (Beta)\n
+Wild Guns (Japan) (Sample)\n
+Wild Guns (USA)\n
+Wild Snake (USA)\n
+Wild Trax (Japan)\n
+Wile E Coyote's Revenge (Europe) (Proto)\n
+Williams Arcade's Greatest Hits (Europe)\n
+Williams Arcade's Greatest Hits (USA)\n
+Wing Commander - The Secret Missions (Europe)\n
+Wing Commander - The Secret Missions (Europe) (Beta)\n
+Wing Commander - The Secret Missions (USA)\n
+Wing Commander (Europe)\n
+Wing Commander (Germany)\n
+Wing Commander (Japan)\n
+Wing Commander (USA)\n
+Wings 2 - Aces High (USA)\n
+Wings 2 - Aces High (USA) (Beta)\n
+Winning Post (Japan)\n
+Winning Post (Japan) (Rev A)\n
+Winning Post 2 - Program '96 (Japan)\n
+Winning Post 2 - Program '96 (Japan) (Rev A)\n
+Winning Post 2 (Japan)\n
+Winter Extreme Skiing and Snowboarding (USA)\n
+Winter Gold (Europe)\n
+Winter Olympic Games - Lillehammer '94 (Europe) (En,Fr,De,Es,It,Pt,Sv,No)\n
+Winter Olympic Games - Lillehammer '94 (USA) (En,Fr,De,Es,It,Pt,Sv,No)\n
+Wizap! - Ankoku no Ou (Japan)\n
+Wizap! - Ankoku no Ou (Japan) (Beta)\n
+Wizard of Oz, The (USA)\n
+Wizardry Gaiden IV - Taima no Kodou (Japan)\n
+Wizardry Gaiden IV - Taima no Kodou (Japan) (Rev A)\n
+Wizardry I-II-III - Story of Llylgamyn (Japan) (NP)\n
+Wizardry I-II-III - Story of Llylgamyn (Japan) (NP) [En by Aeon Genesis v1.0]\n
+Wizardry V - Heart of the Maelstrom (USA)\n
+Wizardry V - Saika no Chuushin (Japan)\n
+Wizardry VI - Kindan no Mafude (Japan)\n
+Wizardry VI - Kindan no Mafude (Japan) [En by TiCo v0.30b] (~Wizardry - Bane of the Cosmic Forge) (Incomplete)\n
+Wolfchild (USA)\n
+Wolfenstein 3D (Europe)\n
+Wolfenstein 3D (Japan)\n
+Wolfenstein 3D (USA)\n
+Wolfenstein 3D (USA) (Beta)\n
+Wolverine - Adamantium Rage (Europe)\n
+Wolverine - Adamantium Rage (Japan)\n
+Wolverine - Adamantium Rage (USA)\n
+Wolverine - Adamantium Rage (USA) (Beta) [30B8]\n
+Wolverine - Adamantium Rage (USA) (Beta) [DE51]\n
+Wonder Project J - Kikai no Shounen Pino (Japan)\n
+Wonder Project J - Kikai no Shounen Pino (Japan) [En by WakdHacks v1.04] (~Wonder Project J - Mechanical Boy Pino)\n
+Wondrous Magic (Japan)\n
+Wordtris (USA)\n
+World Class Rugby (Europe)\n
+World Class Rugby (France)\n
+World Class Rugby (Japan)\n
+World Class Rugby 2 - Kokunai Gekitou Hen '93 (Japan)\n
+World Class Service Super Nintendo Tester (USA)\n
+World Cup Striker (Europe) (En,Fr,De)\n
+World Cup Striker (Europe) (En,Fr,De) (Beta)\n
+World Cup Striker (Japan)\n
+World Cup USA '94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)\n
+World Cup USA '94 (Japan)\n
+World Cup USA '94 (USA)\n
+World Heroes (Europe)\n
+World Heroes (Japan)\n
+World Heroes (USA)\n
+World Heroes 2 (Japan)\n
+World Heroes 2 (USA)\n
+World Heroes 2 (USA) (Beta)\n
+World League Basketball (Europe)\n
+World League Soccer (USA)\n
+World Masters Golf (Europe)\n
+World Soccer '94 - Road to Glory (USA)\n
+World Soccer (Europe)\n
+World Soccer (Japan)\n
+Worms (Europe)\n
+Wrecking Crew '98 (Japan)\n
+WWF Raw (Europe)\n
+WWF Raw (USA)\n
+WWF Royal Rumble (Europe)\n
+WWF Royal Rumble (Japan)\n
+WWF Royal Rumble (USA)\n
+WWF Super WrestleMania (Europe)\n
+WWF Super WrestleMania (Japan)\n
+WWF Super WrestleMania (USA)\n
+WWF WrestleMania (Europe)\n
+WWF WrestleMania (Japan)\n
+WWF WrestleMania (USA)\n
+X (Japan) (Proto)\n
+X Zone (Europe)\n
+X Zone (Japan, USA)\n
+X-Band Modem BIOS (Japan)\n
+X-Band Modem BIOS (USA)\n
+X-Kaliber 2097 (Europe)\n
+X-Kaliber 2097 (USA)\n
+X-Kaliber 2097 (USA) (Beta)\n
+X-Men - Mutant Apocalypse (Europe)\n
+X-Men - Mutant Apocalypse (Japan)\n
+X-Men - Mutant Apocalypse (USA)\n
+X-Men vs. Street Fighter (World) (Unl)\n
+Xak - The Art of Visual Stage (Japan)\n
+Xardion (USA)\n
+Yadamon - Wonderland Dreams (Japan)\n
+Yakouchuu (Japan)\n
+Yam Yam (Japan)\n
+Yogi Bear (Japan)\n
+Yogi Bear's Cartoon Capers (Europe)\n
+Yokoyama Mitsuteru Sangokushi (Japan)\n
+Yokoyama Mitsuteru Sangokushi (Japan) (Rev A)\n
+Yokoyama Mitsuteru Sangokushi 2 (Japan)\n
+Yokoyama Mitsuteru Sangokushi Bangi - Sugoroku Eiyuuki (Japan)\n
+Yokozuna Monogatari (Japan)\n
+Yoshi no Cookie - Kuruppon Oven de Cookie (Japan)\n
+Yoshi no Cookie (Japan)\n
+Yoshi no Road Hunting (Japan)\n
+Yoshi's Cookie (Europe)\n
+Yoshi's Cookie (USA)\n
+Yoshi's Safari (Europe)\n
+Yoshi's Safari (USA)\n
+Youchien Senki Madara (Japan)\n
+Youkai Buster - Ruka no Daibouken (Japan)\n
+Young Merlin (Europe)\n
+Young Merlin (USA)\n
+Ys III - Wanderers from Ys (Japan)\n
+Ys III - Wanderers from Ys (USA)\n
+Ys IV - Mask of the Sun (Japan)\n
+Ys IV - Mask of the Sun (Japan) [En by Aeon Genesis v2.0]\n
+Ys V - Expert (Japan)\n
+Ys V - Ushinawareta Suna no Miyako Kefin (Japan)\n
+Yume Maboroshi no Gotoku (Japan)\n
+Yuu Yuu Hakusho - Tokubetsu Hen (Japan)\n
+Yuu Yuu Hakusho (Japan)\n
+Yuu Yuu Hakusho 2 - Kakutou no Shou (Japan)\n
+Yuu Yuu Hakusho Final - Makai Saikyou Retsuden (Japan)\n
+Yuujin Janjuu Gakuen (Japan)\n
+Yuujin Janjuu Gakuen 2 (Japan)\n
+Yuujin no Furi Furi Girls (Japan)\n
+Yuuyu no Quiz de Go! Go! (Japan)\n
+Zaitaku Touhyou System - SPAT4-Wide - Minami Kantou Keibajou Denwa Touhyou Center (Japan)\n
+Zakuro no Aji (Japan)\n
+Zan II Spirits (Japan)\n
+Zan III Spirits (Japan)\n
+Zelda no Densetsu - Kamigami no Triforce (Japan)\n
+Zelda no Densetsu - Kamigami no Triforce (Japan) (Rev A)\n
+Zelda no Densetsu - Kamigami no Triforce (Japan) (Rev B)\n
+Zen-Nihon GT Senshuken (Japan)\n
+Zen-Nihon Pro Wrestling - Fight da Pon! (Japan)\n
+Zen-Nihon Pro Wrestling (Japan)\n
+Zen-Nihon Pro Wrestling 2 - 3-4 Budoukan (Japan)\n
+Zen-Nihon Pro Wrestling' - Sekai Saikyou Tag (Japan)\n
+Zenkoku Juudan Ultra Shinri Game (Japan)\n
+Zenkoku Koukou Soccer (Japan)\n
+Zenkoku Koukou Soccer 2 (Japan)\n
+Zero 4 Champ RR (Japan)\n
+Zero 4 Champ RR-Z (Japan)\n
+Zero the Kamikaze Squirrel (Europe)\n
+Zero the Kamikaze Squirrel (Europe) (Rev A)\n
+Zero the Kamikaze Squirrel (USA)\n
+Zico Soccer (Japan)\n
+Zig Zag Cat - Dachou Club mo Oosawagi da (Japan)\n
+Zombies (Europe)\n
+Zombies (Europe) (Beta)\n
+Zombies Ate My Neighbors (USA)\n
+Zombies Ate My Neighbors (USA) [Hack by Frank Maggiore v1.0] (~Ultimate Zombies Ate My Neighbors)\n
+Zool - Ninja of the Nth Dimension (Europe)\n
+Zool - Ninja of the Nth Dimension (USA)\n
+Zool - Ninja of the Nth Dimension (USA) (Sample)\n
+Zool no Yume Bouken (Japan)\n
+Zoop (Europe)\n
+Zoop (USA)\n
+Zootto Mahjong! (Japan) (NP)\n
+ZZZUNK___BS RPG Tsukuru 2 - Unknown Addon (Japan)\n
+ZZZUNK___BS Sound Novel Tsukuru - Unknown Addon (Japan)\n
+ZZZUNK___Taiwan 16 Mahjong II - Horoscope Girls Edition (Hong Kong) (Unl)\n"
+
+clear
+
+# Imprime o cabeçalho do programa
+echo '.▄▄ ·  ▐ ▄ ▄▄▄ ..▄▄ ·'
+echo '▐█ ▀. •█▌▐█▀▄.▀·▐█ ▀.'
+echo '▄▀▀▀█▄▐█▐▐▌▐▀▀▪▄▄▀▀▀█▄'
+echo '▐█▄▪▐███▐█▌▐█▄▄▌▐█▄▪▐█'
+echo ' ▀▀▀▀ ▀▀ █▪ ▀▀▀  ▀▀▀▀'
+echo '·▄▄▄▄       ▄▄▌ ▐ ▄▌ ▐ ▄ ▄▄▌         ▄▄▄· ·▄▄▄▄  ▄▄▄ .▄▄▄'
+echo '██▪ ██▪     ██· █▌▐█•█▌▐███•  ▪     ▐█ ▀█ ██▪ ██ ▀▄.▀·▀▄ █·'
+echo '▐█· ▐█▌▄█▀▄ ██▪▐█▐▐▌▐█▐▐▌██▪   ▄█▀▄ ▄█▀▀█ ▐█· ▐█▌▐▀▀▪▄▐▀▀▄'
+echo '██. ██▐█▌.▐▌▐█▌██▐█▌██▐█▌▐█▌▐▌▐█▌.▐▌▐█ ▪▐▌██. ██ ▐█▄▄▌▐█•█▌'
+echo '▀▀▀▀▀• ▀█▄▀▪ ▀▀▀▀ ▀▪▀▀ █▪.▀▀▀  ▀█▄▀▪ ▀  ▀ ▀▀▀▀▀•  ▀▀▀ .▀  ▀'
+echo ' email: victor.oliveira@gmx.com'
+echo ''
+
+# Solicita busca
+echo '*** Sistema de busca ***'
+echo 'Digite o nome do jogo ou parte do nome:'
+read -p '>>> ' FN
+if [ "$FN" == "" ]; then
+	echo "Nenhum texto inserido. Recomeçando..."; sleep 2
+	exec bash "$0"
+fi
+
+# Retorna arquivos disponíveis
+echo '*** Arquivos disponíveis: ***'
+echo ''
+echo -e $LISTA| grep -i $FN| cat -n
+
+# Verifica se a busca está vazia
+BUSCA=$(echo -e $LISTA|grep -i $FN)
+if [ "$BUSCA" == "" ]; then
+	echo "Nenhum texto inserido. Recomeçando..."; sleep 2
+	exec bash "$0"
+fi
+
+echo ''
+
+# Solicita o nome do arquivo
+echo 'Digite o número da rom desejada (Ou pressione ENTER para voltar):'
+read -p '>>> ' NUM
+if [ "$NUM" == "" ]; then
+	echo "Nenhum número foi digitado. Recomeçando..."; sleep 2
+	exec bash "$0"
+fi
+
+ROM=`echo "$BUSCA"| sed ''"$NUM"'!d'| sed 's/^[ \t]*//'`
+echo ""
+echo "Jogo Escolhido: $ROM"
+echo "Realizando download..."
+
+# Realiza o download
+wget -q --show-progress "ftp://75.126.5.157/may/120/Super Nintendo Roms/$ROM"'.zip'""|| wget -q --show-progress "ftp://208.77.22.75/may/120/Super Nintendo Roms/$ROM"'.zip'""|| wget -q --show-progress "ftp://75.126.73.49/may/120/Super Nintendo Roms/$ROM"'.zip'""|| wget -q --show-progress "ftp://68.235.37.75/may/120/Super Nintendo Roms/$ROM"'.zip'""
+
+
+echo ""
+echo "Download realzado com sucesso!"
+echo ""
+echo "Arquivo salvo na pasta: $PWD"
+echo ""
+echo "Pressione ENTER para continuar"
+read FIM
+exec bash "$0"
+
